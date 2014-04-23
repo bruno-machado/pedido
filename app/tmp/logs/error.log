@@ -1,0 +1,917 @@
+2014-04-14 19:36:13 Error: [MissingDatasourceConfigException] The datasource configuration "default" was not found in database.php
+Exception Attributes: array (
+  'config' => 'default',
+)
+Request URL: /pedidoonline/
+Stack Trace:
+#0 D:\xampp\htdocs\pedidoonline\lib\Cake\Model\ConnectionManager.php(91): ConnectionManager::_getConnectionObject('default')
+#1 D:\xampp\htdocs\pedidoonline\lib\Cake\Model\Model.php(3477): ConnectionManager::getDataSource('default')
+#2 D:\xampp\htdocs\pedidoonline\lib\Cake\Model\Model.php(1126): Model->setDataSource('default')
+#3 D:\xampp\htdocs\pedidoonline\lib\Cake\Model\Model.php(3499): Model->setSource('posts')
+#4 D:\xampp\htdocs\pedidoonline\lib\Cake\Model\Model.php(2903): Model->getDataSource()
+#5 D:\xampp\htdocs\pedidoonline\lib\Cake\Model\Model.php(2875): Model->_readDataSource('all', Array)
+#6 D:\xampp\htdocs\pedidoonline\app\Controller\PostsController.php(7): Model->find('all')
+#7 [internal function]: PostsController->index()
+#8 D:\xampp\htdocs\pedidoonline\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#9 D:\xampp\htdocs\pedidoonline\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#10 D:\xampp\htdocs\pedidoonline\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#11 D:\xampp\htdocs\pedidoonline\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-04-14 19:36:57 Error: [MissingDatasourceConfigException] The datasource configuration "default" was not found in database.php
+Exception Attributes: array (
+  'config' => 'default',
+)
+Request URL: /pedidoonline/posts
+Stack Trace:
+#0 D:\xampp\htdocs\pedidoonline\lib\Cake\Model\ConnectionManager.php(91): ConnectionManager::_getConnectionObject('default')
+#1 D:\xampp\htdocs\pedidoonline\lib\Cake\Model\Model.php(3477): ConnectionManager::getDataSource('default')
+#2 D:\xampp\htdocs\pedidoonline\lib\Cake\Model\Model.php(1126): Model->setDataSource('default')
+#3 D:\xampp\htdocs\pedidoonline\lib\Cake\Model\Model.php(3499): Model->setSource('posts')
+#4 D:\xampp\htdocs\pedidoonline\lib\Cake\Model\Model.php(2903): Model->getDataSource()
+#5 D:\xampp\htdocs\pedidoonline\lib\Cake\Model\Model.php(2875): Model->_readDataSource('all', Array)
+#6 D:\xampp\htdocs\pedidoonline\app\Controller\PostsController.php(7): Model->find('all')
+#7 [internal function]: PostsController->index()
+#8 D:\xampp\htdocs\pedidoonline\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#9 D:\xampp\htdocs\pedidoonline\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#10 D:\xampp\htdocs\pedidoonline\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#11 D:\xampp\htdocs\pedidoonline\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-04-14 19:36:57 Error: [MissingDatasourceConfigException] The datasource configuration "default" was not found in database.php
+Exception Attributes: array (
+  'config' => 'default',
+)
+Request URL: /pedidoonline/posts
+Stack Trace:
+#0 D:\xampp\htdocs\pedidoonline\lib\Cake\Model\ConnectionManager.php(91): ConnectionManager::_getConnectionObject('default')
+#1 D:\xampp\htdocs\pedidoonline\lib\Cake\Model\Model.php(3477): ConnectionManager::getDataSource('default')
+#2 D:\xampp\htdocs\pedidoonline\lib\Cake\Model\Model.php(1126): Model->setDataSource('default')
+#3 D:\xampp\htdocs\pedidoonline\lib\Cake\Model\Model.php(3499): Model->setSource('posts')
+#4 D:\xampp\htdocs\pedidoonline\lib\Cake\Model\Model.php(2903): Model->getDataSource()
+#5 D:\xampp\htdocs\pedidoonline\lib\Cake\Model\Model.php(2875): Model->_readDataSource('all', Array)
+#6 D:\xampp\htdocs\pedidoonline\app\Controller\PostsController.php(7): Model->find('all')
+#7 [internal function]: PostsController->index()
+#8 D:\xampp\htdocs\pedidoonline\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#9 D:\xampp\htdocs\pedidoonline\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#10 D:\xampp\htdocs\pedidoonline\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#11 D:\xampp\htdocs\pedidoonline\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-04-14 19:39:54 Error: [MissingDatasourceConfigException] The datasource configuration "default" was not found in database.php
+Exception Attributes: array (
+  'config' => 'default',
+)
+Request URL: /pedidoonline/
+Stack Trace:
+#0 D:\xampp\htdocs\pedidoonline\lib\Cake\Model\ConnectionManager.php(91): ConnectionManager::_getConnectionObject('default')
+#1 D:\xampp\htdocs\pedidoonline\lib\Cake\Model\Model.php(3477): ConnectionManager::getDataSource('default')
+#2 D:\xampp\htdocs\pedidoonline\lib\Cake\Model\Model.php(1126): Model->setDataSource('default')
+#3 D:\xampp\htdocs\pedidoonline\lib\Cake\Model\Model.php(3499): Model->setSource('posts')
+#4 D:\xampp\htdocs\pedidoonline\lib\Cake\Model\Model.php(2903): Model->getDataSource()
+#5 D:\xampp\htdocs\pedidoonline\lib\Cake\Model\Model.php(2875): Model->_readDataSource('all', Array)
+#6 D:\xampp\htdocs\pedidoonline\app\Controller\PostsController.php(7): Model->find('all')
+#7 [internal function]: PostsController->index()
+#8 D:\xampp\htdocs\pedidoonline\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#9 D:\xampp\htdocs\pedidoonline\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#10 D:\xampp\htdocs\pedidoonline\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#11 D:\xampp\htdocs\pedidoonline\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-04-14 19:43:02 Error: [MissingDatasourceConfigException] The datasource configuration "default" was not found in database.php
+Exception Attributes: array (
+  'config' => 'default',
+)
+Request URL: /pedidoonline/
+Stack Trace:
+#0 D:\xampp\htdocs\pedidoonline\lib\Cake\Model\ConnectionManager.php(91): ConnectionManager::_getConnectionObject('default')
+#1 D:\xampp\htdocs\pedidoonline\lib\Cake\Model\Model.php(3477): ConnectionManager::getDataSource('default')
+#2 D:\xampp\htdocs\pedidoonline\lib\Cake\Model\Model.php(1126): Model->setDataSource('default')
+#3 D:\xampp\htdocs\pedidoonline\lib\Cake\Model\Model.php(3499): Model->setSource('posts')
+#4 D:\xampp\htdocs\pedidoonline\lib\Cake\Model\Model.php(2903): Model->getDataSource()
+#5 D:\xampp\htdocs\pedidoonline\lib\Cake\Model\Model.php(2875): Model->_readDataSource('all', Array)
+#6 D:\xampp\htdocs\pedidoonline\app\Controller\PostsController.php(7): Model->find('all')
+#7 [internal function]: PostsController->index()
+#8 D:\xampp\htdocs\pedidoonline\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#9 D:\xampp\htdocs\pedidoonline\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#10 D:\xampp\htdocs\pedidoonline\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#11 D:\xampp\htdocs\pedidoonline\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-04-14 19:43:45 Error: [MissingDatasourceConfigException] The datasource configuration "default" was not found in database.php
+Exception Attributes: array (
+  'config' => 'default',
+)
+Request URL: /pedidoonline/
+Stack Trace:
+#0 D:\xampp\htdocs\pedidoonline\lib\Cake\Model\ConnectionManager.php(91): ConnectionManager::_getConnectionObject('default')
+#1 D:\xampp\htdocs\pedidoonline\lib\Cake\Model\Model.php(3477): ConnectionManager::getDataSource('default')
+#2 D:\xampp\htdocs\pedidoonline\lib\Cake\Model\Model.php(1126): Model->setDataSource('default')
+#3 D:\xampp\htdocs\pedidoonline\lib\Cake\Model\Model.php(3499): Model->setSource('posts')
+#4 D:\xampp\htdocs\pedidoonline\lib\Cake\Model\Model.php(2903): Model->getDataSource()
+#5 D:\xampp\htdocs\pedidoonline\lib\Cake\Model\Model.php(2875): Model->_readDataSource('all', Array)
+#6 D:\xampp\htdocs\pedidoonline\app\Controller\PostsController.php(7): Model->find('all')
+#7 [internal function]: PostsController->index()
+#8 D:\xampp\htdocs\pedidoonline\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#9 D:\xampp\htdocs\pedidoonline\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#10 D:\xampp\htdocs\pedidoonline\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#11 D:\xampp\htdocs\pedidoonline\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-04-14 19:43:46 Error: [MissingDatasourceConfigException] The datasource configuration "default" was not found in database.php
+Exception Attributes: array (
+  'config' => 'default',
+)
+Request URL: /pedidoonline/
+Stack Trace:
+#0 D:\xampp\htdocs\pedidoonline\lib\Cake\Model\ConnectionManager.php(91): ConnectionManager::_getConnectionObject('default')
+#1 D:\xampp\htdocs\pedidoonline\lib\Cake\Model\Model.php(3477): ConnectionManager::getDataSource('default')
+#2 D:\xampp\htdocs\pedidoonline\lib\Cake\Model\Model.php(1126): Model->setDataSource('default')
+#3 D:\xampp\htdocs\pedidoonline\lib\Cake\Model\Model.php(3499): Model->setSource('posts')
+#4 D:\xampp\htdocs\pedidoonline\lib\Cake\Model\Model.php(2903): Model->getDataSource()
+#5 D:\xampp\htdocs\pedidoonline\lib\Cake\Model\Model.php(2875): Model->_readDataSource('all', Array)
+#6 D:\xampp\htdocs\pedidoonline\app\Controller\PostsController.php(7): Model->find('all')
+#7 [internal function]: PostsController->index()
+#8 D:\xampp\htdocs\pedidoonline\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#9 D:\xampp\htdocs\pedidoonline\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#10 D:\xampp\htdocs\pedidoonline\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#11 D:\xampp\htdocs\pedidoonline\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-04-14 19:43:59 Error: [MissingDatasourceConfigException] The datasource configuration "default" was not found in database.php
+Exception Attributes: array (
+  'config' => 'default',
+)
+Request URL: /pedidoonline/
+Stack Trace:
+#0 D:\xampp\htdocs\pedidoonline\lib\Cake\Model\ConnectionManager.php(91): ConnectionManager::_getConnectionObject('default')
+#1 D:\xampp\htdocs\pedidoonline\lib\Cake\Model\Model.php(3477): ConnectionManager::getDataSource('default')
+#2 D:\xampp\htdocs\pedidoonline\lib\Cake\Model\Model.php(1126): Model->setDataSource('default')
+#3 D:\xampp\htdocs\pedidoonline\lib\Cake\Model\Model.php(3499): Model->setSource('posts')
+#4 D:\xampp\htdocs\pedidoonline\lib\Cake\Model\Model.php(2903): Model->getDataSource()
+#5 D:\xampp\htdocs\pedidoonline\lib\Cake\Model\Model.php(2875): Model->_readDataSource('all', Array)
+#6 D:\xampp\htdocs\pedidoonline\app\Controller\PostsController.php(7): Model->find('all')
+#7 [internal function]: PostsController->index()
+#8 D:\xampp\htdocs\pedidoonline\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#9 D:\xampp\htdocs\pedidoonline\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#10 D:\xampp\htdocs\pedidoonline\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#11 D:\xampp\htdocs\pedidoonline\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-04-14 19:43:59 Error: [MissingDatasourceConfigException] The datasource configuration "default" was not found in database.php
+Exception Attributes: array (
+  'config' => 'default',
+)
+Request URL: /pedidoonline/
+Stack Trace:
+#0 D:\xampp\htdocs\pedidoonline\lib\Cake\Model\ConnectionManager.php(91): ConnectionManager::_getConnectionObject('default')
+#1 D:\xampp\htdocs\pedidoonline\lib\Cake\Model\Model.php(3477): ConnectionManager::getDataSource('default')
+#2 D:\xampp\htdocs\pedidoonline\lib\Cake\Model\Model.php(1126): Model->setDataSource('default')
+#3 D:\xampp\htdocs\pedidoonline\lib\Cake\Model\Model.php(3499): Model->setSource('posts')
+#4 D:\xampp\htdocs\pedidoonline\lib\Cake\Model\Model.php(2903): Model->getDataSource()
+#5 D:\xampp\htdocs\pedidoonline\lib\Cake\Model\Model.php(2875): Model->_readDataSource('all', Array)
+#6 D:\xampp\htdocs\pedidoonline\app\Controller\PostsController.php(7): Model->find('all')
+#7 [internal function]: PostsController->index()
+#8 D:\xampp\htdocs\pedidoonline\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#9 D:\xampp\htdocs\pedidoonline\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#10 D:\xampp\htdocs\pedidoonline\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#11 D:\xampp\htdocs\pedidoonline\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-04-14 19:44:00 Error: [MissingDatasourceConfigException] The datasource configuration "default" was not found in database.php
+Exception Attributes: array (
+  'config' => 'default',
+)
+Request URL: /pedidoonline/
+Stack Trace:
+#0 D:\xampp\htdocs\pedidoonline\lib\Cake\Model\ConnectionManager.php(91): ConnectionManager::_getConnectionObject('default')
+#1 D:\xampp\htdocs\pedidoonline\lib\Cake\Model\Model.php(3477): ConnectionManager::getDataSource('default')
+#2 D:\xampp\htdocs\pedidoonline\lib\Cake\Model\Model.php(1126): Model->setDataSource('default')
+#3 D:\xampp\htdocs\pedidoonline\lib\Cake\Model\Model.php(3499): Model->setSource('posts')
+#4 D:\xampp\htdocs\pedidoonline\lib\Cake\Model\Model.php(2903): Model->getDataSource()
+#5 D:\xampp\htdocs\pedidoonline\lib\Cake\Model\Model.php(2875): Model->_readDataSource('all', Array)
+#6 D:\xampp\htdocs\pedidoonline\app\Controller\PostsController.php(7): Model->find('all')
+#7 [internal function]: PostsController->index()
+#8 D:\xampp\htdocs\pedidoonline\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#9 D:\xampp\htdocs\pedidoonline\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#10 D:\xampp\htdocs\pedidoonline\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#11 D:\xampp\htdocs\pedidoonline\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-04-14 19:44:00 Error: [MissingDatasourceConfigException] The datasource configuration "default" was not found in database.php
+Exception Attributes: array (
+  'config' => 'default',
+)
+Request URL: /pedidoonline/
+Stack Trace:
+#0 D:\xampp\htdocs\pedidoonline\lib\Cake\Model\ConnectionManager.php(91): ConnectionManager::_getConnectionObject('default')
+#1 D:\xampp\htdocs\pedidoonline\lib\Cake\Model\Model.php(3477): ConnectionManager::getDataSource('default')
+#2 D:\xampp\htdocs\pedidoonline\lib\Cake\Model\Model.php(1126): Model->setDataSource('default')
+#3 D:\xampp\htdocs\pedidoonline\lib\Cake\Model\Model.php(3499): Model->setSource('posts')
+#4 D:\xampp\htdocs\pedidoonline\lib\Cake\Model\Model.php(2903): Model->getDataSource()
+#5 D:\xampp\htdocs\pedidoonline\lib\Cake\Model\Model.php(2875): Model->_readDataSource('all', Array)
+#6 D:\xampp\htdocs\pedidoonline\app\Controller\PostsController.php(7): Model->find('all')
+#7 [internal function]: PostsController->index()
+#8 D:\xampp\htdocs\pedidoonline\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#9 D:\xampp\htdocs\pedidoonline\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#10 D:\xampp\htdocs\pedidoonline\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#11 D:\xampp\htdocs\pedidoonline\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-04-14 19:44:53 Error: [MissingDatasourceConfigException] The datasource configuration "default" was not found in database.php
+Exception Attributes: array (
+  'config' => 'default',
+)
+Request URL: /pedidoonline/
+Stack Trace:
+#0 D:\xampp\htdocs\pedidoonline\lib\Cake\Model\ConnectionManager.php(91): ConnectionManager::_getConnectionObject('default')
+#1 D:\xampp\htdocs\pedidoonline\lib\Cake\Model\Model.php(3477): ConnectionManager::getDataSource('default')
+#2 D:\xampp\htdocs\pedidoonline\lib\Cake\Model\Model.php(1126): Model->setDataSource('default')
+#3 D:\xampp\htdocs\pedidoonline\lib\Cake\Model\Model.php(3499): Model->setSource('posts')
+#4 D:\xampp\htdocs\pedidoonline\lib\Cake\Model\Model.php(2903): Model->getDataSource()
+#5 D:\xampp\htdocs\pedidoonline\lib\Cake\Model\Model.php(2875): Model->_readDataSource('all', Array)
+#6 D:\xampp\htdocs\pedidoonline\app\Controller\PostsController.php(7): Model->find('all')
+#7 [internal function]: PostsController->index()
+#8 D:\xampp\htdocs\pedidoonline\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#9 D:\xampp\htdocs\pedidoonline\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#10 D:\xampp\htdocs\pedidoonline\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#11 D:\xampp\htdocs\pedidoonline\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-04-14 19:44:54 Error: [MissingDatasourceConfigException] The datasource configuration "default" was not found in database.php
+Exception Attributes: array (
+  'config' => 'default',
+)
+Request URL: /pedidoonline/
+Stack Trace:
+#0 D:\xampp\htdocs\pedidoonline\lib\Cake\Model\ConnectionManager.php(91): ConnectionManager::_getConnectionObject('default')
+#1 D:\xampp\htdocs\pedidoonline\lib\Cake\Model\Model.php(3477): ConnectionManager::getDataSource('default')
+#2 D:\xampp\htdocs\pedidoonline\lib\Cake\Model\Model.php(1126): Model->setDataSource('default')
+#3 D:\xampp\htdocs\pedidoonline\lib\Cake\Model\Model.php(3499): Model->setSource('posts')
+#4 D:\xampp\htdocs\pedidoonline\lib\Cake\Model\Model.php(2903): Model->getDataSource()
+#5 D:\xampp\htdocs\pedidoonline\lib\Cake\Model\Model.php(2875): Model->_readDataSource('all', Array)
+#6 D:\xampp\htdocs\pedidoonline\app\Controller\PostsController.php(7): Model->find('all')
+#7 [internal function]: PostsController->index()
+#8 D:\xampp\htdocs\pedidoonline\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#9 D:\xampp\htdocs\pedidoonline\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#10 D:\xampp\htdocs\pedidoonline\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#11 D:\xampp\htdocs\pedidoonline\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-04-14 19:44:54 Error: [MissingDatasourceConfigException] The datasource configuration "default" was not found in database.php
+Exception Attributes: array (
+  'config' => 'default',
+)
+Request URL: /pedidoonline/
+Stack Trace:
+#0 D:\xampp\htdocs\pedidoonline\lib\Cake\Model\ConnectionManager.php(91): ConnectionManager::_getConnectionObject('default')
+#1 D:\xampp\htdocs\pedidoonline\lib\Cake\Model\Model.php(3477): ConnectionManager::getDataSource('default')
+#2 D:\xampp\htdocs\pedidoonline\lib\Cake\Model\Model.php(1126): Model->setDataSource('default')
+#3 D:\xampp\htdocs\pedidoonline\lib\Cake\Model\Model.php(3499): Model->setSource('posts')
+#4 D:\xampp\htdocs\pedidoonline\lib\Cake\Model\Model.php(2903): Model->getDataSource()
+#5 D:\xampp\htdocs\pedidoonline\lib\Cake\Model\Model.php(2875): Model->_readDataSource('all', Array)
+#6 D:\xampp\htdocs\pedidoonline\app\Controller\PostsController.php(7): Model->find('all')
+#7 [internal function]: PostsController->index()
+#8 D:\xampp\htdocs\pedidoonline\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#9 D:\xampp\htdocs\pedidoonline\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#10 D:\xampp\htdocs\pedidoonline\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#11 D:\xampp\htdocs\pedidoonline\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-04-14 19:44:55 Error: [MissingDatasourceConfigException] The datasource configuration "default" was not found in database.php
+Exception Attributes: array (
+  'config' => 'default',
+)
+Request URL: /pedidoonline/
+Stack Trace:
+#0 D:\xampp\htdocs\pedidoonline\lib\Cake\Model\ConnectionManager.php(91): ConnectionManager::_getConnectionObject('default')
+#1 D:\xampp\htdocs\pedidoonline\lib\Cake\Model\Model.php(3477): ConnectionManager::getDataSource('default')
+#2 D:\xampp\htdocs\pedidoonline\lib\Cake\Model\Model.php(1126): Model->setDataSource('default')
+#3 D:\xampp\htdocs\pedidoonline\lib\Cake\Model\Model.php(3499): Model->setSource('posts')
+#4 D:\xampp\htdocs\pedidoonline\lib\Cake\Model\Model.php(2903): Model->getDataSource()
+#5 D:\xampp\htdocs\pedidoonline\lib\Cake\Model\Model.php(2875): Model->_readDataSource('all', Array)
+#6 D:\xampp\htdocs\pedidoonline\app\Controller\PostsController.php(7): Model->find('all')
+#7 [internal function]: PostsController->index()
+#8 D:\xampp\htdocs\pedidoonline\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#9 D:\xampp\htdocs\pedidoonline\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#10 D:\xampp\htdocs\pedidoonline\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#11 D:\xampp\htdocs\pedidoonline\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-04-14 19:44:55 Error: [MissingDatasourceConfigException] The datasource configuration "default" was not found in database.php
+Exception Attributes: array (
+  'config' => 'default',
+)
+Request URL: /pedidoonline/
+Stack Trace:
+#0 D:\xampp\htdocs\pedidoonline\lib\Cake\Model\ConnectionManager.php(91): ConnectionManager::_getConnectionObject('default')
+#1 D:\xampp\htdocs\pedidoonline\lib\Cake\Model\Model.php(3477): ConnectionManager::getDataSource('default')
+#2 D:\xampp\htdocs\pedidoonline\lib\Cake\Model\Model.php(1126): Model->setDataSource('default')
+#3 D:\xampp\htdocs\pedidoonline\lib\Cake\Model\Model.php(3499): Model->setSource('posts')
+#4 D:\xampp\htdocs\pedidoonline\lib\Cake\Model\Model.php(2903): Model->getDataSource()
+#5 D:\xampp\htdocs\pedidoonline\lib\Cake\Model\Model.php(2875): Model->_readDataSource('all', Array)
+#6 D:\xampp\htdocs\pedidoonline\app\Controller\PostsController.php(7): Model->find('all')
+#7 [internal function]: PostsController->index()
+#8 D:\xampp\htdocs\pedidoonline\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#9 D:\xampp\htdocs\pedidoonline\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#10 D:\xampp\htdocs\pedidoonline\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#11 D:\xampp\htdocs\pedidoonline\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-04-14 19:44:55 Error: [MissingDatasourceConfigException] The datasource configuration "default" was not found in database.php
+Exception Attributes: array (
+  'config' => 'default',
+)
+Request URL: /pedidoonline/
+Stack Trace:
+#0 D:\xampp\htdocs\pedidoonline\lib\Cake\Model\ConnectionManager.php(91): ConnectionManager::_getConnectionObject('default')
+#1 D:\xampp\htdocs\pedidoonline\lib\Cake\Model\Model.php(3477): ConnectionManager::getDataSource('default')
+#2 D:\xampp\htdocs\pedidoonline\lib\Cake\Model\Model.php(1126): Model->setDataSource('default')
+#3 D:\xampp\htdocs\pedidoonline\lib\Cake\Model\Model.php(3499): Model->setSource('posts')
+#4 D:\xampp\htdocs\pedidoonline\lib\Cake\Model\Model.php(2903): Model->getDataSource()
+#5 D:\xampp\htdocs\pedidoonline\lib\Cake\Model\Model.php(2875): Model->_readDataSource('all', Array)
+#6 D:\xampp\htdocs\pedidoonline\app\Controller\PostsController.php(7): Model->find('all')
+#7 [internal function]: PostsController->index()
+#8 D:\xampp\htdocs\pedidoonline\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#9 D:\xampp\htdocs\pedidoonline\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#10 D:\xampp\htdocs\pedidoonline\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#11 D:\xampp\htdocs\pedidoonline\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-04-14 19:44:55 Error: [MissingDatasourceConfigException] The datasource configuration "default" was not found in database.php
+Exception Attributes: array (
+  'config' => 'default',
+)
+Request URL: /pedidoonline/
+Stack Trace:
+#0 D:\xampp\htdocs\pedidoonline\lib\Cake\Model\ConnectionManager.php(91): ConnectionManager::_getConnectionObject('default')
+#1 D:\xampp\htdocs\pedidoonline\lib\Cake\Model\Model.php(3477): ConnectionManager::getDataSource('default')
+#2 D:\xampp\htdocs\pedidoonline\lib\Cake\Model\Model.php(1126): Model->setDataSource('default')
+#3 D:\xampp\htdocs\pedidoonline\lib\Cake\Model\Model.php(3499): Model->setSource('posts')
+#4 D:\xampp\htdocs\pedidoonline\lib\Cake\Model\Model.php(2903): Model->getDataSource()
+#5 D:\xampp\htdocs\pedidoonline\lib\Cake\Model\Model.php(2875): Model->_readDataSource('all', Array)
+#6 D:\xampp\htdocs\pedidoonline\app\Controller\PostsController.php(7): Model->find('all')
+#7 [internal function]: PostsController->index()
+#8 D:\xampp\htdocs\pedidoonline\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#9 D:\xampp\htdocs\pedidoonline\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#10 D:\xampp\htdocs\pedidoonline\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#11 D:\xampp\htdocs\pedidoonline\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-04-14 19:45:11 Error: [MissingDatasourceConfigException] The datasource configuration "default" was not found in database.php
+Exception Attributes: array (
+  'config' => 'default',
+)
+Request URL: /pedidoonline/
+Stack Trace:
+#0 D:\xampp\htdocs\pedidoonline\lib\Cake\Model\ConnectionManager.php(91): ConnectionManager::_getConnectionObject('default')
+#1 D:\xampp\htdocs\pedidoonline\lib\Cake\Model\Model.php(3477): ConnectionManager::getDataSource('default')
+#2 D:\xampp\htdocs\pedidoonline\lib\Cake\Model\Model.php(1126): Model->setDataSource('default')
+#3 D:\xampp\htdocs\pedidoonline\lib\Cake\Model\Model.php(3499): Model->setSource('posts')
+#4 D:\xampp\htdocs\pedidoonline\lib\Cake\Model\Model.php(2903): Model->getDataSource()
+#5 D:\xampp\htdocs\pedidoonline\lib\Cake\Model\Model.php(2875): Model->_readDataSource('all', Array)
+#6 D:\xampp\htdocs\pedidoonline\app\Controller\PostsController.php(7): Model->find('all')
+#7 [internal function]: PostsController->index()
+#8 D:\xampp\htdocs\pedidoonline\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#9 D:\xampp\htdocs\pedidoonline\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#10 D:\xampp\htdocs\pedidoonline\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#11 D:\xampp\htdocs\pedidoonline\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-04-14 19:45:11 Error: [MissingDatasourceConfigException] The datasource configuration "default" was not found in database.php
+Exception Attributes: array (
+  'config' => 'default',
+)
+Request URL: /pedidoonline/
+Stack Trace:
+#0 D:\xampp\htdocs\pedidoonline\lib\Cake\Model\ConnectionManager.php(91): ConnectionManager::_getConnectionObject('default')
+#1 D:\xampp\htdocs\pedidoonline\lib\Cake\Model\Model.php(3477): ConnectionManager::getDataSource('default')
+#2 D:\xampp\htdocs\pedidoonline\lib\Cake\Model\Model.php(1126): Model->setDataSource('default')
+#3 D:\xampp\htdocs\pedidoonline\lib\Cake\Model\Model.php(3499): Model->setSource('posts')
+#4 D:\xampp\htdocs\pedidoonline\lib\Cake\Model\Model.php(2903): Model->getDataSource()
+#5 D:\xampp\htdocs\pedidoonline\lib\Cake\Model\Model.php(2875): Model->_readDataSource('all', Array)
+#6 D:\xampp\htdocs\pedidoonline\app\Controller\PostsController.php(7): Model->find('all')
+#7 [internal function]: PostsController->index()
+#8 D:\xampp\htdocs\pedidoonline\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#9 D:\xampp\htdocs\pedidoonline\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#10 D:\xampp\htdocs\pedidoonline\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#11 D:\xampp\htdocs\pedidoonline\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-04-14 19:50:10 Error: [MissingDatasourceConfigException] The datasource configuration "default" was not found in database.php
+Exception Attributes: array (
+  'config' => 'default',
+)
+Request URL: /pedidoonline/posts
+Stack Trace:
+#0 D:\xampp\htdocs\pedidoonline\lib\Cake\Model\ConnectionManager.php(91): ConnectionManager::_getConnectionObject('default')
+#1 D:\xampp\htdocs\pedidoonline\lib\Cake\Model\Model.php(3477): ConnectionManager::getDataSource('default')
+#2 D:\xampp\htdocs\pedidoonline\lib\Cake\Model\Model.php(1126): Model->setDataSource('default')
+#3 D:\xampp\htdocs\pedidoonline\lib\Cake\Model\Model.php(3499): Model->setSource('posts')
+#4 D:\xampp\htdocs\pedidoonline\lib\Cake\Model\Model.php(2903): Model->getDataSource()
+#5 D:\xampp\htdocs\pedidoonline\lib\Cake\Model\Model.php(2875): Model->_readDataSource('all', Array)
+#6 D:\xampp\htdocs\pedidoonline\app\Controller\PostsController.php(7): Model->find('all')
+#7 [internal function]: PostsController->index()
+#8 D:\xampp\htdocs\pedidoonline\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#9 D:\xampp\htdocs\pedidoonline\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#10 D:\xampp\htdocs\pedidoonline\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#11 D:\xampp\htdocs\pedidoonline\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-04-14 19:50:39 Error: [MissingActionException] Action PostsController::display() could not be found.
+Exception Attributes: array (
+  'controller' => 'PostsController',
+  'action' => 'display',
+)
+Request URL: /pedidoonline/posts
+Stack Trace:
+#0 D:\xampp\htdocs\pedidoonline\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 D:\xampp\htdocs\pedidoonline\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#2 D:\xampp\htdocs\pedidoonline\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-04-14 19:51:16 Error: [MissingActionException] Action PostsController::display() could not be found.
+Exception Attributes: array (
+  'controller' => 'PostsController',
+  'action' => 'display',
+)
+Request URL: /pedidoonline/posts
+Stack Trace:
+#0 D:\xampp\htdocs\pedidoonline\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 D:\xampp\htdocs\pedidoonline\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#2 D:\xampp\htdocs\pedidoonline\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-04-14 19:56:48 Error: [MissingDatasourceConfigException] The datasource configuration "default" was not found in database.php
+Exception Attributes: array (
+  'config' => 'default',
+)
+Request URL: /pedidoonline/posts
+Stack Trace:
+#0 D:\xampp\htdocs\pedidoonline\lib\Cake\Model\ConnectionManager.php(91): ConnectionManager::_getConnectionObject('default')
+#1 D:\xampp\htdocs\pedidoonline\lib\Cake\Model\Model.php(3477): ConnectionManager::getDataSource('default')
+#2 D:\xampp\htdocs\pedidoonline\lib\Cake\Model\Model.php(1126): Model->setDataSource('default')
+#3 D:\xampp\htdocs\pedidoonline\lib\Cake\Model\Model.php(3499): Model->setSource('posts')
+#4 D:\xampp\htdocs\pedidoonline\lib\Cake\Model\Model.php(2903): Model->getDataSource()
+#5 D:\xampp\htdocs\pedidoonline\lib\Cake\Model\Model.php(2875): Model->_readDataSource('all', Array)
+#6 D:\xampp\htdocs\pedidoonline\app\Controller\PostsController.php(7): Model->find('all')
+#7 [internal function]: PostsController->index()
+#8 D:\xampp\htdocs\pedidoonline\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#9 D:\xampp\htdocs\pedidoonline\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#10 D:\xampp\htdocs\pedidoonline\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#11 D:\xampp\htdocs\pedidoonline\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-04-14 19:58:42 Error: [MissingDatasourceConfigException] The datasource configuration "default" was not found in database.php
+Exception Attributes: array (
+  'config' => 'default',
+)
+Request URL: /pedidoonline/posts
+Stack Trace:
+#0 D:\xampp\htdocs\pedidoonline\lib\Cake\Model\ConnectionManager.php(91): ConnectionManager::_getConnectionObject('default')
+#1 D:\xampp\htdocs\pedidoonline\lib\Cake\Model\Model.php(3477): ConnectionManager::getDataSource('default')
+#2 D:\xampp\htdocs\pedidoonline\lib\Cake\Model\Model.php(1126): Model->setDataSource('default')
+#3 D:\xampp\htdocs\pedidoonline\lib\Cake\Model\Model.php(3499): Model->setSource('posts')
+#4 D:\xampp\htdocs\pedidoonline\lib\Cake\Model\Model.php(2903): Model->getDataSource()
+#5 D:\xampp\htdocs\pedidoonline\lib\Cake\Model\Model.php(2875): Model->_readDataSource('all', Array)
+#6 D:\xampp\htdocs\pedidoonline\app\Controller\PostsController.php(7): Model->find('all')
+#7 [internal function]: PostsController->index()
+#8 D:\xampp\htdocs\pedidoonline\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#9 D:\xampp\htdocs\pedidoonline\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#10 D:\xampp\htdocs\pedidoonline\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#11 D:\xampp\htdocs\pedidoonline\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-04-14 19:58:48 Error: [MissingDatasourceConfigException] The datasource configuration "default" was not found in database.php
+Exception Attributes: array (
+  'config' => 'default',
+)
+Request URL: /pedidoonline/
+Stack Trace:
+#0 D:\xampp\htdocs\pedidoonline\lib\Cake\Model\ConnectionManager.php(91): ConnectionManager::_getConnectionObject('default')
+#1 D:\xampp\htdocs\pedidoonline\lib\Cake\Model\Model.php(3477): ConnectionManager::getDataSource('default')
+#2 D:\xampp\htdocs\pedidoonline\lib\Cake\Model\Model.php(1126): Model->setDataSource('default')
+#3 D:\xampp\htdocs\pedidoonline\lib\Cake\Model\Model.php(3499): Model->setSource('posts')
+#4 D:\xampp\htdocs\pedidoonline\lib\Cake\Model\Model.php(2903): Model->getDataSource()
+#5 D:\xampp\htdocs\pedidoonline\lib\Cake\Model\Model.php(2875): Model->_readDataSource('all', Array)
+#6 D:\xampp\htdocs\pedidoonline\app\Controller\PostsController.php(7): Model->find('all')
+#7 [internal function]: PostsController->index()
+#8 D:\xampp\htdocs\pedidoonline\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#9 D:\xampp\htdocs\pedidoonline\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#10 D:\xampp\htdocs\pedidoonline\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#11 D:\xampp\htdocs\pedidoonline\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-04-14 19:59:05 Error: [MissingDatasourceConfigException] The datasource configuration "default" was not found in database.php
+Exception Attributes: array (
+  'config' => 'default',
+)
+Request URL: /pedidoonline/
+Stack Trace:
+#0 D:\xampp\htdocs\pedidoonline\lib\Cake\Model\ConnectionManager.php(91): ConnectionManager::_getConnectionObject('default')
+#1 D:\xampp\htdocs\pedidoonline\lib\Cake\Model\Model.php(3477): ConnectionManager::getDataSource('default')
+#2 D:\xampp\htdocs\pedidoonline\lib\Cake\Model\Model.php(1126): Model->setDataSource('default')
+#3 D:\xampp\htdocs\pedidoonline\lib\Cake\Model\Model.php(3499): Model->setSource('posts')
+#4 D:\xampp\htdocs\pedidoonline\lib\Cake\Model\Model.php(2903): Model->getDataSource()
+#5 D:\xampp\htdocs\pedidoonline\lib\Cake\Model\Model.php(2875): Model->_readDataSource('all', Array)
+#6 D:\xampp\htdocs\pedidoonline\app\Controller\PostsController.php(7): Model->find('all')
+#7 [internal function]: PostsController->index()
+#8 D:\xampp\htdocs\pedidoonline\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#9 D:\xampp\htdocs\pedidoonline\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#10 D:\xampp\htdocs\pedidoonline\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#11 D:\xampp\htdocs\pedidoonline\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-04-14 20:00:56 Error: [MissingDatasourceConfigException] The datasource configuration "default" was not found in database.php
+Exception Attributes: array (
+  'config' => 'default',
+)
+Request URL: /pedidoonline/
+Stack Trace:
+#0 D:\xampp\htdocs\pedidoonline\lib\Cake\Model\ConnectionManager.php(91): ConnectionManager::_getConnectionObject('default')
+#1 D:\xampp\htdocs\pedidoonline\lib\Cake\Model\Model.php(3477): ConnectionManager::getDataSource('default')
+#2 D:\xampp\htdocs\pedidoonline\lib\Cake\Model\Model.php(1126): Model->setDataSource('default')
+#3 D:\xampp\htdocs\pedidoonline\lib\Cake\Model\Model.php(3499): Model->setSource('posts')
+#4 D:\xampp\htdocs\pedidoonline\lib\Cake\Model\Model.php(2903): Model->getDataSource()
+#5 D:\xampp\htdocs\pedidoonline\lib\Cake\Model\Model.php(2875): Model->_readDataSource('all', Array)
+#6 D:\xampp\htdocs\pedidoonline\app\Controller\PostsController.php(7): Model->find('all')
+#7 [internal function]: PostsController->index()
+#8 D:\xampp\htdocs\pedidoonline\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#9 D:\xampp\htdocs\pedidoonline\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#10 D:\xampp\htdocs\pedidoonline\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#11 D:\xampp\htdocs\pedidoonline\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-04-14 20:02:25 Error: [MissingActionException] Action PostsController::display() could not be found.
+Exception Attributes: array (
+  'controller' => 'PostsController',
+  'action' => 'display',
+)
+Request URL: /pedidoonline/
+Stack Trace:
+#0 D:\xampp\htdocs\pedidoonline\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 D:\xampp\htdocs\pedidoonline\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#2 D:\xampp\htdocs\pedidoonline\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-04-14 20:10:18 Error: [MissingActionException] Action PostsController::display() could not be found.
+Exception Attributes: array (
+  'controller' => 'PostsController',
+  'action' => 'display',
+)
+Request URL: /pedidoonline/
+Stack Trace:
+#0 D:\xampp\htdocs\pedidoonline\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 D:\xampp\htdocs\pedidoonline\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#2 D:\xampp\htdocs\pedidoonline\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-04-14 20:10:19 Error: [MissingActionException] Action PostsController::display() could not be found.
+Exception Attributes: array (
+  'controller' => 'PostsController',
+  'action' => 'display',
+)
+Request URL: /pedidoonline/
+Stack Trace:
+#0 D:\xampp\htdocs\pedidoonline\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 D:\xampp\htdocs\pedidoonline\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#2 D:\xampp\htdocs\pedidoonline\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-04-14 20:10:30 Error: [MissingActionException] Action PostsController::display() could not be found.
+Exception Attributes: array (
+  'controller' => 'PostsController',
+  'action' => 'display',
+)
+Request URL: /pedidoonline/
+Stack Trace:
+#0 D:\xampp\htdocs\pedidoonline\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 D:\xampp\htdocs\pedidoonline\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#2 D:\xampp\htdocs\pedidoonline\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-04-14 20:10:31 Error: [MissingActionException] Action PostsController::display() could not be found.
+Exception Attributes: array (
+  'controller' => 'PostsController',
+  'action' => 'display',
+)
+Request URL: /pedidoonline/
+Stack Trace:
+#0 D:\xampp\htdocs\pedidoonline\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 D:\xampp\htdocs\pedidoonline\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#2 D:\xampp\htdocs\pedidoonline\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-04-14 20:10:32 Error: [MissingActionException] Action PostsController::display() could not be found.
+Exception Attributes: array (
+  'controller' => 'PostsController',
+  'action' => 'display',
+)
+Request URL: /pedidoonline/
+Stack Trace:
+#0 D:\xampp\htdocs\pedidoonline\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 D:\xampp\htdocs\pedidoonline\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#2 D:\xampp\htdocs\pedidoonline\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-04-14 20:10:38 Error: [MissingDatasourceConfigException] The datasource configuration "default" was not found in database.php
+Exception Attributes: array (
+  'config' => 'default',
+)
+Request URL: /pedidoonline/posts
+Stack Trace:
+#0 D:\xampp\htdocs\pedidoonline\lib\Cake\Model\ConnectionManager.php(91): ConnectionManager::_getConnectionObject('default')
+#1 D:\xampp\htdocs\pedidoonline\lib\Cake\Model\Model.php(3477): ConnectionManager::getDataSource('default')
+#2 D:\xampp\htdocs\pedidoonline\lib\Cake\Model\Model.php(1126): Model->setDataSource('default')
+#3 D:\xampp\htdocs\pedidoonline\lib\Cake\Model\Model.php(3499): Model->setSource('posts')
+#4 D:\xampp\htdocs\pedidoonline\lib\Cake\Model\Model.php(2903): Model->getDataSource()
+#5 D:\xampp\htdocs\pedidoonline\lib\Cake\Model\Model.php(2875): Model->_readDataSource('all', Array)
+#6 D:\xampp\htdocs\pedidoonline\app\Controller\PostsController.php(7): Model->find('all')
+#7 [internal function]: PostsController->index()
+#8 D:\xampp\htdocs\pedidoonline\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#9 D:\xampp\htdocs\pedidoonline\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#10 D:\xampp\htdocs\pedidoonline\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#11 D:\xampp\htdocs\pedidoonline\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-04-14 20:10:44 Error: [MissingActionException] Action PostsController::display() could not be found.
+Exception Attributes: array (
+  'controller' => 'PostsController',
+  'action' => 'display',
+)
+Request URL: /pedidoonline/
+Stack Trace:
+#0 D:\xampp\htdocs\pedidoonline\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 D:\xampp\htdocs\pedidoonline\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#2 D:\xampp\htdocs\pedidoonline\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-04-14 20:21:06 Error: [MissingDatasourceConfigException] The datasource configuration "default" was not found in database.php
+Exception Attributes: array (
+  'config' => 'default',
+)
+Request URL: /pedidoonline/posts/add
+Stack Trace:
+#0 D:\xampp\htdocs\pedidoonline\lib\Cake\Model\ConnectionManager.php(91): ConnectionManager::_getConnectionObject('default')
+#1 D:\xampp\htdocs\pedidoonline\lib\Cake\Model\Model.php(3477): ConnectionManager::getDataSource('default')
+#2 D:\xampp\htdocs\pedidoonline\lib\Cake\Model\Model.php(1126): Model->setDataSource('default')
+#3 D:\xampp\htdocs\pedidoonline\lib\Cake\Model\Model.php(3499): Model->setSource('posts')
+#4 D:\xampp\htdocs\pedidoonline\lib\Cake\Model\Model.php(1355): Model->getDataSource()
+#5 D:\xampp\htdocs\pedidoonline\lib\Cake\View\Helper\FormHelper.php(207): Model->schema()
+#6 D:\xampp\htdocs\pedidoonline\lib\Cake\View\Helper\FormHelper.php(459): FormHelper->_introspectModel('Post', 'fields')
+#7 D:\xampp\htdocs\pedidoonline\app\View\posts\add.ctp(3): FormHelper->create('Post')
+#8 D:\xampp\htdocs\pedidoonline\lib\Cake\View\View.php(935): include('D:\xampp\htdocs...')
+#9 D:\xampp\htdocs\pedidoonline\lib\Cake\View\View.php(897): View->_evaluate('D:\xampp\htdocs...', Array)
+#10 D:\xampp\htdocs\pedidoonline\lib\Cake\View\View.php(466): View->_render('D:\xampp\htdocs...')
+#11 D:\xampp\htdocs\pedidoonline\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#12 D:\xampp\htdocs\pedidoonline\lib\Cake\Routing\Dispatcher.php(192): Controller->render()
+#13 D:\xampp\htdocs\pedidoonline\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#14 D:\xampp\htdocs\pedidoonline\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2014-04-14 23:17:23 Error: [MissingControllerException] Controller class ClienteController could not be found.
+Exception Attributes: array (
+  'class' => 'ClienteController',
+  'plugin' => NULL,
+)
+Request URL: /pedidoonline/cliente
+Stack Trace:
+#0 D:\xampp\htdocs\pedidoonline\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-04-14 23:17:33 Error: [MissingTableException] Table clientes for model Cliente was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'clientes',
+  'class' => 'Cliente',
+  'ds' => 'default',
+)
+Request URL: /pedidoonline/clientes/add
+Stack Trace:
+#0 D:\xampp\htdocs\pedidoonline\lib\Cake\Model\Model.php(3499): Model->setSource('clientes')
+#1 D:\xampp\htdocs\pedidoonline\lib\Cake\Model\Model.php(1355): Model->getDataSource()
+#2 D:\xampp\htdocs\pedidoonline\lib\Cake\View\Helper\FormHelper.php(207): Model->schema()
+#3 D:\xampp\htdocs\pedidoonline\lib\Cake\View\Helper\FormHelper.php(459): FormHelper->_introspectModel('Cliente', 'fields')
+#4 D:\xampp\htdocs\pedidoonline\app\View\Clientes\add.ctp(3): FormHelper->create('Cliente')
+#5 D:\xampp\htdocs\pedidoonline\lib\Cake\View\View.php(935): include('D:\xampp\htdocs...')
+#6 D:\xampp\htdocs\pedidoonline\lib\Cake\View\View.php(897): View->_evaluate('D:\xampp\htdocs...', Array)
+#7 D:\xampp\htdocs\pedidoonline\lib\Cake\View\View.php(466): View->_render('D:\xampp\htdocs...')
+#8 D:\xampp\htdocs\pedidoonline\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#9 D:\xampp\htdocs\pedidoonline\lib\Cake\Routing\Dispatcher.php(192): Controller->render()
+#10 D:\xampp\htdocs\pedidoonline\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest), Object(CakeResponse))
+#11 D:\xampp\htdocs\pedidoonline\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-04-14 23:39:55 Error: Fatal Error (1): Call to a member function find() on a non-object in [D:\xampp\htdocs\pedidoonline\app\Controller\ClientesController.php, line 7]
+2014-04-14 23:39:55 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /pedidoonline/clientes
+Stack Trace:
+#0 D:\xampp\htdocs\pedidoonline\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'D:\xampp\htdocs...', 7)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'D:\xampp\htdocs...', 7, Array)
+#2 D:\xampp\htdocs\pedidoonline\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'D:\xampp\htdocs...', 7, Array)
+#3 D:\xampp\htdocs\pedidoonline\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-15 01:31:53 Error: [MissingControllerException] Controller class ViewController could not be found.
+Exception Attributes: array (
+  'class' => 'ViewController',
+  'plugin' => NULL,
+)
+Request URL: /pedidoonline/view/2
+Stack Trace:
+#0 D:\xampp\htdocs\pedidoonline\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-04-15 02:17:40 Error: Fatal Error (64): Cannot redeclare ClientesController::index() in [D:\xampp\htdocs\pedidoonline\app\Controller\ClientesController.php, line 9]
+2014-04-15 02:17:40 Error: [FatalErrorException] Cannot redeclare ClientesController::index()
+Request URL: /pedidoonline/clientes
+Stack Trace:
+#0 D:\xampp\htdocs\pedidoonline\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'D:\xampp\htdocs...', 9)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'D:\xampp\htdocs...', 9, Array)
+#2 D:\xampp\htdocs\pedidoonline\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'D:\xampp\htdocs...', 9, Array)
+#3 D:\xampp\htdocs\pedidoonline\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-15 02:19:13 Error: [MissingControllerException] Controller class ViewController could not be found.
+Exception Attributes: array (
+  'class' => 'ViewController',
+  'plugin' => NULL,
+)
+Request URL: /pedidoonline/view/2
+Stack Trace:
+#0 D:\xampp\htdocs\pedidoonline\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-04-15 02:19:17 Error: [MissingActionException] Action PostsController::display() could not be found.
+Exception Attributes: array (
+  'controller' => 'PostsController',
+  'action' => 'display',
+)
+Request URL: /pedidoonline/
+Stack Trace:
+#0 D:\xampp\htdocs\pedidoonline\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 D:\xampp\htdocs\pedidoonline\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#2 D:\xampp\htdocs\pedidoonline\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-04-15 02:20:24 Error: [MissingActionException] Action ClientesController::display() could not be found.
+Exception Attributes: array (
+  'controller' => 'ClientesController',
+  'action' => 'display',
+)
+Request URL: /pedidoonline/clientes
+Stack Trace:
+#0 D:\xampp\htdocs\pedidoonline\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 D:\xampp\htdocs\pedidoonline\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest), Object(CakeResponse))
+#2 D:\xampp\htdocs\pedidoonline\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-04-15 02:20:25 Error: [MissingActionException] Action ClientesController::display() could not be found.
+Exception Attributes: array (
+  'controller' => 'ClientesController',
+  'action' => 'display',
+)
+Request URL: /pedidoonline/clientes
+Stack Trace:
+#0 D:\xampp\htdocs\pedidoonline\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 D:\xampp\htdocs\pedidoonline\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest), Object(CakeResponse))
+#2 D:\xampp\htdocs\pedidoonline\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-04-15 02:20:27 Error: [MissingActionException] Action ClientesController::display() could not be found.
+Exception Attributes: array (
+  'controller' => 'ClientesController',
+  'action' => 'display',
+)
+Request URL: /pedidoonline/clientes
+Stack Trace:
+#0 D:\xampp\htdocs\pedidoonline\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 D:\xampp\htdocs\pedidoonline\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest), Object(CakeResponse))
+#2 D:\xampp\htdocs\pedidoonline\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-04-15 02:20:28 Error: [MissingActionException] Action ClientesController::display() could not be found.
+Exception Attributes: array (
+  'controller' => 'ClientesController',
+  'action' => 'display',
+)
+Request URL: /pedidoonline/clientes
+Stack Trace:
+#0 D:\xampp\htdocs\pedidoonline\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 D:\xampp\htdocs\pedidoonline\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest), Object(CakeResponse))
+#2 D:\xampp\htdocs\pedidoonline\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-04-15 02:23:44 Error: [MissingViewException] View file "D:\xampp\htdocs\pedidoonline\app\View\Clientes\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'D:\\xampp\\htdocs\\pedidoonline\\app\\View\\Clientes\\index.ctp',
+)
+Request URL: /pedidoonline/clientes
+Stack Trace:
+#0 D:\xampp\htdocs\pedidoonline\lib\Cake\View\View.php(463): View->_getViewFileName('index')
+#1 D:\xampp\htdocs\pedidoonline\lib\Cake\Controller\Controller.php(954): View->render('index', NULL)
+#2 D:\xampp\htdocs\pedidoonline\app\Controller\ClientesController.php(31): Controller->render('index')
+#3 [internal function]: ClientesController->display('index')
+#4 D:\xampp\htdocs\pedidoonline\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ClientesController), Array)
+#5 D:\xampp\htdocs\pedidoonline\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#6 D:\xampp\htdocs\pedidoonline\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest), Object(CakeResponse))
+#7 D:\xampp\htdocs\pedidoonline\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-04-16 14:38:45 Error: [MethodNotAllowedException] Method Not Allowed
+Request URL: /pedidoonline/clientes/delete/3
+Stack Trace:
+#0 [internal function]: ClientesController->delete('3')
+#1 D:\xampp\htdocs\pedidoonline\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ClientesController), Array)
+#2 D:\xampp\htdocs\pedidoonline\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 D:\xampp\htdocs\pedidoonline\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\xampp\htdocs\pedidoonline\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-04-16 15:59:31 Error: [MethodNotAllowedException] Method Not Allowed
+Request URL: /pedidoonline/clientes/delete/11
+Stack Trace:
+#0 [internal function]: ClientesController->delete('11')
+#1 D:\xampp\htdocs\pedidoonline\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ClientesController), Array)
+#2 D:\xampp\htdocs\pedidoonline\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 D:\xampp\htdocs\pedidoonline\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\xampp\htdocs\pedidoonline\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-04-21 22:22:21 Error: [MissingActionException] Action AppController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'index',
+)
+Request URL: /pedido/app/
+Stack Trace:
+#0 D:\xampp\htdocs\pedido\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 D:\xampp\htdocs\pedido\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 D:\xampp\htdocs\pedido\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-04-21 22:22:26 Error: [MissingActionException] Action AppController::cidades() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'cidades',
+)
+Request URL: /pedido/app/cidades
+Stack Trace:
+#0 D:\xampp\htdocs\pedido\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 D:\xampp\htdocs\pedido\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 D:\xampp\htdocs\pedido\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-04-22 22:42:33 Error: [MissingControllerException] Controller class Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Controller',
+  'plugin' => NULL,
+)
+Request URL: /pedido/
+Stack Trace:
+#0 D:\xampp\htdocs\pedido\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-04-22 22:45:34 Error: [MissingControllerException] Controller class Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Controller',
+  'plugin' => NULL,
+)
+Request URL: /pedido/
+Stack Trace:
+#0 D:\xampp\htdocs\pedido\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-04-22 22:45:39 Error: [MissingControllerException] Controller class Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Controller',
+  'plugin' => NULL,
+)
+Request URL: /pedido/
+Stack Trace:
+#0 D:\xampp\htdocs\pedido\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-04-22 22:45:39 Error: [MissingControllerException] Controller class Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Controller',
+  'plugin' => NULL,
+)
+Request URL: /pedido/
+Stack Trace:
+#0 D:\xampp\htdocs\pedido\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-04-22 22:45:59 Error: [MissingControllerException] Controller class Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Controller',
+  'plugin' => NULL,
+)
+Request URL: /pedido/
+Stack Trace:
+#0 D:\xampp\htdocs\pedido\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-04-22 22:46:13 Error: [MissingViewException] View file "D:\xampp\htdocs\pedido\app\View\Cidades\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'D:\\xampp\\htdocs\\pedido\\app\\View\\Cidades\\index.ctp',
+)
+Request URL: /pedido/
+Stack Trace:
+#0 D:\xampp\htdocs\pedido\lib\Cake\View\View.php(463): View->_getViewFileName(NULL)
+#1 D:\xampp\htdocs\pedido\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#2 D:\xampp\htdocs\pedido\lib\Cake\Routing\Dispatcher.php(192): Controller->render()
+#3 D:\xampp\htdocs\pedido\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(CidadesController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\xampp\htdocs\pedido\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-04-22 22:47:22 Error: [MissingViewException] View file "D:\xampp\htdocs\pedido\app\View\Cidades\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'D:\\xampp\\htdocs\\pedido\\app\\View\\Cidades\\index.ctp',
+)
+Request URL: /pedido/
+Stack Trace:
+#0 D:\xampp\htdocs\pedido\lib\Cake\View\View.php(463): View->_getViewFileName(NULL)
+#1 D:\xampp\htdocs\pedido\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#2 D:\xampp\htdocs\pedido\lib\Cake\Routing\Dispatcher.php(192): Controller->render()
+#3 D:\xampp\htdocs\pedido\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(CidadesController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\xampp\htdocs\pedido\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-04-22 22:47:25 Error: [MissingViewException] View file "D:\xampp\htdocs\pedido\app\View\Cidades\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'D:\\xampp\\htdocs\\pedido\\app\\View\\Cidades\\index.ctp',
+)
+Request URL: /pedido/
+Stack Trace:
+#0 D:\xampp\htdocs\pedido\lib\Cake\View\View.php(463): View->_getViewFileName(NULL)
+#1 D:\xampp\htdocs\pedido\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#2 D:\xampp\htdocs\pedido\lib\Cake\Routing\Dispatcher.php(192): Controller->render()
+#3 D:\xampp\htdocs\pedido\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(CidadesController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\xampp\htdocs\pedido\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-04-22 22:49:26 Error: [MissingViewException] View file "D:\xampp\htdocs\pedido\app\View\Cidades\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'D:\\xampp\\htdocs\\pedido\\app\\View\\Cidades\\index.ctp',
+)
+Request URL: /pedido/
+Stack Trace:
+#0 D:\xampp\htdocs\pedido\lib\Cake\View\View.php(463): View->_getViewFileName(NULL)
+#1 D:\xampp\htdocs\pedido\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#2 D:\xampp\htdocs\pedido\lib\Cake\Routing\Dispatcher.php(192): Controller->render()
+#3 D:\xampp\htdocs\pedido\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(CidadesController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\xampp\htdocs\pedido\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-04-22 22:59:15 Error: [MissingViewException] View file "D:\xampp\htdocs\pedido\app\View\Cidades\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'D:\\xampp\\htdocs\\pedido\\app\\View\\Cidades\\index.ctp',
+)
+Request URL: /pedido/cidades
+Stack Trace:
+#0 D:\xampp\htdocs\pedido\lib\Cake\View\View.php(463): View->_getViewFileName(NULL)
+#1 D:\xampp\htdocs\pedido\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#2 D:\xampp\htdocs\pedido\lib\Cake\Routing\Dispatcher.php(192): Controller->render()
+#3 D:\xampp\htdocs\pedido\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(CidadesController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\xampp\htdocs\pedido\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
