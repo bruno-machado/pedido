@@ -13,7 +13,7 @@ class CidadeFixture extends CakeTestFixture {
 	public $fields = array(
 		'id' => array('type' => 'integer', 'null' => false, 'default' => null, 'length' => 12, 'key' => 'primary'),
 		'nome_cidade' => array('type' => 'string', 'null' => false, 'default' => null, 'collate' => 'latin1_swedish_ci', 'charset' => 'latin1'),
-		'uf' => array('type' => 'string', 'null' => false, 'default' => null, 'collate' => 'latin1_swedish_ci', 'charset' => 'latin1'),
+		'estado_id' => array('type' => 'integer', 'null' => false, 'default' => null),
 		'created' => array('type' => 'datetime', 'null' => false, 'default' => null),
 		'modified' => array('type' => 'datetime', 'null' => false, 'default' => null),
 		'indexes' => array(
@@ -31,9 +31,9 @@ class CidadeFixture extends CakeTestFixture {
 		array(
 			'id' => 1,
 			'nome_cidade' => 'Lorem ipsum dolor sit amet',
-			'uf' => 'Lorem ipsum dolor sit amet',
-			'created' => '2014-04-21 22:14:52',
-			'modified' => '2014-04-21 22:14:52'
+			'estado_id' => 1,
+			'created' => '2014-04-23 13:24:42',
+			'modified' => '2014-04-23 13:24:42'
 		),
 	);
 

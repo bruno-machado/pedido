@@ -105,3 +105,8 @@ CakeLog::config('error', array(
 	'types' => array('warning', 'error', 'critical', 'alert', 'emergency'),
 	'file' => 'error',
 ));
+CakePlugin::load('Locale');
+// dizemos a língua/região utilizada na aplicação
+Configure::write('Language.default', 'pt-br');
+// esta linha é opcional, somente se seu servidor não estiver configurado com a mesma região da aplicação
+setlocale(LC_ALL, 'pt_BR.utf-8', 'pt_BR', 'pt-br');

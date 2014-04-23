@@ -13,7 +13,8 @@ class CidadesControllerTest extends ControllerTestCase {
  * @var array
  */
 	public $fixtures = array(
-		'app.cidade'
+		'app.cidade',
+		'app.estado'
 	);
 
 /**

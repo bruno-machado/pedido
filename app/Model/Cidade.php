@@ -3,6 +3,9 @@ App::uses('AppModel', 'Model');
 /**
  * Cidade Model
  *
+ * @property Estado $Estado
+ * @property Cliente $Cliente
+ * @property Estabelecimento $Estabelecimento
  */
 class Cidade extends AppModel {
 
@@ -11,6 +14,7 @@ class Cidade extends AppModel {
  *
  * @var array
  */
+	public $displayField = 'nome_cidade';
 	public $validate = array(
 		'nome_cidade' => array(
 			'notEmpty' => array(
@@ -22,9 +26,9 @@ class Cidade extends AppModel {
 				//'on' => 'create', // Limit validation to 'create' or 'update' operations
 			),
 		),
-		'uf' => array(
-			'notEmpty' => array(
-				'rule' => array('notEmpty'),
+		'estado_id' => array(
+			'numeric' => array(
+				'rule' => array('numeric'),
 				//'message' => 'Your custom message here',
 				//'allowEmpty' => false,
 				//'required' => false,
@@ -33,4 +37,56 @@ class Cidade extends AppModel {
 			),
 		),
 	);
+
+	//The Associations below have been created with all possible keys, those that are not needed can be removed
+
+/**
+ * belongsTo associations
+ *
+ * @var array
+ */
+	public $belongsTo = array(
+		'Estado' => array(
+			'className' => 'Estado',
+			'foreignKey' => 'estado_id',
+			'conditions' => '',
+			'fields' => '',
+			'order' => ''
+		)
+	);
+
+/**
+ * hasMany associations
+ *
+ * @var array
+ */
+	public $hasMany = array(
+		'Cliente' => array(
+			'className' => 'Cliente',
+			'foreignKey' => 'cidade_id',
+			'dependent' => false,
+			'conditions' => '',
+			'fields' => '',
+			'order' => '',
+			'limit' => '',
+			'offset' => '',
+			'exclusive' => '',
+			'finderQuery' => '',
+			'counterQuery' => ''
+		),
+		'Estabelecimento' => array(
+			'className' => 'Estabelecimento',
+			'foreignKey' => 'cidade_id',
+			'dependent' => false,
+			'conditions' => '',
+			'fields' => '',
+			'order' => '',
+			'limit' => '',
+			'offset' => '',
+			'exclusive' => '',
+			'finderQuery' => '',
+			'counterQuery' => ''
+		)
+	);
+
 }

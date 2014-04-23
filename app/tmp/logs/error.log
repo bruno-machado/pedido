@@ -915,3 +915,416 @@ Stack Trace:
 #3 D:\xampp\htdocs\pedido\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(CidadesController), Object(CakeRequest), Object(CakeResponse))
 #4 D:\xampp\htdocs\pedido\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #5 {main}
+2014-04-23 11:54:19 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [1049] Unknown database \'pedidoonline\'',
+  'enabled' => true,
+)
+Request URL: /pedidos/cidades
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Datasource\DboSource.php(260): Mysql->connect()
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\Model\ConnectionManager.php(105): DboSource->__construct(Array)
+#2 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Model.php(3477): ConnectionManager::getDataSource('default')
+#3 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Model.php(1126): Model->setDataSource('default')
+#4 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Model.php(3499): Model->setSource('cidades')
+#5 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Model.php(2903): Model->getDataSource()
+#6 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Model.php(2875): Model->_readDataSource('all', Array)
+#7 C:\SENAI\Fontes\pedidos\lib\Cake\Controller\Component\PaginatorComponent.php(196): Model->find('all', Array)
+#8 C:\SENAI\Fontes\pedidos\app\Controller\CidadesController.php(25): PaginatorComponent->paginate()
+#9 [internal function]: CidadesController->index()
+#10 C:\SENAI\Fontes\pedidos\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(CidadesController), Array)
+#11 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#12 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(CidadesController), Object(CakeRequest), Object(CakeResponse))
+#13 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-04-23 12:14:29 Error: Fatal Error (4): syntax error, unexpected '=>' (T_DOUBLE_ARROW) in [C:\SENAI\Fontes\pedidos\app\View\Cidades\add.ctp, line 31]
+2014-04-23 12:14:29 Error: [FatalErrorException] syntax error, unexpected '=>' (T_DOUBLE_ARROW)
+Request URL: /pedidos/cidades/add
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\SENAI\Fontes...', 31)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\SENAI\Fontes...', 31, Array)
+#2 C:\SENAI\Fontes\pedidos\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\SENAI\Fontes...', 31, Array)
+#3 C:\SENAI\Fontes\pedidos\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-23 13:24:58 Error: [MissingViewException] View file "C:\SENAI\Fontes\pedidos\app\View\Cidades\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\SENAI\\Fontes\\pedidos\\app\\View\\Cidades\\index.ctp',
+)
+Request URL: /pedidos/cidades
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\View\View.php(463): View->_getViewFileName(NULL)
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#2 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(192): Controller->render()
+#3 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(CidadesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-04-23 13:31:15 Error: [MissingControllerException] Controller class EstadosController could not be found.
+Exception Attributes: array (
+  'class' => 'EstadosController',
+  'plugin' => NULL,
+)
+Request URL: /pedidos/estados
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-04-23 13:55:13 Error: Fatal Error (1): Class 'Config' not found in [C:\SENAI\Fontes\pedidos\app\Config\bootstrap.php, line 91]
+2014-04-23 13:55:13 Error: [FatalErrorException] Class 'Config' not found
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'Config' ...', 'C:\SENAI\Fontes...', 91)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Config' ...', 'C:\SENAI\Fontes...', 91, Array)
+#2 C:\SENAI\Fontes\pedidos\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'Config' ...', 'C:\SENAI\Fontes...', 91, Array)
+#3 C:\SENAI\Fontes\pedidos\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-23 14:08:13 Error: [MissingHelperException] Helper class LocaleHelper could not be found.
+Exception Attributes: array (
+  'class' => 'LocaleHelper',
+  'plugin' => false,
+)
+Request URL: /pedidos/estados/view/2
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('Locale')
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\View\View.php(824): HelperCollection->__isset('Locale')
+#2 C:\SENAI\Fontes\pedidos\app\View\Estados\view.ctp(50): View->__get('Locale')
+#3 C:\SENAI\Fontes\pedidos\lib\Cake\View\View.php(935): include('C:\SENAI\Fontes...')
+#4 C:\SENAI\Fontes\pedidos\lib\Cake\View\View.php(897): View->_evaluate('C:\SENAI\Fontes...', Array)
+#5 C:\SENAI\Fontes\pedidos\lib\Cake\View\View.php(466): View->_render('C:\SENAI\Fontes...')
+#6 C:\SENAI\Fontes\pedidos\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#7 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(192): Controller->render()
+#8 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(EstadosController), Object(CakeRequest), Object(CakeResponse))
+#9 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-04-23 14:11:01 Error: [MissingHelperException] Helper class LocaleHelper could not be found.
+Exception Attributes: array (
+  'class' => 'LocaleHelper',
+  'plugin' => false,
+)
+Request URL: /pedidos/estados/view/2
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('Locale')
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\View\View.php(824): HelperCollection->__isset('Locale')
+#2 C:\SENAI\Fontes\pedidos\app\View\Estados\view.ctp(50): View->__get('Locale')
+#3 C:\SENAI\Fontes\pedidos\lib\Cake\View\View.php(935): include('C:\SENAI\Fontes...')
+#4 C:\SENAI\Fontes\pedidos\lib\Cake\View\View.php(897): View->_evaluate('C:\SENAI\Fontes...', Array)
+#5 C:\SENAI\Fontes\pedidos\lib\Cake\View\View.php(466): View->_render('C:\SENAI\Fontes...')
+#6 C:\SENAI\Fontes\pedidos\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#7 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(192): Controller->render()
+#8 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(EstadosController), Object(CakeRequest), Object(CakeResponse))
+#9 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-04-23 14:12:27 Error: [MissingHelperException] Helper class LocaleHelper could not be found.
+Exception Attributes: array (
+  'class' => 'LocaleHelper',
+  'plugin' => false,
+)
+Request URL: /pedidos/estados/view/2
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('Locale')
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\View\View.php(824): HelperCollection->__isset('Locale')
+#2 C:\SENAI\Fontes\pedidos\app\View\Estados\view.ctp(50): View->__get('Locale')
+#3 C:\SENAI\Fontes\pedidos\lib\Cake\View\View.php(935): include('C:\SENAI\Fontes...')
+#4 C:\SENAI\Fontes\pedidos\lib\Cake\View\View.php(897): View->_evaluate('C:\SENAI\Fontes...', Array)
+#5 C:\SENAI\Fontes\pedidos\lib\Cake\View\View.php(466): View->_render('C:\SENAI\Fontes...')
+#6 C:\SENAI\Fontes\pedidos\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#7 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(192): Controller->render()
+#8 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(EstadosController), Object(CakeRequest), Object(CakeResponse))
+#9 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-04-23 14:15:51 Error: [MissingPluginException] Plugin Locale could not be found.
+Exception Attributes: array (
+  'plugin' => 'Locale',
+)
+Request URL: /pedidos/estados/view/2
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Core\App.php(365): CakePlugin::path('Locale')
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\Core\App.php(226): App::pluginPath('Locale')
+#2 C:\SENAI\Fontes\pedidos\lib\Cake\Core\App.php(547): App::path('Lib', 'Locale')
+#3 [internal function]: App::load('Formats')
+#4 C:\SENAI\Fontes\pedidos\app\View\Helper\LocaleHelper.php(68): spl_autoload_call('Formats')
+#5 C:\SENAI\Fontes\pedidos\lib\Cake\View\HelperCollection.php(136): LocaleHelper->__construct(Object(View), Array)
+#6 C:\SENAI\Fontes\pedidos\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('Locale')
+#7 C:\SENAI\Fontes\pedidos\lib\Cake\View\View.php(824): HelperCollection->__isset('Locale')
+#8 C:\SENAI\Fontes\pedidos\app\View\Estados\view.ctp(50): View->__get('Locale')
+#9 C:\SENAI\Fontes\pedidos\lib\Cake\View\View.php(935): include('C:\SENAI\Fontes...')
+#10 C:\SENAI\Fontes\pedidos\lib\Cake\View\View.php(897): View->_evaluate('C:\SENAI\Fontes...', Array)
+#11 C:\SENAI\Fontes\pedidos\lib\Cake\View\View.php(466): View->_render('C:\SENAI\Fontes...')
+#12 C:\SENAI\Fontes\pedidos\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#13 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(192): Controller->render()
+#14 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(EstadosController), Object(CakeRequest), Object(CakeResponse))
+#15 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2014-04-23 14:16:14 Error: Fatal Error (1): Class 'Config' not found in [C:\SENAI\Fontes\pedidos\app\Config\bootstrap.php, line 96]
+2014-04-23 14:16:14 Error: [FatalErrorException] Class 'Config' not found
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'Config' ...', 'C:\SENAI\Fontes...', 96)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Config' ...', 'C:\SENAI\Fontes...', 96, Array)
+#2 C:\SENAI\Fontes\pedidos\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'Config' ...', 'C:\SENAI\Fontes...', 96, Array)
+#3 C:\SENAI\Fontes\pedidos\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-23 11:21:30 Error: [MissingPluginException] Plugin Language could not be found.
+Exception Attributes: array (
+  'plugin' => 'Language',
+)
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Core\App.php(365): CakePlugin::path('Language')
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\Core\App.php(226): App::pluginPath('Language')
+#2 C:\SENAI\Fontes\pedidos\lib\Cake\Core\App.php(547): App::path('Routing/Filter', 'Language')
+#3 [internal function]: App::load('default')
+#4 [internal function]: spl_autoload_call('default')
+#5 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(105): class_exists('default')
+#6 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(70): Dispatcher->_attachFilters(Object(CakeEventManager))
+#7 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(140): Dispatcher->getEventManager()
+#8 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2014-04-23 11:21:53 Error: [MissingPluginException] Plugin Language could not be found.
+Exception Attributes: array (
+  'plugin' => 'Language',
+)
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Core\App.php(365): CakePlugin::path('Language')
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\Core\App.php(226): App::pluginPath('Language')
+#2 C:\SENAI\Fontes\pedidos\lib\Cake\Core\App.php(547): App::path('Routing/Filter', 'Language')
+#3 [internal function]: App::load('default')
+#4 [internal function]: spl_autoload_call('default')
+#5 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(105): class_exists('default')
+#6 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(70): Dispatcher->_attachFilters(Object(CakeEventManager))
+#7 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(140): Dispatcher->getEventManager()
+#8 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2014-04-23 11:21:54 Error: [MissingPluginException] Plugin Language could not be found.
+Exception Attributes: array (
+  'plugin' => 'Language',
+)
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Core\App.php(365): CakePlugin::path('Language')
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\Core\App.php(226): App::pluginPath('Language')
+#2 C:\SENAI\Fontes\pedidos\lib\Cake\Core\App.php(547): App::path('Routing/Filter', 'Language')
+#3 [internal function]: App::load('default')
+#4 [internal function]: spl_autoload_call('default')
+#5 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(105): class_exists('default')
+#6 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(70): Dispatcher->_attachFilters(Object(CakeEventManager))
+#7 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(140): Dispatcher->getEventManager()
+#8 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2014-04-23 11:21:55 Error: [MissingPluginException] Plugin Language could not be found.
+Exception Attributes: array (
+  'plugin' => 'Language',
+)
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Core\App.php(365): CakePlugin::path('Language')
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\Core\App.php(226): App::pluginPath('Language')
+#2 C:\SENAI\Fontes\pedidos\lib\Cake\Core\App.php(547): App::path('Routing/Filter', 'Language')
+#3 [internal function]: App::load('default')
+#4 [internal function]: spl_autoload_call('default')
+#5 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(105): class_exists('default')
+#6 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(70): Dispatcher->_attachFilters(Object(CakeEventManager))
+#7 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(140): Dispatcher->getEventManager()
+#8 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2014-04-23 11:21:56 Error: [MissingPluginException] Plugin Language could not be found.
+Exception Attributes: array (
+  'plugin' => 'Language',
+)
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Core\App.php(365): CakePlugin::path('Language')
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\Core\App.php(226): App::pluginPath('Language')
+#2 C:\SENAI\Fontes\pedidos\lib\Cake\Core\App.php(547): App::path('Routing/Filter', 'Language')
+#3 [internal function]: App::load('default')
+#4 [internal function]: spl_autoload_call('default')
+#5 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(105): class_exists('default')
+#6 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(70): Dispatcher->_attachFilters(Object(CakeEventManager))
+#7 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(140): Dispatcher->getEventManager()
+#8 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2014-04-23 11:21:56 Error: [MissingPluginException] Plugin Language could not be found.
+Exception Attributes: array (
+  'plugin' => 'Language',
+)
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Core\App.php(365): CakePlugin::path('Language')
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\Core\App.php(226): App::pluginPath('Language')
+#2 C:\SENAI\Fontes\pedidos\lib\Cake\Core\App.php(547): App::path('Routing/Filter', 'Language')
+#3 [internal function]: App::load('default')
+#4 [internal function]: spl_autoload_call('default')
+#5 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(105): class_exists('default')
+#6 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(70): Dispatcher->_attachFilters(Object(CakeEventManager))
+#7 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(140): Dispatcher->getEventManager()
+#8 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2014-04-23 11:21:56 Error: [MissingPluginException] Plugin Language could not be found.
+Exception Attributes: array (
+  'plugin' => 'Language',
+)
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Core\App.php(365): CakePlugin::path('Language')
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\Core\App.php(226): App::pluginPath('Language')
+#2 C:\SENAI\Fontes\pedidos\lib\Cake\Core\App.php(547): App::path('Routing/Filter', 'Language')
+#3 [internal function]: App::load('default')
+#4 [internal function]: spl_autoload_call('default')
+#5 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(105): class_exists('default')
+#6 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(70): Dispatcher->_attachFilters(Object(CakeEventManager))
+#7 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(140): Dispatcher->getEventManager()
+#8 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2014-04-23 14:22:11 Error: [MissingPluginException] Plugin Language could not be found.
+Exception Attributes: array (
+  'plugin' => 'Language',
+)
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\app\Config\bootstrap.php(97): CakePlugin::load('Language')
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\Core\Configure.php(92): include('C:\SENAI\Fontes...')
+#2 C:\SENAI\Fontes\pedidos\lib\Cake\bootstrap.php(175): Configure::bootstrap(true)
+#3 C:\SENAI\Fontes\pedidos\app\webroot\index.php(90): include('C:\SENAI\Fontes...')
+#4 {main}
+2014-04-23 11:22:19 Error: [MissingPluginException] Plugin Language could not be found.
+Exception Attributes: array (
+  'plugin' => 'Language',
+)
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Core\App.php(365): CakePlugin::path('Language')
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\Core\App.php(226): App::pluginPath('Language')
+#2 C:\SENAI\Fontes\pedidos\lib\Cake\Core\App.php(547): App::path('Routing/Filter', 'Language')
+#3 [internal function]: App::load('default')
+#4 [internal function]: spl_autoload_call('default')
+#5 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(105): class_exists('default')
+#6 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(70): Dispatcher->_attachFilters(Object(CakeEventManager))
+#7 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(140): Dispatcher->getEventManager()
+#8 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2014-04-23 14:27:18 Error: [MissingPluginException] Plugin Locale could not be found.
+Exception Attributes: array (
+  'plugin' => 'Locale',
+)
+Request URL: /pedidos/estados/view/2
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Core\App.php(365): CakePlugin::path('Locale')
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\Core\App.php(226): App::pluginPath('Locale')
+#2 C:\SENAI\Fontes\pedidos\lib\Cake\Core\App.php(547): App::path('Lib', 'Locale')
+#3 [internal function]: App::load('Formats')
+#4 C:\SENAI\Fontes\pedidos\app\View\Helper\LocaleHelper.php(68): spl_autoload_call('Formats')
+#5 C:\SENAI\Fontes\pedidos\lib\Cake\View\HelperCollection.php(136): LocaleHelper->__construct(Object(View), Array)
+#6 C:\SENAI\Fontes\pedidos\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('Locale')
+#7 C:\SENAI\Fontes\pedidos\lib\Cake\View\View.php(824): HelperCollection->__isset('Locale')
+#8 C:\SENAI\Fontes\pedidos\app\View\Estados\view.ctp(50): View->__get('Locale')
+#9 C:\SENAI\Fontes\pedidos\lib\Cake\View\View.php(935): include('C:\SENAI\Fontes...')
+#10 C:\SENAI\Fontes\pedidos\lib\Cake\View\View.php(897): View->_evaluate('C:\SENAI\Fontes...', Array)
+#11 C:\SENAI\Fontes\pedidos\lib\Cake\View\View.php(466): View->_render('C:\SENAI\Fontes...')
+#12 C:\SENAI\Fontes\pedidos\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#13 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(192): Controller->render()
+#14 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(EstadosController), Object(CakeRequest), Object(CakeResponse))
+#15 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2014-04-23 14:55:00 Error: [MissingBehaviorException] Behavior class DataPtBrBehavior could not be found.
+Exception Attributes: array (
+  'class' => 'DataPtBrBehavior',
+  'plugin' => false,
+)
+Request URL: /pedidos/estados/view/2
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Model\BehaviorCollection.php(66): BehaviorCollection->load('DataPtBr', Array)
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Model.php(747): BehaviorCollection->init('Estado', Array)
+#2 [internal function]: Model->__construct(Array)
+#3 C:\SENAI\Fontes\pedidos\lib\Cake\Utility\ClassRegistry.php(168): ReflectionClass->newInstance(Array)
+#4 C:\SENAI\Fontes\pedidos\lib\Cake\Controller\Controller.php(738): ClassRegistry::init(Array)
+#5 C:\SENAI\Fontes\pedidos\lib\Cake\Controller\Controller.php(367): Controller->loadModel('Estado')
+#6 C:\SENAI\Fontes\pedidos\lib\Cake\Controller\Controller.php(405): Controller->__isset('Estado')
+#7 C:\SENAI\Fontes\pedidos\app\Controller\EstadosController.php(36): Controller->__get('Estado')
+#8 [internal function]: EstadosController->view('2')
+#9 C:\SENAI\Fontes\pedidos\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(EstadosController), Array)
+#10 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#11 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(EstadosController), Object(CakeRequest), Object(CakeResponse))
+#12 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-04-23 16:48:32 Error: [MissingHelperException] Helper class DataPtBrHelper could not be found.
+Exception Attributes: array (
+  'class' => 'DataPtBrHelper',
+  'plugin' => false,
+)
+Request URL: /pedidos/estados/view/2
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\View\View.php(873): HelperCollection->load('DataPtBr', Array)
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\View\View.php(347): View->loadHelpers()
+#2 C:\SENAI\Fontes\pedidos\lib\Cake\Controller\Controller.php(1241): View->__construct(Object(EstadosController))
+#3 C:\SENAI\Fontes\pedidos\lib\Cake\Controller\Controller.php(940): Controller->_getViewObject()
+#4 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(192): Controller->render()
+#5 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(EstadosController), Object(CakeRequest), Object(CakeResponse))
+#6 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2014-04-23 16:48:48 Error: [MissingHelperException] Helper class DataPtBrHelper could not be found.
+Exception Attributes: array (
+  'class' => 'DataPtBrHelper',
+  'plugin' => false,
+)
+Request URL: /pedidos/estados/view/2
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\View\View.php(873): HelperCollection->load('DataPtBr', Array)
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\View\View.php(347): View->loadHelpers()
+#2 C:\SENAI\Fontes\pedidos\lib\Cake\Controller\Controller.php(1241): View->__construct(Object(EstadosController))
+#3 C:\SENAI\Fontes\pedidos\lib\Cake\Controller\Controller.php(940): Controller->_getViewObject()
+#4 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(192): Controller->render()
+#5 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(EstadosController), Object(CakeRequest), Object(CakeResponse))
+#6 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2014-04-23 16:50:46 Error: [MissingHelperException] Helper class dateHelper could not be found.
+Exception Attributes: array (
+  'class' => 'dateHelper',
+  'plugin' => false,
+)
+Request URL: /pedidos/estados/view/2
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('date')
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\View\View.php(824): HelperCollection->__isset('date')
+#2 C:\SENAI\Fontes\pedidos\app\View\Estados\view.ctp(50): View->__get('date')
+#3 C:\SENAI\Fontes\pedidos\lib\Cake\View\View.php(935): include('C:\SENAI\Fontes...')
+#4 C:\SENAI\Fontes\pedidos\lib\Cake\View\View.php(897): View->_evaluate('C:\SENAI\Fontes...', Array)
+#5 C:\SENAI\Fontes\pedidos\lib\Cake\View\View.php(466): View->_render('C:\SENAI\Fontes...')
+#6 C:\SENAI\Fontes\pedidos\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#7 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(192): Controller->render()
+#8 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(EstadosController), Object(CakeRequest), Object(CakeResponse))
+#9 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-04-23 17:10:32 Error: [Exception] DateTime::__construct(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone.
+Request URL: /pedidos/estados/view/2
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\app\Plugin\locale\Lib\Utils.php(68): DateTime->__construct()
+#1 C:\SENAI\Fontes\pedidos\app\Plugin\locale\Lib\Localize.php(89): Utils::initDateTime('2014-04-23 13:3...')
+#2 C:\SENAI\Fontes\pedidos\app\Plugin\locale\View\Helper\LocaleHelper.php(84): Localize::date('2014-04-23 13:3...')
+#3 C:\SENAI\Fontes\pedidos\app\View\Estados\view.ctp(50): LocaleHelper->date('2014-04-23 13:3...')
+#4 C:\SENAI\Fontes\pedidos\lib\Cake\View\View.php(935): include('C:\SENAI\Fontes...')
+#5 C:\SENAI\Fontes\pedidos\lib\Cake\View\View.php(897): View->_evaluate('C:\SENAI\Fontes...', Array)
+#6 C:\SENAI\Fontes\pedidos\lib\Cake\View\View.php(466): View->_render('C:\SENAI\Fontes...')
+#7 C:\SENAI\Fontes\pedidos\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#8 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(192): Controller->render()
+#9 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(EstadosController), Object(CakeRequest), Object(CakeResponse))
+#10 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2014-04-23 14:31:04 Error: [MissingControllerException] Controller class EmpresasController could not be found.
+Exception Attributes: array (
+  'class' => 'EmpresasController',
+  'plugin' => NULL,
+)
+Request URL: /pedidos/empresas
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-04-23 14:31:22 Error: [MissingControllerException] Controller class PedidosItensController could not be found.
+Exception Attributes: array (
+  'class' => 'PedidosItensController',
+  'plugin' => NULL,
+)
+Request URL: /pedidos/pedidos_itens/add
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-04-23 14:31:29 Error: [MissingControllerException] Controller class PedidosController could not be found.
+Exception Attributes: array (
+  'class' => 'PedidosController',
+  'plugin' => NULL,
+)
+Request URL: /pedidos/pedidos
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}

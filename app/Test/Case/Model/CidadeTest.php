@@ -13,7 +13,8 @@ class CidadeTest extends CakeTestCase {
  * @var array
  */
 	public $fixtures = array(
-		'app.cidade'
+		'app.cidade',
+		'app.estado'
 	);
 
 /**
