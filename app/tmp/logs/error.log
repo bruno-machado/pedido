@@ -1328,3 +1328,78 @@ Request URL: /pedidos/pedidos
 Stack Trace:
 #0 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2014-04-23 16:48:42 Error: [MissingActionException] Action ClientesController::cidades() could not be found.
+Exception Attributes: array (
+  'controller' => 'ClientesController',
+  'action' => 'cidades',
+)
+Request URL: /pedidos/clientes/cidades
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-04-23 16:48:58 Error: [MissingActionException] Action ClientesController::cidades() could not be found.
+Exception Attributes: array (
+  'controller' => 'ClientesController',
+  'action' => 'cidades',
+)
+Request URL: /pedidos/clientes/cidades
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-04-23 16:49:33 Error: [MissingActionException] Action ClientesController::cidades() could not be found.
+Exception Attributes: array (
+  'controller' => 'ClientesController',
+  'action' => 'cidades',
+)
+Request URL: /pedidos/clientes/cidades
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-04-23 16:49:33 Error: Fatal Error (4): syntax error, unexpected '/' in [C:\SENAI\Fontes\pedidos\app\View\Elements\navigation.ctp, line 16]
+2014-04-23 16:49:33 Error: [FatalErrorException] syntax error, unexpected '/'
+Request URL: /pedidos/clientes/cidades
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\SENAI\Fontes...', 16)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\SENAI\Fontes...', 16, Array)
+#2 C:\SENAI\Fontes\pedidos\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\SENAI\Fontes...', 16, Array)
+#3 C:\SENAI\Fontes\pedidos\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-23 16:49:46 Error: [MissingActionException] Action ClientesController::cidades() could not be found.
+Exception Attributes: array (
+  'controller' => 'ClientesController',
+  'action' => 'cidades',
+)
+Request URL: /pedidos/clientes/cidades
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-04-23 16:49:46 Error: Fatal Error (1): Call to undefined method View::url() in [C:\SENAI\Fontes\pedidos\app\View\Elements\navigation.ctp, line 14]
+2014-04-23 16:49:46 Error: [FatalErrorException] Call to undefined method View::url()
+Request URL: /pedidos/clientes/cidades
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\SENAI\Fontes...', 14)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\SENAI\Fontes...', 14, Array)
+#2 C:\SENAI\Fontes\pedidos\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\SENAI\Fontes...', 14, Array)
+#3 C:\SENAI\Fontes\pedidos\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-23 16:50:23 Error: [MissingActionException] Action ClientesController::cidades() could not be found.
+Exception Attributes: array (
+  'controller' => 'ClientesController',
+  'action' => 'cidades',
+)
+Request URL: /pedidos/clientes/cidades
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
