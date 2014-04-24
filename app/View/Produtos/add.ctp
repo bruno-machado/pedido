@@ -3,7 +3,7 @@
 	<div class="row">
 		<div class="col-md-12">
 			<div class="page-header">
-				<h1><?php echo __('Add Produto'); ?></h1>
+				<h1><?php echo __('Cadastrar Produto'); ?></h1>
 			</div>
 		</div>
 	</div>
@@ -14,17 +14,11 @@
 		<div class="col-md-3">
 			<div class="actions">
 				<div class="panel panel-default">
-					<div class="panel-heading">Actions</div>
+					<div class="panel-heading">Ação</div>
 						<div class="panel-body">
 							<ul class="nav nav-pills nav-stacked">
 
-																<li><?php echo $this->Html->link(__('<span class="glyphicon glyphicon-list"></span>&nbsp;&nbsp;List Produtos'), array('action' => 'index'), array('escape' => false)); ?></li>
-									<li><?php echo $this->Html->link(__('<span class="glyphicon glyphicon-list"></span>&nbsp;&nbsp;List Estabelecimentos'), array('controller' => 'estabelecimentos', 'action' => 'index'), array('escape' => false)); ?> </li>
-		<li><?php echo $this->Html->link(__('<span class="glyphicon glyphicon-plus"></span>&nbsp;&nbsp;New Estabelecimento'), array('controller' => 'estabelecimentos', 'action' => 'add'), array('escape' => false)); ?> </li>
-		<li><?php echo $this->Html->link(__('<span class="glyphicon glyphicon-list"></span>&nbsp;&nbsp;List Categorias'), array('controller' => 'categorias', 'action' => 'index'), array('escape' => false)); ?> </li>
-		<li><?php echo $this->Html->link(__('<span class="glyphicon glyphicon-plus"></span>&nbsp;&nbsp;New Categoria'), array('controller' => 'categorias', 'action' => 'add'), array('escape' => false)); ?> </li>
-		<li><?php echo $this->Html->link(__('<span class="glyphicon glyphicon-list"></span>&nbsp;&nbsp;List Pedidos Itens'), array('controller' => 'pedidos_itens', 'action' => 'index'), array('escape' => false)); ?> </li>
-		<li><?php echo $this->Html->link(__('<span class="glyphicon glyphicon-plus"></span>&nbsp;&nbsp;New Pedidos Iten'), array('controller' => 'pedidos_itens', 'action' => 'add'), array('escape' => false)); ?> </li>
+																<li><?php echo $this->Html->link(__('<span class="glyphicon glyphicon-list"></span>&nbsp;&nbsp;Listar Produtos'), array('action' => 'index'), array('escape' => false)); ?></li>
 							</ul>
 						</div>
 					</div>
@@ -34,19 +28,16 @@
 			<?php echo $this->Form->create('Produto', array('role' => 'form')); ?>
 
 				<div class="form-group">
-					<?php echo $this->Form->input('estabelecimento_id', array('class' => 'form-control', 'placeholder' => 'Estabelecimento Id'));?>
-				</div>
-				<div class="form-group">
 					<?php echo $this->Form->input('categoria_id', array('class' => 'form-control', 'placeholder' => 'Categoria Id'));?>
 				</div>
 				<div class="form-group">
 					<?php echo $this->Form->input('nome_produto', array('class' => 'form-control', 'placeholder' => 'Nome Produto'));?>
 				</div>
 				<div class="form-group">
-					<?php echo $this->Form->input('descricao_produto', array('class' => 'form-control', 'placeholder' => 'Descricao Produto'));?>
+					<?php echo $this->Form->input('descricao_produto', array('class' => 'form-control', 'placeholder' => 'Descrição Produto', 'label' => 'Descrição Produto'));?>
 				</div>
 				<div class="form-group">
-					<?php echo $this->Form->submit(__('Submit'), array('class' => 'btn btn-default')); ?>
+					<?php echo $this->Form->submit(__('Cadastrar'), array('class' => 'btn btn-default')); ?>
 				</div>
 
 			<?php echo $this->Form->end() ?>

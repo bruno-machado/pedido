@@ -3,7 +3,7 @@
 	<div class="row">
 		<div class="col-md-12">
 			<div class="page-header">
-				<h1><?php echo __('Edit Categoria'); ?></h1>
+				<h1><?php echo __('Editar Categoria'); ?></h1>
 			</div>
 		</div>
 	</div>
@@ -18,10 +18,8 @@
 						<div class="panel-body">
 							<ul class="nav nav-pills nav-stacked">
 
-																<li><?php echo $this->Form->postLink(__('<span class="glyphicon glyphicon-remove"></span>&nbsp;&nbsp;Delete'), array('action' => 'delete', $this->Form->value('Categoria.id')), array('escape' => false), __('Are you sure you want to delete # %s?', $this->Form->value('Categoria.id'))); ?></li>
-																<li><?php echo $this->Html->link(__('<span class="glyphicon glyphicon-list"></span>&nbsp;&nbsp;List Categorias'), array('action' => 'index'), array('escape' => false)); ?></li>
-									<li><?php echo $this->Html->link(__('<span class="glyphicon glyphicon-list"></span>&nbsp;&nbsp;List Produtos'), array('controller' => 'produtos', 'action' => 'index'), array('escape' => false)); ?> </li>
-		<li><?php echo $this->Html->link(__('<span class="glyphicon glyphicon-plus"></span>&nbsp;&nbsp;New Produto'), array('controller' => 'produtos', 'action' => 'add'), array('escape' => false)); ?> </li>
+																<li><?php echo $this->Form->postLink(__('<span class="glyphicon glyphicon-remove"></span>&nbsp;&nbsp;Deletar'), array('action' => 'delete', $this->Form->value('Categoria.id')), array('escape' => false), __('Tem certeza que deseja excluir? # %s?', $this->Form->value('Categoria.id'))); ?></li>
+																<li><?php echo $this->Html->link(__('<span class="glyphicon glyphicon-list"></span>&nbsp;&nbsp;Listar Categorias'), array('action' => 'index'), array('escape' => false)); ?></li>
 							</ul>
 						</div>
 					</div>
@@ -43,7 +41,7 @@
 					<?php echo $this->Form->input('id_estabelecimento', array('class' => 'form-control', 'placeholder' => 'Id Estabelecimento'));?>
 				</div>
 				<div class="form-group">
-					<?php echo $this->Form->submit(__('Submit'), array('class' => 'btn btn-default')); ?>
+					<?php echo $this->Form->submit(__('Alterar'), array('class' => 'btn btn-default')); ?>
 				</div>
 
 			<?php echo $this->Form->end() ?>

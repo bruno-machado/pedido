@@ -49,14 +49,14 @@ class ProdutosController extends AppController {
 		if ($this->request->is('post')) {
 			$this->Produto->create();
 			if ($this->Produto->save($this->request->data)) {
-				$this->Session->setFlash(__('The produto has been saved.'), 'default', array('class' => 'alert alert-success'));
+				$this->Session->setFlash(__('Produto salvo.'), 'default', array('class' => 'alert alert-success'));
 				return $this->redirect(array('action' => 'index'));
 			} else {
-				$this->Session->setFlash(__('The produto could not be saved. Please, try again.'), 'default', array('class' => 'alert alert-danger'));
+				$this->Session->setFlash(__('O produto não pôde ser salvo. Por favor, tente novamente.'), 'default', array('class' => 'alert alert-danger'));
 			}
 		}
 		$estabelecimentos = $this->Produto->Estabelecimento->find('list');
-		$categorias = $this->Produto->Categorium->find('list');
+		$categorias = $this->Produto->Categoria->find('list');
 		$this->set(compact('estabelecimentos', 'categorias'));
 	}
 
@@ -73,17 +73,17 @@ class ProdutosController extends AppController {
 		}
 		if ($this->request->is(array('post', 'put'))) {
 			if ($this->Produto->save($this->request->data)) {
-				$this->Session->setFlash(__('The produto has been saved.'), 'default', array('class' => 'alert alert-success'));
+				$this->Session->setFlash(__('Produto alterado.'), 'default', array('class' => 'alert alert-success'));
 				return $this->redirect(array('action' => 'index'));
 			} else {
-				$this->Session->setFlash(__('The produto could not be saved. Please, try again.'), 'default', array('class' => 'alert alert-danger'));
+				$this->Session->setFlash(__('O produto não pôde ser alterado. Por favor, tente novamente.'), 'default', array('class' => 'alert alert-danger'));
 			}
 		} else {
 			$options = array('conditions' => array('Produto.' . $this->Produto->primaryKey => $id));
 			$this->request->data = $this->Produto->find('first', $options);
 		}
 		$estabelecimentos = $this->Produto->Estabelecimento->find('list');
-		$categorias = $this->Produto->Categorium->find('list');
+		$categorias = $this->Produto->Categoria->find('list');
 		$this->set(compact('estabelecimentos', 'categorias'));
 	}
 
@@ -101,9 +101,9 @@ class ProdutosController extends AppController {
 		}
 		$this->request->onlyAllow('post', 'delete');
 		if ($this->Produto->delete()) {
-			$this->Session->setFlash(__('The produto has been deleted.'), 'default', array('class' => 'alert alert-success'));
+			$this->Session->setFlash(__('Produto excluído.'), 'default', array('class' => 'alert alert-success'));
 		} else {
-			$this->Session->setFlash(__('The produto could not be deleted. Please, try again.'), 'default', array('class' => 'alert alert-danger'));
+			$this->Session->setFlash(__('O produto não pôde ser excluído. Por favor, tente novamente.'), 'default', array('class' => 'alert alert-danger'));
 		}
 		return $this->redirect(array('action' => 'index'));
 	}

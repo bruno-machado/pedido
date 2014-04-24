@@ -49,10 +49,10 @@ class EstabelecimentosController extends AppController {
 		if ($this->request->is('post')) {
 			$this->Estabelecimento->create();
 			if ($this->Estabelecimento->save($this->request->data)) {
-				$this->Session->setFlash(__('The estabelecimento has been saved.'), 'default', array('class' => 'alert alert-success'));
+				$this->Session->setFlash(__('Estabelecimento cadastrado.'), 'default', array('class' => 'alert alert-success'));
 				return $this->redirect(array('action' => 'index'));
 			} else {
-				$this->Session->setFlash(__('The estabelecimento could not be saved. Please, try again.'), 'default', array('class' => 'alert alert-danger'));
+				$this->Session->setFlash(__('O estabelecimento não pôde ser cadastrado. Por favor, tente novamente.'), 'default', array('class' => 'alert alert-danger'));
 			}
 		}
 		$cidades = $this->Estabelecimento->Cidade->find('list');
@@ -72,10 +72,10 @@ class EstabelecimentosController extends AppController {
 		}
 		if ($this->request->is(array('post', 'put'))) {
 			if ($this->Estabelecimento->save($this->request->data)) {
-				$this->Session->setFlash(__('The estabelecimento has been saved.'), 'default', array('class' => 'alert alert-success'));
+				$this->Session->setFlash(__('Estabelecimento alterado.'), 'default', array('class' => 'alert alert-success'));
 				return $this->redirect(array('action' => 'index'));
 			} else {
-				$this->Session->setFlash(__('The estabelecimento could not be saved. Please, try again.'), 'default', array('class' => 'alert alert-danger'));
+				$this->Session->setFlash(__('O estabelecimento não pôde ser alterado. Por favor, tente novamente.'), 'default', array('class' => 'alert alert-danger'));
 			}
 		} else {
 			$options = array('conditions' => array('Estabelecimento.' . $this->Estabelecimento->primaryKey => $id));
@@ -99,9 +99,9 @@ class EstabelecimentosController extends AppController {
 		}
 		$this->request->onlyAllow('post', 'delete');
 		if ($this->Estabelecimento->delete()) {
-			$this->Session->setFlash(__('The estabelecimento has been deleted.'), 'default', array('class' => 'alert alert-success'));
+			$this->Session->setFlash(__('Estabeleciemtno excluído.'), 'default', array('class' => 'alert alert-success'));
 		} else {
-			$this->Session->setFlash(__('The estabelecimento could not be deleted. Please, try again.'), 'default', array('class' => 'alert alert-danger'));
+			$this->Session->setFlash(__('O estabelecimento não pôde ser excluído, Por favor, tente novamente.'), 'default', array('class' => 'alert alert-danger'));
 		}
 		return $this->redirect(array('action' => 'index'));
 	}

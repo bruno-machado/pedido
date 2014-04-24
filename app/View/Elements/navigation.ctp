@@ -12,7 +12,7 @@
           <ul class="nav navbar-nav">
             <li class="active"><a href="#">Home</a></li>
             <li><a href="<?php echo $this->Html->url('/cidades');?>">Cidades</a></li>
-            <li><a href="<?php echo $this->Html->url('/estabelecimentos');?>">Estabelecimentos</a></li>
+            <li><a href="<?php echo $this->Html->url('/categorias');?>">Categorias</a></li>
             <li><a href="<?php echo $this->Html->url('/produtos');?>">Produtos</a></li>
           </ul>
         </div><!--/.nav-collapse -->

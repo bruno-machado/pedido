@@ -15,12 +15,10 @@
 		<div class="col-md-3">
 			<div class="actions">
 				<div class="panel panel-default">
-					<div class="panel-heading">Actions</div>
+					<div class="panel-heading">Açãos</div>
 						<div class="panel-body">
 							<ul class="nav nav-pills nav-stacked">
-								<li><?php echo $this->Html->link(__('<span class="glyphicon glyphicon-plus"></span>&nbsp;&nbsp;New Categoria'), array('action' => 'add'), array('escape' => false)); ?></li>
-								<li><?php echo $this->Html->link(__('<span class="glyphicon glyphicon-list"></span>&nbsp;&nbsp;List Produtos'), array('controller' => 'produtos', 'action' => 'index'), array('escape' => false)); ?> </li>
-		<li><?php echo $this->Html->link(__('<span class="glyphicon glyphicon-plus"></span>&nbsp;&nbsp;New Produto'), array('controller' => 'produtos', 'action' => 'add'), array('escape' => false)); ?> </li>
+								<li><?php echo $this->Html->link(__('<span class="glyphicon glyphicon-plus"></span>&nbsp;&nbsp;Nova Categoria'), array('action' => 'add'), array('escape' => false)); ?></li>
 							</ul>
 						</div><!-- end body -->
 				</div><!-- end panel -->
@@ -34,7 +32,6 @@
 						<th><?php echo $this->Paginator->sort('id'); ?></th>
 						<th><?php echo $this->Paginator->sort('codigo'); ?></th>
 						<th><?php echo $this->Paginator->sort('descricao'); ?></th>
-						<th><?php echo $this->Paginator->sort('id_estabelecimento'); ?></th>
 						<th><?php echo $this->Paginator->sort('created'); ?></th>
 						<th><?php echo $this->Paginator->sort('modified'); ?></th>
 						<th class="actions"></th>
@@ -46,7 +43,6 @@
 						<td><?php echo h($categoria['Categoria']['id']); ?>&nbsp;</td>
 						<td><?php echo h($categoria['Categoria']['codigo']); ?>&nbsp;</td>
 						<td><?php echo h($categoria['Categoria']['descricao']); ?>&nbsp;</td>
-						<td><?php echo h($categoria['Categoria']['id_estabelecimento']); ?>&nbsp;</td>
 						<td><?php echo h($categoria['Categoria']['created']); ?>&nbsp;</td>
 						<td><?php echo h($categoria['Categoria']['modified']); ?>&nbsp;</td>
 						<td class="actions">

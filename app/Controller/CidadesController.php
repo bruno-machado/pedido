@@ -49,10 +49,10 @@ class CidadesController extends AppController {
 		if ($this->request->is('post')) {
 			$this->Cidade->create();
 			if ($this->Cidade->save($this->request->data)) {
-				$this->Session->setFlash(__('The cidade has been saved.'), 'default', array('class' => 'alert alert-success'));
+				$this->Session->setFlash(__('Cidade cadastrada.'), 'default', array('class' => 'alert alert-success'));
 				return $this->redirect(array('action' => 'index'));
 			} else {
-				$this->Session->setFlash(__('The cidade could not be saved. Please, try again.'), 'default', array('class' => 'alert alert-danger'));
+				$this->Session->setFlash(__('A cidade não pôde ser alterada. Por favor, tente novamente.'), 'default', array('class' => 'alert alert-danger'));
 			}
 		}
 		$estados = $this->Cidade->Estado->find('list');
@@ -72,10 +72,10 @@ class CidadesController extends AppController {
 		}
 		if ($this->request->is(array('post', 'put'))) {
 			if ($this->Cidade->save($this->request->data)) {
-				$this->Session->setFlash(__('The cidade has been saved.'), 'default', array('class' => 'alert alert-success'));
+				$this->Session->setFlash(__('Cidade alterada.'), 'default', array('class' => 'alert alert-success'));
 				return $this->redirect(array('action' => 'index'));
 			} else {
-				$this->Session->setFlash(__('The cidade could not be saved. Please, try again.'), 'default', array('class' => 'alert alert-danger'));
+				$this->Session->setFlash(__('A cidade não pôde ser alterada. Por favor, tente novamente.'), 'default', array('class' => 'alert alert-danger'));
 			}
 		} else {
 			$options = array('conditions' => array('Cidade.' . $this->Cidade->primaryKey => $id));
@@ -99,9 +99,9 @@ class CidadesController extends AppController {
 		}
 		$this->request->onlyAllow('post', 'delete');
 		if ($this->Cidade->delete()) {
-			$this->Session->setFlash(__('The cidade has been deleted.'), 'default', array('class' => 'alert alert-success'));
+			$this->Session->setFlash(__('Cidade excluída.'), 'default', array('class' => 'alert alert-success'));
 		} else {
-			$this->Session->setFlash(__('The cidade could not be deleted. Please, try again.'), 'default', array('class' => 'alert alert-danger'));
+			$this->Session->setFlash(__('A cidade não pôde ser excluída. Por favor, tente novamente.'), 'default', array('class' => 'alert alert-danger'));
 		}
 		return $this->redirect(array('action' => 'index'));
 	}
