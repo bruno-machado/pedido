@@ -1450,3 +1450,418 @@ Stack Trace:
 #3 C:\xampp\htdocs\pedidos\lib\Cake\Core\App.php(902): App::_checkFatalError()
 #4 [internal function]: App::shutdown()
 #5 {main}
+2014-04-25 08:16:33 Error: [MissingControllerException] Controller class UsersController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersController',
+  'plugin' => NULL,
+)
+Request URL: /pedidos/users/login
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-04-25 08:17:44 Error: [MissingControllerException] Controller class UsersController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersController',
+  'plugin' => NULL,
+)
+Request URL: /pedidos/users/login
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-04-25 08:17:45 Error: [MissingControllerException] Controller class UsersController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersController',
+  'plugin' => NULL,
+)
+Request URL: /pedidos/users/login
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-04-25 08:45:45 Error: Fatal Error (4): syntax error, unexpected ')' in [C:\SENAI\Fontes\pedidos\app\View\Pages\home.ctp, line 7]
+2014-04-25 08:45:45 Error: [FatalErrorException] syntax error, unexpected ')'
+Request URL: /pedidos/
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\SENAI\Fontes...', 7)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\SENAI\Fontes...', 7, Array)
+#2 C:\SENAI\Fontes\pedidos\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\SENAI\Fontes...', 7, Array)
+#3 C:\SENAI\Fontes\pedidos\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-25 09:40:11 Error: Fatal Error (64): Cannot redeclare UsersController::beforeFilter() in [C:\SENAI\Fontes\pedidos\app\Controller\UsersController.php, line 83]
+2014-04-25 09:40:11 Error: [FatalErrorException] Cannot redeclare UsersController::beforeFilter()
+Request URL: /pedidos/users/login
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'C:\SENAI\Fontes...', 83)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'C:\SENAI\Fontes...', 83, Array)
+#2 C:\SENAI\Fontes\pedidos\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'C:\SENAI\Fontes...', 83, Array)
+#3 C:\SENAI\Fontes\pedidos\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-25 09:46:15 Error: [MissingViewException] View file "C:\SENAI\Fontes\pedidos\app\View\Users\login.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\SENAI\\Fontes\\pedidos\\app\\View\\Users\\login.ctp',
+)
+Request URL: /pedidos/users/login
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\View\View.php(463): View->_getViewFileName(NULL)
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#2 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(192): Controller->render()
+#3 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-04-25 09:48:18 Error: [MissingViewException] View file "C:\SENAI\Fontes\pedidos\app\View\Users\add.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\SENAI\\Fontes\\pedidos\\app\\View\\Users\\add.ctp',
+)
+Request URL: /pedidos/users/add
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\View\View.php(463): View->_getViewFileName(NULL)
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#2 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(192): Controller->render()
+#3 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-04-25 10:07:45 Error: [MissingViewException] View file "C:\SENAI\Fontes\pedidos\app\View\Users\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\SENAI\\Fontes\\pedidos\\app\\View\\Users\\index.ctp',
+)
+Request URL: /pedidos/users
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\View\View.php(463): View->_getViewFileName(NULL)
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#2 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(192): Controller->render()
+#3 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-04-25 10:08:58 Error: [MissingViewException] View file "C:\SENAI\Fontes\pedidos\app\View\Users\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\SENAI\\Fontes\\pedidos\\app\\View\\Users\\index.ctp',
+)
+Request URL: /pedidos/users
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\View\View.php(463): View->_getViewFileName(NULL)
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#2 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(192): Controller->render()
+#3 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-04-25 10:28:21 Error: [MissingViewException] View file "C:\SENAI\Fontes\pedidos\app\View\Users\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\SENAI\\Fontes\\pedidos\\app\\View\\Users\\index.ctp',
+)
+Request URL: /pedidos/users
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\View\View.php(463): View->_getViewFileName(NULL)
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#2 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(192): Controller->render()
+#3 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-04-25 11:34:01 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'estabelecimento_id' cannot be null
+Request URL: /pedidos/categorias/add
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('INSERT INTO `pe...', Array)
+#2 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Datasource\DboSource.php(1004): DboSource->execute('INSERT INTO `pe...')
+#3 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Model.php(1832): DboSource->create(Object(Categoria), Array, Array)
+#4 C:\SENAI\Fontes\pedidos\app\Controller\CategoriasController.php(53): Model->save(Array)
+#5 [internal function]: CategoriasController->add()
+#6 C:\SENAI\Fontes\pedidos\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(CategoriasController), Array)
+#7 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#8 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(CategoriasController), Object(CakeRequest), Object(CakeResponse))
+#9 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-04-25 11:34:29 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'estabelecimento_id' cannot be null
+Request URL: /pedidos/categorias/add
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('INSERT INTO `pe...', Array)
+#2 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Datasource\DboSource.php(1004): DboSource->execute('INSERT INTO `pe...')
+#3 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Model.php(1832): DboSource->create(Object(Categoria), Array, Array)
+#4 C:\SENAI\Fontes\pedidos\app\Controller\CategoriasController.php(53): Model->save(Array)
+#5 [internal function]: CategoriasController->add()
+#6 C:\SENAI\Fontes\pedidos\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(CategoriasController), Array)
+#7 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#8 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(CategoriasController), Object(CakeRequest), Object(CakeResponse))
+#9 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-04-25 11:37:22 Error: [MissingViewException] View file "C:\SENAI\Fontes\pedidos\app\View\Users\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\SENAI\\Fontes\\pedidos\\app\\View\\Users\\index.ctp',
+)
+Request URL: /pedidos/users
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\View\View.php(463): View->_getViewFileName(NULL)
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#2 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(192): Controller->render()
+#3 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-04-25 11:51:48 Error: [MissingViewException] View file "C:\SENAI\Fontes\pedidos\app\View\Users\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\SENAI\\Fontes\\pedidos\\app\\View\\Users\\index.ctp',
+)
+Request URL: /pedidos/users/
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\View\View.php(463): View->_getViewFileName(NULL)
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#2 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(192): Controller->render()
+#3 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-04-25 11:51:54 Error: [MissingViewException] View file "C:\SENAI\Fontes\pedidos\app\View\Users\view.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\SENAI\\Fontes\\pedidos\\app\\View\\Users\\view.ctp',
+)
+Request URL: /pedidos/users/view/3
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\View\View.php(463): View->_getViewFileName(NULL)
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#2 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(192): Controller->render()
+#3 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-04-25 11:54:57 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'conditions' in 'where clause'
+Request URL: /pedidos/categorias
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `Categor...', Array)
+#2 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Datasource\DboSource.php(665): DboSource->execute('SELECT `Categor...', Array, Array)
+#3 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Datasource\DboSource.php(1077): DboSource->fetchAll('SELECT `Categor...', false)
+#4 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Model.php(2903): DboSource->read(Object(Categoria), Array)
+#5 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Model.php(2875): Model->_readDataSource('all', Array)
+#6 C:\SENAI\Fontes\pedidos\lib\Cake\Controller\Component\PaginatorComponent.php(196): Model->find('all', Array)
+#7 C:\SENAI\Fontes\pedidos\app\Controller\CategoriasController.php(27): PaginatorComponent->paginate(Array)
+#8 [internal function]: CategoriasController->index()
+#9 C:\SENAI\Fontes\pedidos\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(CategoriasController), Array)
+#10 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#11 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(CategoriasController), Object(CakeRequest), Object(CakeResponse))
+#12 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-04-25 14:37:07 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Categoria' in 'where clause'
+Request URL: /pedidos/categorias
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `Categor...', Array)
+#2 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Datasource\DboSource.php(665): DboSource->execute('SELECT `Categor...', Array, Array)
+#3 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Datasource\DboSource.php(1077): DboSource->fetchAll('SELECT `Categor...', false)
+#4 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Model.php(2903): DboSource->read(Object(Categoria), Array)
+#5 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Model.php(2875): Model->_readDataSource('all', Array)
+#6 C:\SENAI\Fontes\pedidos\lib\Cake\Controller\Component\PaginatorComponent.php(196): Model->find('all', Array)
+#7 C:\SENAI\Fontes\pedidos\app\Controller\CategoriasController.php(27): PaginatorComponent->paginate(Array)
+#8 [internal function]: CategoriasController->index()
+#9 C:\SENAI\Fontes\pedidos\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(CategoriasController), Array)
+#10 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#11 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(CategoriasController), Object(CakeRequest), Object(CakeResponse))
+#12 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-04-25 14:39:14 Error: [NotFoundException] Invalid categoria
+Request URL: /pedidos/categorias/edit/1
+Stack Trace:
+#0 [internal function]: CategoriasController->edit('1')
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(CategoriasController), Array)
+#2 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(CategoriasController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-04-25 14:42:09 Error: [NotFoundException] Invalid categoria
+Request URL: /pedidos/categorias/edit/1
+Stack Trace:
+#0 [internal function]: CategoriasController->edit('1')
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(CategoriasController), Array)
+#2 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(CategoriasController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-04-25 15:43:28 Error: [MissingActionException] Action CategoriasController::categorias() could not be found.
+Exception Attributes: array (
+  'controller' => 'CategoriasController',
+  'action' => 'categorias',
+)
+Request URL: /pedidos/categorias/categorias/view
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(CategoriasController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-04-25 15:43:47 Error: [NotFoundException] Invalid categoria
+Request URL: /pedidos/categorias/view
+Stack Trace:
+#0 [internal function]: CategoriasController->view()
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(CategoriasController), Array)
+#2 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(CategoriasController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-04-25 16:06:43 Error: [NotFoundException] Invalid categoria
+Request URL: /pedidos/categorias/view/34
+Stack Trace:
+#0 [internal function]: CategoriasController->view('34')
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(CategoriasController), Array)
+#2 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(CategoriasController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-04-25 16:07:05 Error: [NotFoundException] Invalid categoria
+Request URL: /pedidos/categorias/view/34
+Stack Trace:
+#0 [internal function]: CategoriasController->view('34')
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(CategoriasController), Array)
+#2 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(CategoriasController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-04-25 16:07:17 Error: [NotFoundException] Invalid categoria
+Request URL: /pedidos/categorias/view/38
+Stack Trace:
+#0 [internal function]: CategoriasController->view('38')
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(CategoriasController), Array)
+#2 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(CategoriasController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-04-25 16:08:26 Error: [NotFoundException] Invalid categoria
+Request URL: /pedidos/categorias/view/32
+Stack Trace:
+#0 [internal function]: CategoriasController->view('32')
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(CategoriasController), Array)
+#2 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(CategoriasController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-04-25 16:08:59 Error: [MissingActionException] Action CategoriasController::view5() could not be found.
+Exception Attributes: array (
+  'controller' => 'CategoriasController',
+  'action' => 'view5',
+)
+Request URL: /pedidos/categorias/view5
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(CategoriasController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-04-25 16:09:29 Error: [MissingActionException] Action CategoriasController::view5() could not be found.
+Exception Attributes: array (
+  'controller' => 'CategoriasController',
+  'action' => 'view5',
+)
+Request URL: /pedidos/categorias/view5
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(CategoriasController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-04-25 16:11:19 Error: [NotFoundException] Invalid categoria
+Request URL: /pedidos/categorias/view/45
+Stack Trace:
+#0 [internal function]: CategoriasController->view('45')
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(CategoriasController), Array)
+#2 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(CategoriasController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-04-25 16:11:44 Error: [NotFoundException] Invalid categoria
+Request URL: /pedidos/categorias/view/454
+Stack Trace:
+#0 [internal function]: CategoriasController->view('454')
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(CategoriasController), Array)
+#2 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(CategoriasController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-04-25 16:14:53 Error: [MissingControllerException] Controller class AdminController could not be found.
+Exception Attributes: array (
+  'class' => 'AdminController',
+  'plugin' => NULL,
+)
+Request URL: /pedidos/admin
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-04-25 16:16:08 Error: [MissingControllerException] Controller class LocaleController could not be found.
+Exception Attributes: array (
+  'class' => 'LocaleController',
+  'plugin' => 'Locale',
+)
+Request URL: /pedidos/locale
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-04-25 16:22:05 Error: [MissingControllerException] Controller class AdminController could not be found.
+Exception Attributes: array (
+  'class' => 'AdminController',
+  'plugin' => 'Admin',
+)
+Request URL: /pedidos/admin
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-04-25 16:22:49 Error: [MissingControllerException] Controller class AdminController could not be found.
+Exception Attributes: array (
+  'class' => 'AdminController',
+  'plugin' => 'Admin',
+)
+Request URL: /pedidos/admin
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-04-25 16:23:26 Error: [MissingControllerException] Controller class AdminController could not be found.
+Exception Attributes: array (
+  'class' => 'AdminController',
+  'plugin' => 'Admin',
+)
+Request URL: /pedidos/admin
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-04-25 16:24:27 Error: [MissingControllerException] Controller class AdminController could not be found.
+Exception Attributes: array (
+  'class' => 'AdminController',
+  'plugin' => 'Admin',
+)
+Request URL: /pedidos/admin
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-04-25 16:25:41 Error: [MissingActionException] Action AdminController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminController',
+  'action' => 'index',
+)
+Request URL: /pedidos/admin
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(AdminController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-04-25 16:26:42 Error: [MissingActionException] Action AdminController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminController',
+  'action' => 'index',
+)
+Request URL: /pedidos/admin
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(AdminController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-04-25 16:42:49 Error: Fatal Error (1): Call to a member function user() on a non-object in [C:\SENAI\Fontes\pedidos\app\Controller\AppController.php, line 40]
+2014-04-25 16:42:49 Error: [FatalErrorException] Call to a member function user() on a non-object
+Request URL: /pedidos/admin/
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\SENAI\Fontes...', 40)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\SENAI\Fontes...', 40, Array)
+#2 C:\SENAI\Fontes\pedidos\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\SENAI\Fontes...', 40, Array)
+#3 C:\SENAI\Fontes\pedidos\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-25 16:51:04 Error: Fatal Error (1): Call to a member function allow() on a non-object in [C:\SENAI\Fontes\pedidos\app\Controller\UsersController.php, line 15]
+2014-04-25 16:51:04 Error: [FatalErrorException] Call to a member function allow() on a non-object
+Request URL: /pedidos/users/logout
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\SENAI\Fontes...', 15)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\SENAI\Fontes...', 15, Array)
+#2 C:\SENAI\Fontes\pedidos\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\SENAI\Fontes...', 15, Array)
+#3 C:\SENAI\Fontes\pedidos\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}

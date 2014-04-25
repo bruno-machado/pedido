@@ -106,7 +106,9 @@ CakeLog::config('error', array(
 	'file' => 'error',
 ));
 CakePlugin::load('Locale');
-// dizemos a língua/região utilizada na aplicação
+CakePlugin::load('Admin');
+// dizemos a lï¿½ngua/regiï¿½o utilizada na aplicaï¿½ï¿½o
 Configure::write('Language.default', 'pt-br');
-// esta linha é opcional, somente se seu servidor não estiver configurado com a mesma região da aplicação
+// esta linha ï¿½ opcional, somente se seu servidor nï¿½o estiver configurado com a mesma regiï¿½o da aplicaï¿½ï¿½o
 setlocale(LC_ALL, 'pt_BR.utf-8', 'pt_BR', 'pt-br');
+CakePlugin::load('Admin', array('bootstrap' => false, 'routes' => false));
