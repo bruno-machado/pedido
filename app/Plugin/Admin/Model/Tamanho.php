@@ -6,7 +6,7 @@ App::uses('AppModel', 'Model');
  * @property Estabelecimento $Estabelecimento
  * @property ProdutosValore $ProdutosValore
  */
-class Tamanho extends AppModel {
+class Tamanho extends AdminAppModel {
 
 /**
  * Validation rules

@@ -95,18 +95,20 @@ Configure::write('Dispatcher.filters', array(
  * Configures default file logging options
  */
 App::uses('CakeLog', 'Log');
+
 CakeLog::config('debug', array(
 	'engine' => 'File',
 	'types' => array('notice', 'info', 'debug'),
 	'file' => 'debug',
 ));
+
 CakeLog::config('error', array(
 	'engine' => 'File',
 	'types' => array('warning', 'error', 'critical', 'alert', 'emergency'),
 	'file' => 'error',
 ));
 CakePlugin::load('Locale');
-CakePlugin::load('Admin');
+
 // dizemos a l�ngua/regi�o utilizada na aplica��o
 Configure::write('Language.default', 'pt-br');
 // esta linha � opcional, somente se seu servidor n�o estiver configurado com a mesma regi�o da aplica��o

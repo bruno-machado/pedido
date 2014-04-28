@@ -7,7 +7,7 @@ App::uses('AuthComponent', 'Controller/Component');
  * @property Cidade $Cidade
  * @property PaginatorComponent $Paginator
  */
-class UsersController extends AdminAppController {
+class UsersController extends AppController {
 
 
     public function beforeFilter() {
@@ -83,9 +83,9 @@ class UsersController extends AdminAppController {
 	
 	public function login() {
 	    if ($this->Auth->login()) {
-	        $this->redirect($this->Auth->redirect());
+	        $this->redirect($this->Auth->redirect('/admin'));
 	    } else {
-	        $this->Session->setFlash(__('Usuário invalido'));
+	        $this->Session->setFlash(__('Usuário ou senha invalida'));
 	    }
 	}
 	

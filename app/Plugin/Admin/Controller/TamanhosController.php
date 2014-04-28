@@ -6,7 +6,7 @@ App::uses('AppController', 'Controller');
  * @property Tamanho $Tamanho
  * @property PaginatorComponent $Paginator
  */
-class TamanhosController extends AppController {
+class TamanhosController extends AdminAppController {
 
 /**
  * Components

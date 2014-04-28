@@ -7,7 +7,7 @@ App::uses('AppModel', 'Model');
  * @property Cliente $Cliente
  * @property Estabelecimento $Estabelecimento
  */
-class Cidade extends AppModel {
+class Cidade extends AdminAppModel {
 
 /**
  * Validation rules

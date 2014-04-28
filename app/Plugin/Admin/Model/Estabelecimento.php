@@ -11,7 +11,7 @@ App::uses('AppModel', 'Model');
  * @property ProdutosValore $ProdutosValore
  * @property Tamanho $Tamanho
  */
-class Estabelecimento extends AppModel {
+class Estabelecimento extends AdminAppModel {
 
 /**
  * Validation rules
@@ -111,7 +111,7 @@ class Estabelecimento extends AppModel {
 		),
 		'aberto' => array(
 			'numeric' => array(
-				'rule' => array('numeric'),
+				'rule' => array('boolean'),
 				//'message' => 'Your custom message here',
 				//'allowEmpty' => false,
 				//'required' => false,
@@ -121,7 +121,7 @@ class Estabelecimento extends AppModel {
 		),
 		'empresa_destaque' => array(
 			'numeric' => array(
-				'rule' => array('numeric'),
+				'rule' => array('boolean'),
 				//'message' => 'Your custom message here',
 				//'allowEmpty' => false,
 				//'required' => false,
@@ -131,7 +131,7 @@ class Estabelecimento extends AppModel {
 		),
 		'email' => array(
 			'email' => array(
-				'rule' => array('email'),
+				'rule' => array('email', true),
 				//'message' => 'Your custom message here',
 				//'allowEmpty' => false,
 				//'required' => false,

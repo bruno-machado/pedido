@@ -16,6 +16,7 @@
  * @license       http://www.opensource.org/licenses/mit-license.php MIT License
  */
 ?>
+<!--  
 <h2><?php echo __d('cake_dev', 'Database Error'); ?></h2>
 <p class="error">
 	<strong><?php echo __d('cake_dev', 'Error'); ?>: </strong>
@@ -35,4 +36,6 @@
 	<strong><?php echo __d('cake_dev', 'Notice'); ?>: </strong>
 	<?php echo __d('cake_dev', 'If you want to customize this error message, create %s', APP_DIR . DS . 'View' . DS . 'Errors' . DS . 'pdo_error.ctp'); ?>
 </p>
-<?php echo $this->element('exception_stack_trace'); ?>
+-->
+<?php //echo $this->element('exception_stack_trace'); ?> 
+<h2>Existe outros registros relacionados com esses dados</h2>

@@ -6,7 +6,7 @@ App::uses('AppController', 'Controller');
  * @property Cidade $Cidade
  * @property PaginatorComponent $Paginator
  */
-class CidadesController extends AppController {
+class CidadesController extends AdminAppController {
 
 /**
  * Components

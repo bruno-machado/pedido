@@ -9,13 +9,14 @@ public $helpers = array('Locale.Locale');
    public $components = array(
         'Session',
         'Auth' => array(
-            'loginRedirect' => array('controller' => 'cidades', 'action' => 'index'),
-            'logoutRedirect' => array('controller' => 'pages', 'action' => 'display', 'home')
+   			'loginAction' => array('plugin' => 'admin', 'controller' => 'users', 'action' => 'login'),
+            'loginRedirect' => array('controller' => '/admin', 'action' => 'index'),
+            'logoutRedirect' => array('controller' => '/pages', 'action' => 'home')
         )
     );
 
     public function beforeFilter(){
-        $this->layout = 'bootstrap';
+       $this->layout = 'bootstrap';
        $this->set('userLogado', $this->Auth->user());
         
        // $this->Auth->allow('index', 'view');

@@ -41,7 +41,7 @@
     <?php echo $this->Element('navigation'); ?>
 
     <div class="container">
-			<?php echo $userLogado['username'];?>
+			<?php //echo $userLogado['username'];?>
 			<?php echo $this->Session->flash(); ?>
 
 			<?php echo $this->fetch('content'); ?>

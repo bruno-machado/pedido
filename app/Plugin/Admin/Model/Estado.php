@@ -5,7 +5,7 @@ App::uses('AppModel', 'Model');
  *
  * @property Cidade $Cidade
  */
-class Estado extends AppModel {
+class Estado extends AdminAppModel {
 
 /**
  * Display field

@@ -6,7 +6,7 @@ App::uses('AppModel', 'Model');
  * @property Produto $Produto
  * @property Estabelecimento $Estabelecimento
  */
-class ProdutosFoto extends AppModel {
+class ProdutosFoto extends AdminAppModel {
 
 /**
  * Validation rules

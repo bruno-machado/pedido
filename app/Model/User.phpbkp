@@ -2,7 +2,7 @@
 App::uses('AuthComponent', 'Controller/Component');
 /**
  */
-class User extends AdminAppModel {
+class User extends AppModel {
     public $name = 'User';
     public $validate = array(
         'username' => array(

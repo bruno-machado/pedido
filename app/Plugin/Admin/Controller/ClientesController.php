@@ -6,7 +6,7 @@ App::uses('AppController', 'Controller');
  * @property Cliente $Cliente
  * @property PaginatorComponent $Paginator
  */
-class ClientesController extends AppController {
+class ClientesController extends AdminAppController {
 
 /**
  * Components

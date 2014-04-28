@@ -1865,3 +1865,560 @@ Stack Trace:
 #3 C:\SENAI\Fontes\pedidos\lib\Cake\Core\App.php(902): App::_checkFatalError()
 #4 [internal function]: App::shutdown()
 #5 {main}
+2014-04-28 08:33:45 Error: [MissingActionException] Action UsersController::admin() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'admin',
+)
+Request URL: /pedidos/users/admin
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-04-28 09:17:36 Error: [NotFoundException] Invalid produto
+Request URL: /pedidos/produtos/view/5
+Stack Trace:
+#0 [internal function]: ProdutosController->view('5')
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ProdutosController), Array)
+#2 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(ProdutosController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-04-28 09:17:53 Error: [NotFoundException] Invalid produto
+Request URL: /pedidos/admin/produtos/view/5
+Stack Trace:
+#0 [internal function]: ProdutosController->view('5')
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ProdutosController), Array)
+#2 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(ProdutosController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-04-28 09:17:57 Error: [NotFoundException] Invalid produto
+Request URL: /pedidos/admin/produtos/view/3
+Stack Trace:
+#0 [internal function]: ProdutosController->view('3')
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ProdutosController), Array)
+#2 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(ProdutosController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-04-28 09:18:00 Error: [MissingActionException] Action ProdutosController::view2() could not be found.
+Exception Attributes: array (
+  'controller' => 'ProdutosController',
+  'action' => 'view2',
+)
+Request URL: /pedidos/admin/produtos/view2
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(ProdutosController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-04-28 09:18:13 Error: [NotFoundException] Invalid produto
+Request URL: /pedidos/admin/produtos/view/3
+Stack Trace:
+#0 [internal function]: ProdutosController->view('3')
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ProdutosController), Array)
+#2 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(ProdutosController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-04-28 13:33:09 Error: [NotFoundException] Invalid estado
+Request URL: /pedidos/admin/estados/view/5
+Stack Trace:
+#0 [internal function]: EstadosController->view('5')
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(EstadosController), Array)
+#2 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(EstadosController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-04-28 13:34:09 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`pedidoonline`.`cidades`, CONSTRAINT `cidades_ibfk_1` FOREIGN KEY (`estado_id`) REFERENCES `estados` (`id`))
+Request URL: /pedidos/admin/estados/delete/2
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('DELETE `Estado`...', Array)
+#2 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Datasource\Database\Mysql.php(440): DboSource->execute('DELETE `Estado`...')
+#3 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Model.php(2590): Mysql->delete(Object(Estado), Array)
+#4 C:\SENAI\Fontes\pedidos\app\Plugin\Admin\Controller\EstadosController.php(97): Model->delete()
+#5 [internal function]: EstadosController->delete('2')
+#6 C:\SENAI\Fontes\pedidos\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(EstadosController), Array)
+#7 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#8 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(EstadosController), Object(CakeRequest), Object(CakeResponse))
+#9 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-04-28 13:34:45 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`pedidoonline`.`cidades`, CONSTRAINT `cidades_ibfk_1` FOREIGN KEY (`estado_id`) REFERENCES `estados` (`id`))
+Request URL: /pedidos/admin/estados/delete/2
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('DELETE `Estado`...', Array)
+#2 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Datasource\Database\Mysql.php(440): DboSource->execute('DELETE `Estado`...')
+#3 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Model.php(2590): Mysql->delete(Object(Estado), Array)
+#4 C:\SENAI\Fontes\pedidos\app\Plugin\Admin\Controller\EstadosController.php(97): Model->delete()
+#5 [internal function]: EstadosController->delete('2')
+#6 C:\SENAI\Fontes\pedidos\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(EstadosController), Array)
+#7 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#8 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(EstadosController), Object(CakeRequest), Object(CakeResponse))
+#9 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-04-28 13:35:07 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`pedidoonline`.`cidades`, CONSTRAINT `cidades_ibfk_1` FOREIGN KEY (`estado_id`) REFERENCES `estados` (`id`))
+Request URL: /pedidos/admin/estados/delete/2
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('DELETE `Estado`...', Array)
+#2 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Datasource\Database\Mysql.php(440): DboSource->execute('DELETE `Estado`...')
+#3 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Model.php(2590): Mysql->delete(Object(Estado), Array)
+#4 C:\SENAI\Fontes\pedidos\app\Plugin\Admin\Controller\EstadosController.php(97): Model->delete()
+#5 [internal function]: EstadosController->delete('2')
+#6 C:\SENAI\Fontes\pedidos\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(EstadosController), Array)
+#7 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#8 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(EstadosController), Object(CakeRequest), Object(CakeResponse))
+#9 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-04-28 13:36:11 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`pedidoonline`.`cidades`, CONSTRAINT `cidades_ibfk_1` FOREIGN KEY (`estado_id`) REFERENCES `estados` (`id`))
+Request URL: /pedidos/admin/estados/delete/2
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('DELETE `Estado`...', Array)
+#2 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Datasource\Database\Mysql.php(440): DboSource->execute('DELETE `Estado`...')
+#3 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Model.php(2590): Mysql->delete(Object(Estado), Array)
+#4 C:\SENAI\Fontes\pedidos\app\Plugin\Admin\Controller\EstadosController.php(97): Model->delete()
+#5 [internal function]: EstadosController->delete('2')
+#6 C:\SENAI\Fontes\pedidos\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(EstadosController), Array)
+#7 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#8 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(EstadosController), Object(CakeRequest), Object(CakeResponse))
+#9 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-04-28 13:36:21 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`pedidoonline`.`cidades`, CONSTRAINT `cidades_ibfk_1` FOREIGN KEY (`estado_id`) REFERENCES `estados` (`id`))
+Request URL: /pedidos/admin/estados/delete/2
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('DELETE `Estado`...', Array)
+#2 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Datasource\Database\Mysql.php(440): DboSource->execute('DELETE `Estado`...')
+#3 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Model.php(2590): Mysql->delete(Object(Estado), Array)
+#4 C:\SENAI\Fontes\pedidos\app\Plugin\Admin\Controller\EstadosController.php(97): Model->delete()
+#5 [internal function]: EstadosController->delete('2')
+#6 C:\SENAI\Fontes\pedidos\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(EstadosController), Array)
+#7 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#8 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(EstadosController), Object(CakeRequest), Object(CakeResponse))
+#9 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-04-28 13:36:36 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`pedidoonline`.`cidades`, CONSTRAINT `cidades_ibfk_1` FOREIGN KEY (`estado_id`) REFERENCES `estados` (`id`))
+Request URL: /pedidos/admin/estados/delete/2
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('DELETE `Estado`...', Array)
+#2 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Datasource\Database\Mysql.php(440): DboSource->execute('DELETE `Estado`...')
+#3 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Model.php(2590): Mysql->delete(Object(Estado), Array)
+#4 C:\SENAI\Fontes\pedidos\app\Plugin\Admin\Controller\EstadosController.php(97): Model->delete()
+#5 [internal function]: EstadosController->delete('2')
+#6 C:\SENAI\Fontes\pedidos\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(EstadosController), Array)
+#7 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#8 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(EstadosController), Object(CakeRequest), Object(CakeResponse))
+#9 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-04-28 13:42:05 Error: [NotFoundException] Invalid produto
+Request URL: /pedidos/admin/produtos/view/3
+Stack Trace:
+#0 [internal function]: ProdutosController->view('3')
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ProdutosController), Array)
+#2 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(ProdutosController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-04-28 13:45:10 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`pedidoonline`.`cidades`, CONSTRAINT `cidades_ibfk_1` FOREIGN KEY (`estado_id`) REFERENCES `estados` (`id`))
+Request URL: /pedidos/admin/estados/delete/2
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('DELETE `Estado`...', Array)
+#2 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Datasource\Database\Mysql.php(440): DboSource->execute('DELETE `Estado`...')
+#3 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Model.php(2590): Mysql->delete(Object(Estado), Array)
+#4 C:\SENAI\Fontes\pedidos\app\Plugin\Admin\Controller\EstadosController.php(97): Model->delete()
+#5 [internal function]: EstadosController->delete('2')
+#6 C:\SENAI\Fontes\pedidos\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(EstadosController), Array)
+#7 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#8 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(EstadosController), Object(CakeRequest), Object(CakeResponse))
+#9 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-04-28 13:49:22 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`pedidoonline`.`cidades`, CONSTRAINT `cidades_ibfk_1` FOREIGN KEY (`estado_id`) REFERENCES `estados` (`id`))
+Request URL: /pedidos/admin/estados/delete/2
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('DELETE `Estado`...', Array)
+#2 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Datasource\Database\Mysql.php(440): DboSource->execute('DELETE `Estado`...')
+#3 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Model.php(2590): Mysql->delete(Object(Estado), Array)
+#4 C:\SENAI\Fontes\pedidos\app\Plugin\Admin\Controller\EstadosController.php(97): Model->delete()
+#5 [internal function]: EstadosController->delete('2')
+#6 C:\SENAI\Fontes\pedidos\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(EstadosController), Array)
+#7 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#8 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(EstadosController), Object(CakeRequest), Object(CakeResponse))
+#9 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-04-28 13:51:17 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`pedidoonline`.`cidades`, CONSTRAINT `cidades_ibfk_1` FOREIGN KEY (`estado_id`) REFERENCES `estados` (`id`))
+Request URL: /pedidos/admin/estados/delete/2
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('DELETE `Estado`...', Array)
+#2 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Datasource\Database\Mysql.php(440): DboSource->execute('DELETE `Estado`...')
+#3 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Model.php(2590): Mysql->delete(Object(Estado), Array)
+#4 C:\SENAI\Fontes\pedidos\app\Plugin\Admin\Controller\EstadosController.php(97): Model->delete()
+#5 [internal function]: EstadosController->delete('2')
+#6 C:\SENAI\Fontes\pedidos\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(EstadosController), Array)
+#7 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#8 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(EstadosController), Object(CakeRequest), Object(CakeResponse))
+#9 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-04-28 13:52:04 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`pedidoonline`.`cidades`, CONSTRAINT `cidades_ibfk_1` FOREIGN KEY (`estado_id`) REFERENCES `estados` (`id`))
+Request URL: /pedidos/admin/estados/delete/2
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('DELETE `Estado`...', Array)
+#2 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Datasource\Database\Mysql.php(440): DboSource->execute('DELETE `Estado`...')
+#3 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Model.php(2590): Mysql->delete(Object(Estado), Array)
+#4 C:\SENAI\Fontes\pedidos\app\Plugin\Admin\Controller\EstadosController.php(97): Model->delete()
+#5 [internal function]: EstadosController->delete('2')
+#6 C:\SENAI\Fontes\pedidos\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(EstadosController), Array)
+#7 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#8 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(EstadosController), Object(CakeRequest), Object(CakeResponse))
+#9 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-04-28 14:04:42 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /pedidos/css/bootstrap.min.js.css
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-04-28 14:05:00 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /pedidos/css/bootstrap.min.js.css
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-04-28 14:10:25 Error: Fatal Error (4): syntax error, unexpected '');' (T_CONSTANT_ENCAPSED_STRING) in [C:\SENAI\Fontes\pedidos\app\Plugin\Admin\View\Layouts\bootstrap.ctp, line 26]
+2014-04-28 14:10:25 Error: [FatalErrorException] syntax error, unexpected '');' (T_CONSTANT_ENCAPSED_STRING)
+Request URL: /pedidos/admin/cidades
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\SENAI\Fontes...', 26)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\SENAI\Fontes...', 26, Array)
+#2 C:\SENAI\Fontes\pedidos\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\SENAI\Fontes...', 26, Array)
+#3 C:\SENAI\Fontes\pedidos\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-28 14:10:34 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /pedidos/css/bootstrap.min.css
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-04-28 14:10:47 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /pedidos/css/bootstrap.min.css
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-04-28 14:11:09 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /pedidos/fonts/glyphicons-halflings-regular.woff
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-04-28 14:11:09 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /pedidos/fonts/glyphicons-halflings-regular.ttf
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-04-28 14:11:09 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /pedidos/fonts/glyphicons-halflings-regular.woff
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-04-28 14:11:09 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /pedidos/fonts/glyphicons-halflings-regular.ttf
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-04-28 14:13:05 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /pedidos/fonts/glyphicons-halflings-regular.woff
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-04-28 14:13:05 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /pedidos/fonts/glyphicons-halflings-regular.ttf
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-04-28 14:33:47 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`pedidoonline`.`cidades`, CONSTRAINT `cidades_ibfk_1` FOREIGN KEY (`estado_id`) REFERENCES `estados` (`id`))
+Request URL: /pedidos/admin/estados/delete/2
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('DELETE `Estado`...', Array)
+#2 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Datasource\Database\Mysql.php(440): DboSource->execute('DELETE `Estado`...')
+#3 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Model.php(2590): Mysql->delete(Object(Estado), Array)
+#4 C:\SENAI\Fontes\pedidos\app\Plugin\Admin\Controller\EstadosController.php(97): Model->delete()
+#5 [internal function]: EstadosController->delete('2')
+#6 C:\SENAI\Fontes\pedidos\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(EstadosController), Array)
+#7 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#8 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(EstadosController), Object(CakeRequest), Object(CakeResponse))
+#9 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-04-28 14:34:21 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`pedidoonline`.`cidades`, CONSTRAINT `cidades_ibfk_1` FOREIGN KEY (`estado_id`) REFERENCES `estados` (`id`))
+Request URL: /pedidos/admin/estados/delete/2
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('DELETE `Estado`...', Array)
+#2 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Datasource\Database\Mysql.php(440): DboSource->execute('DELETE `Estado`...')
+#3 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Model.php(2590): Mysql->delete(Object(Estado), Array)
+#4 C:\SENAI\Fontes\pedidos\app\Plugin\Admin\Controller\EstadosController.php(97): Model->delete()
+#5 [internal function]: EstadosController->delete('2')
+#6 C:\SENAI\Fontes\pedidos\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(EstadosController), Array)
+#7 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#8 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(EstadosController), Object(CakeRequest), Object(CakeResponse))
+#9 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-04-28 14:34:36 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`pedidoonline`.`cidades`, CONSTRAINT `cidades_ibfk_1` FOREIGN KEY (`estado_id`) REFERENCES `estados` (`id`))
+Request URL: /pedidos/admin/estados/delete/2
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('DELETE `Estado`...', Array)
+#2 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Datasource\Database\Mysql.php(440): DboSource->execute('DELETE `Estado`...')
+#3 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Model.php(2590): Mysql->delete(Object(Estado), Array)
+#4 C:\SENAI\Fontes\pedidos\app\Plugin\Admin\Controller\EstadosController.php(97): Model->delete()
+#5 [internal function]: EstadosController->delete('2')
+#6 C:\SENAI\Fontes\pedidos\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(EstadosController), Array)
+#7 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#8 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(EstadosController), Object(CakeRequest), Object(CakeResponse))
+#9 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-04-28 14:38:11 Error: [NotFoundException] Invalid produto
+Request URL: /pedidos/admin/produtos/view/3
+Stack Trace:
+#0 [internal function]: ProdutosController->view('3')
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ProdutosController), Array)
+#2 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(ProdutosController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-04-28 14:38:16 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`pedidoonline`.`cidades`, CONSTRAINT `cidades_ibfk_1` FOREIGN KEY (`estado_id`) REFERENCES `estados` (`id`))
+Request URL: /pedidos/admin/estados/delete/2
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('DELETE `Estado`...', Array)
+#2 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Datasource\Database\Mysql.php(440): DboSource->execute('DELETE `Estado`...')
+#3 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Model.php(2590): Mysql->delete(Object(Estado), Array)
+#4 C:\SENAI\Fontes\pedidos\app\Plugin\Admin\Controller\EstadosController.php(97): Model->delete()
+#5 [internal function]: EstadosController->delete('2')
+#6 C:\SENAI\Fontes\pedidos\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(EstadosController), Array)
+#7 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#8 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(EstadosController), Object(CakeRequest), Object(CakeResponse))
+#9 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-04-28 14:38:23 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`pedidoonline`.`cidades`, CONSTRAINT `cidades_ibfk_1` FOREIGN KEY (`estado_id`) REFERENCES `estados` (`id`))
+Request URL: /pedidos/admin/estados/delete/2
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('DELETE `Estado`...', Array)
+#2 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Datasource\Database\Mysql.php(440): DboSource->execute('DELETE `Estado`...')
+#3 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Model.php(2590): Mysql->delete(Object(Estado), Array)
+#4 C:\SENAI\Fontes\pedidos\app\Plugin\Admin\Controller\EstadosController.php(97): Model->delete()
+#5 [internal function]: EstadosController->delete('2')
+#6 C:\SENAI\Fontes\pedidos\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(EstadosController), Array)
+#7 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#8 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(EstadosController), Object(CakeRequest), Object(CakeResponse))
+#9 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-04-28 16:35:03 Error: [MissingControllerException] Controller class AdminController could not be found.
+Exception Attributes: array (
+  'class' => 'AdminController',
+  'plugin' => NULL,
+)
+Request URL: /pedidos/Admin
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-04-28 16:49:11 Error: [MissingActionException] Action PagesController::home() could not be found.
+Exception Attributes: array (
+  'controller' => 'PagesController',
+  'action' => 'home',
+)
+Request URL: /pedidos/admin/
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-04-28 16:49:38 Error: [MissingActionException] Action PagesController::home() could not be found.
+Exception Attributes: array (
+  'controller' => 'PagesController',
+  'action' => 'home',
+)
+Request URL: /pedidos/admin/
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-04-28 16:49:49 Error: [MissingViewException] View file "C:\SENAI\Fontes\pedidos\app\Plugin\Admin\View\Admin\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\SENAI\\Fontes\\pedidos\\app\\Plugin\\Admin\\View\\Admin\\index.ctp',
+)
+Request URL: /pedidos/admin/
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\View\View.php(463): View->_getViewFileName(NULL)
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#2 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(192): Controller->render()
+#3 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(AdminController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-04-28 16:52:51 Error: [MissingActionException] Action PagesController::home() could not be found.
+Exception Attributes: array (
+  'controller' => 'PagesController',
+  'action' => 'home',
+)
+Request URL: /pedidos/admin/
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-04-28 16:53:10 Error: [MissingActionException] Action PagesController::home() could not be found.
+Exception Attributes: array (
+  'controller' => 'PagesController',
+  'action' => 'home',
+)
+Request URL: /pedidos/admin/
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-04-28 16:55:05 Error: [MissingActionException] Action PagesController::home() could not be found.
+Exception Attributes: array (
+  'controller' => 'PagesController',
+  'action' => 'home',
+)
+Request URL: /pedidos/admin/
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-04-28 17:06:56 Error: Fatal Error (1): Call to a member function user() on a non-object in [C:\SENAI\Fontes\pedidos\app\Controller\AppController.php, line 46]
+2014-04-28 17:06:56 Error: [FatalErrorException] Call to a member function user() on a non-object
+Request URL: /pedidos/
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\SENAI\Fontes...', 46)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\SENAI\Fontes...', 46, Array)
+#2 C:\SENAI\Fontes\pedidos\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\SENAI\Fontes...', 46, Array)
+#3 C:\SENAI\Fontes\pedidos\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-28 17:07:13 Error: [MissingControllerException] Controller class UsersController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersController',
+  'plugin' => NULL,
+)
+Request URL: /pedidos/users/login
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-04-28 17:09:38 Error: [MissingControllerException] Controller class UsersController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersController',
+  'plugin' => NULL,
+)
+Request URL: /pedidos/users/login
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-04-28 17:09:46 Error: [MissingControllerException] Controller class UsersController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersController',
+  'plugin' => NULL,
+)
+Request URL: /pedidos/users/login
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-04-28 17:15:10 Error: [MissingControllerException] Controller class UsersController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersController',
+  'plugin' => NULL,
+)
+Request URL: /pedidos/users/login
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-04-28 17:22:48 Error: [MissingControllerException] Controller class UsersController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersController',
+  'plugin' => NULL,
+)
+Request URL: /pedidos/users/login
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-04-28 17:23:29 Error: [MissingControllerException] Controller class UsersController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersController',
+  'plugin' => NULL,
+)
+Request URL: /pedidos/users/login
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-04-28 17:25:03 Error: [MissingActionException] Action AdminController::display() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminController',
+  'action' => 'display',
+)
+Request URL: /pedidos/admin/admin/display/home
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(AdminController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-04-28 17:25:37 Error: [MissingActionException] Action AdminController::display() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminController',
+  'action' => 'display',
+)
+Request URL: /pedidos/admin/admin/display/home
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(AdminController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
