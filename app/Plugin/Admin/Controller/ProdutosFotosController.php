@@ -15,6 +15,7 @@ class ProdutosFotosController extends AdminAppController {
  */
 	public $components = array('Paginator');
 
+
 /**
  * index method
  *
@@ -45,9 +46,11 @@ class ProdutosFotosController extends AdminAppController {
  *
  * @return void
  */
-	public function add() {
+	public function add($idProduto = null) {
+		$estabelecimento = $this->Auth->user();
 		if ($this->request->is('post')) {
 			$this->ProdutosFoto->create();
+			$this->request->data['ProdutosFoto']['estabelecimento_id'] = $estabelecimento['estabelecimento_id'];
 			if ($this->ProdutosFoto->save($this->request->data)) {
 				$this->Session->setFlash(__('The produtos foto has been saved.'), 'default', array('class' => 'alert alert-success'));
 				return $this->redirect(array('action' => 'index'));
@@ -55,9 +58,12 @@ class ProdutosFotosController extends AdminAppController {
 				$this->Session->setFlash(__('The produtos foto could not be saved. Please, try again.'), 'default', array('class' => 'alert alert-danger'));
 			}
 		}
-		$produtos = $this->ProdutosFoto->Produto->find('list');
+		
+		$this->set('idProduto', 45);
+		$produtos = $this->ProdutosFoto->Produto->find('list', array('fields'=>array('id','nome_produto')));
 		$estabelecimentos = $this->ProdutosFoto->Estabelecimento->find('list');
 		$this->set(compact('produtos', 'estabelecimentos'));
+		
 	}
 
 /**
@@ -72,6 +78,7 @@ class ProdutosFotosController extends AdminAppController {
 			throw new NotFoundException(__('Invalid produtos foto'));
 		}
 		if ($this->request->is(array('post', 'put'))) {
+			$this->request->data['ProdutosFoto']['url'] = $this->ProdutosFoto->upload($this->request->data['ProdutosFoto']['url'], $this->request->data['ProdutosFoto']['produto_id']);
 			if ($this->ProdutosFoto->save($this->request->data)) {
 				$this->Session->setFlash(__('The produtos foto has been saved.'), 'default', array('class' => 'alert alert-success'));
 				return $this->redirect(array('action' => 'index'));
@@ -82,7 +89,7 @@ class ProdutosFotosController extends AdminAppController {
 			$options = array('conditions' => array('ProdutosFoto.' . $this->ProdutosFoto->primaryKey => $id));
 			$this->request->data = $this->ProdutosFoto->find('first', $options);
 		}
-		$produtos = $this->ProdutosFoto->Produto->find('list');
+		$produtos = $this->ProdutosFoto->Produto->find('list', array('fields'=>array('id','nome_produto')));
 		$estabelecimentos = $this->ProdutosFoto->Estabelecimento->find('list');
 		$this->set(compact('produtos', 'estabelecimentos'));
 	}
@@ -107,4 +114,6 @@ class ProdutosFotosController extends AdminAppController {
 		}
 		return $this->redirect(array('action' => 'index'));
 	}
+	
+
 }

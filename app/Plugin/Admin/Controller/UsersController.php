@@ -19,6 +19,7 @@ class UsersController extends AdminAppController {
         $this->User->recursive = 0;
         $this->set('users', $this->paginate());
     }
+    
 
     public function view($id = null) {
         $this->User->id = $id;

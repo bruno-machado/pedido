@@ -14,6 +14,7 @@ class ProdutosController extends AdminAppController {
  * @var array
  */
 	public $components = array('Paginator');
+	
 
 /**
  * index method
@@ -69,7 +70,7 @@ class ProdutosController extends AdminAppController {
  */
 	public function edit($id = null) {
 		if (!$this->Produto->exists($id)) {
-			throw new NotFoundException(__('Invalid produto'));
+			throw new NotFoundException(__('Produdo Invalido'));
 		}
 		if ($this->request->is(array('post', 'put'))) {
 			if ($this->Produto->save($this->request->data)) {

@@ -108,6 +108,8 @@ CakeLog::config('error', array(
 	'file' => 'error',
 ));
 CakePlugin::load('Locale');
+CakePlugin::load('Upload');
+CakePlugin::load('JqueryFileUpload');
 
 // dizemos a l�ngua/regi�o utilizada na aplica��o
 Configure::write('Language.default', 'pt-br');

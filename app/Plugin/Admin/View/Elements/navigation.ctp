@@ -6,7 +6,7 @@
 				<span class="icon-bar"></span> <span class="icon-bar"></span> <span
 					class="icon-bar"></span>
 			</button>
-			<a class="navbar-brand" href="<?php echo $this->Html->url('/');?>">Pedido
+			<a class="navbar-brand" href="<?php echo $this->Html->url('/admin');?>">Pedido
 				online</a>
 		</div>
 		<div class="collapse navbar-collapse">
@@ -18,7 +18,7 @@
 				</li>
 				<li><a href="<?php echo $this->Html->url('/admin/produtos');?>">Produtos</a>
 				</li>
-				<li><a href="<?php echo $this->Html->url('/users/logout');?>">Sair</a>
+				<li><a href="<?php echo $this->Html->url('/admin/users/logout');?>">Sair</a>
 				</li>
 			</ul>
 		</div>

@@ -79,4 +79,24 @@ class ProdutosFoto extends AdminAppModel {
 			'order' => ''
 		)
 	);
+	
+	
+	
+	public function preparaSave($dados, $idProduto){
+		var_dump($dados);
+		$produtosFotos = array();
+		$produtosFotos['ProduosFoto']['produto_id'] = $idProduto;
+		$produtosFotos['ProduosFoto']['estabelecimento_id'] = 1;
+		$produtosFotos['ProduosFoto']['url'] = $dados->tmp_name;
+		$this->save($produtosFotos);
+		
+		
+	}
+	
+	
+	
+	
+	
+	
+	
 }

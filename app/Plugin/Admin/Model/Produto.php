@@ -6,6 +6,7 @@ App::uses('AppModel', 'Model');
  * @property Estabelecimento $Estabelecimento
  * @property Categoria $Categoria
  * @property PedidosIten $PedidosIten
+ * @property ProdutosFotos $ProdutoFotos
  */
 class Produto extends AdminAppModel {
 
@@ -91,6 +92,19 @@ class Produto extends AdminAppModel {
 	public $hasMany = array(
 		'PedidosIten' => array(
 			'className' => 'PedidosIten',
+			'foreignKey' => 'produto_id',
+			'dependent' => false,
+			'conditions' => '',
+			'fields' => '',
+			'order' => '',
+			'limit' => '',
+			'offset' => '',
+			'exclusive' => '',
+			'finderQuery' => '',
+			'counterQuery' => ''
+		),
+		'ProdutosFoto' => array(
+			'className' => 'ProdutosFoto',
 			'foreignKey' => 'produto_id',
 			'dependent' => false,
 			'conditions' => '',

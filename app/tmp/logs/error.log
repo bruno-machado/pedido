@@ -2422,3 +2422,740 @@ Stack Trace:
 #1 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(AdminController), Object(CakeRequest), Object(CakeResponse))
 #2 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #3 {main}
+2014-04-29 09:26:12 Error: [MissingControllerException] Controller class CidadesController could not be found.
+Exception Attributes: array (
+  'class' => 'CidadesController',
+  'plugin' => NULL,
+)
+Request URL: /pedidos/cidades
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-04-29 09:26:20 Error: [MissingControllerException] Controller class UsersController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersController',
+  'plugin' => NULL,
+)
+Request URL: /pedidos/users/logout
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-04-29 09:26:29 Error: [MissingControllerException] Controller class UsersController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersController',
+  'plugin' => NULL,
+)
+Request URL: /pedidos/users/logout
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-04-29 09:28:17 Error: [MissingControllerException] Controller class UsersController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersController',
+  'plugin' => NULL,
+)
+Request URL: /pedidos/users/logout
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-04-29 09:28:26 Error: [MissingControllerException] Controller class UsersController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersController',
+  'plugin' => NULL,
+)
+Request URL: /pedidos/users/logout
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-04-29 09:30:28 Error: [MissingControllerException] Controller class UsersController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersController',
+  'plugin' => NULL,
+)
+Request URL: /pedidos/users/logout
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-04-29 09:32:09 Error: [MissingActionException] Action PagesController::admin() could not be found.
+Exception Attributes: array (
+  'controller' => 'PagesController',
+  'action' => 'admin',
+)
+Request URL: /pedidos/admin/pages/admin/users/logout
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-04-29 09:32:14 Error: [MissingActionException] Action PagesController::admin() could not be found.
+Exception Attributes: array (
+  'controller' => 'PagesController',
+  'action' => 'admin',
+)
+Request URL: /pedidos/admin/pages/admin/users/logout
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-04-29 14:41:48 Error: [MissingViewException] View file "C:\SENAI\Fontes\pedidos\app\Plugin\Admin\View\Users\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\SENAI\\Fontes\\pedidos\\app\\Plugin\\Admin\\View\\Users\\index.ctp',
+)
+Request URL: /pedidos/admin/users
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\View\View.php(463): View->_getViewFileName(NULL)
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#2 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(192): Controller->render()
+#3 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-04-29 15:33:32 Error: [MissingControllerException] Controller class AddController could not be found.
+Exception Attributes: array (
+  'class' => 'AddController',
+  'plugin' => 'Admin',
+)
+Request URL: /pedidos/admin/add
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-04-29 15:38:06 Error: [MissingControllerException] Controller class AddController could not be found.
+Exception Attributes: array (
+  'class' => 'AddController',
+  'plugin' => 'Admin',
+)
+Request URL: /pedidos/admin/add
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-04-29 16:04:56 Error: Fatal Error (1): Class 'imagick' not found in [C:\SENAI\Fontes\pedidos\app\Plugin\Upload\Model\Behavior\UploadBehavior.php, line 949]
+2014-04-29 16:04:56 Error: [FatalErrorException] Class 'imagick' not found
+Request URL: /pedidos/admin/users/add
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'imagick'...', 'C:\SENAI\Fontes...', 949)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'imagick'...', 'C:\SENAI\Fontes...', 949, Array)
+#2 C:\SENAI\Fontes\pedidos\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'imagick'...', 'C:\SENAI\Fontes...', 949, Array)
+#3 C:\SENAI\Fontes\pedidos\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-29 16:42:11 Error: Fatal Error (64): Cannot redeclare AdminAppController::$components in [C:\SENAI\Fontes\pedidos\app\Plugin\Admin\Controller\AdminAppController.php, line 18]
+2014-04-29 16:42:11 Error: [FatalErrorException] Cannot redeclare AdminAppController::$components
+Request URL: /pedidos/admin/users/add
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'C:\SENAI\Fontes...', 18)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'C:\SENAI\Fontes...', 18, Array)
+#2 C:\SENAI\Fontes\pedidos\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'C:\SENAI\Fontes...', 18, Array)
+#3 C:\SENAI\Fontes\pedidos\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-29 16:43:04 Error: [MissingPluginException] Plugin Upload could not be found.
+Exception Attributes: array (
+  'plugin' => 'Upload',
+)
+Request URL: /pedidos/admin/users/add
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Core\App.php(365): CakePlugin::path('Upload')
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\Core\App.php(226): App::pluginPath('Upload')
+#2 C:\SENAI\Fontes\pedidos\lib\Cake\Core\App.php(547): App::path('Model/Behavior', 'Upload')
+#3 [internal function]: App::load('UploadBehavior')
+#4 [internal function]: spl_autoload_call('UploadBehavior')
+#5 C:\SENAI\Fontes\pedidos\lib\Cake\Model\BehaviorCollection.php(120): class_exists('UploadBehavior')
+#6 C:\SENAI\Fontes\pedidos\lib\Cake\Model\BehaviorCollection.php(66): BehaviorCollection->load('Upload.Upload', Array)
+#7 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Model.php(747): BehaviorCollection->init('User', Array)
+#8 [internal function]: Model->__construct(Array)
+#9 C:\SENAI\Fontes\pedidos\lib\Cake\Utility\ClassRegistry.php(168): ReflectionClass->newInstance(Array)
+#10 C:\SENAI\Fontes\pedidos\lib\Cake\View\Helper\FormHelper.php(156): ClassRegistry::init(Array)
+#11 C:\SENAI\Fontes\pedidos\lib\Cake\View\Helper\FormHelper.php(196): FormHelper->_getModel('User')
+#12 C:\SENAI\Fontes\pedidos\lib\Cake\View\Helper\FormHelper.php(346): FormHelper->_introspectModel('User', 'key')
+#13 C:\SENAI\Fontes\pedidos\app\Plugin\Admin\View\Users\add.ctp(1): FormHelper->create('User', Array)
+#14 C:\SENAI\Fontes\pedidos\lib\Cake\View\View.php(935): include('C:\SENAI\Fontes...')
+#15 C:\SENAI\Fontes\pedidos\lib\Cake\View\View.php(897): View->_evaluate('C:\SENAI\Fontes...', Array)
+#16 C:\SENAI\Fontes\pedidos\lib\Cake\View\View.php(466): View->_render('C:\SENAI\Fontes...')
+#17 C:\SENAI\Fontes\pedidos\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#18 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(192): Controller->render()
+#19 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#20 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#21 {main}
+2014-04-29 16:54:23 Error: Fatal Error (64): Cannot redeclare AdminAppController::$helpers in [C:\SENAI\Fontes\pedidos\app\Plugin\Admin\Controller\AdminAppController.php, line 19]
+2014-04-29 16:54:23 Error: [FatalErrorException] Cannot redeclare AdminAppController::$helpers
+Request URL: /pedidos/admin/users/add
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'C:\SENAI\Fontes...', 19)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'C:\SENAI\Fontes...', 19, Array)
+#2 C:\SENAI\Fontes\pedidos\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'C:\SENAI\Fontes...', 19, Array)
+#3 C:\SENAI\Fontes\pedidos\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-30 07:56:38 Error: [MissingControllerException] Controller class CidadesController could not be found.
+Exception Attributes: array (
+  'class' => 'CidadesController',
+  'plugin' => NULL,
+)
+Request URL: /pedidos/cidades
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-04-30 09:12:27 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'upload' at line 1
+Request URL: /pedidos/admin/produtosFotos/add
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('upload', Array)
+#2 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Datasource\DboSource.php(665): DboSource->execute('upload', Array, Array)
+#3 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Datasource\DboSource.php(609): DboSource->fetchAll('upload', Array, Array)
+#4 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Model.php(800): DboSource->query('upload', Array, Object(ProdutosFoto))
+#5 C:\SENAI\Fontes\pedidos\app\Plugin\Admin\Controller\ProdutosFotosController.php(51): Model->__call('upload', Array)
+#6 C:\SENAI\Fontes\pedidos\app\Plugin\Admin\Controller\ProdutosFotosController.php(51): ProdutosFoto->upload('', '1')
+#7 [internal function]: ProdutosFotosController->add()
+#8 C:\SENAI\Fontes\pedidos\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ProdutosFotosController), Array)
+#9 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#10 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(ProdutosFotosController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-04-30 09:41:10 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'ProdutosFoto.produtos_id' in 'field list'
+Request URL: /pedidos/admin/produtos
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `Produto...', Array)
+#2 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Datasource\DboSource.php(665): DboSource->execute('SELECT `Produto...', Array, Array)
+#3 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Datasource\DboSource.php(1339): DboSource->fetchAll('SELECT `Produto...', false)
+#4 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Datasource\DboSource.php(1201): DboSource->fetchAssociated(Object(Produto), 'SELECT `Produto...', Array)
+#5 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Datasource\DboSource.php(1112): DboSource->queryAssociation(Object(Produto), Object(AppModel), 'hasMany', 'ProdutosFoto', Array, Array, true, Array, 0, Array)
+#6 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Model.php(2903): DboSource->read(Object(Produto), Array)
+#7 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Model.php(2875): Model->_readDataSource('all', Array)
+#8 C:\SENAI\Fontes\pedidos\lib\Cake\Controller\Component\PaginatorComponent.php(196): Model->find('all', Array)
+#9 C:\SENAI\Fontes\pedidos\app\Plugin\Admin\Controller\ProdutosController.php(34): PaginatorComponent->paginate()
+#10 [internal function]: ProdutosController->index()
+#11 C:\SENAI\Fontes\pedidos\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ProdutosController), Array)
+#12 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#13 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(ProdutosController), Object(CakeRequest), Object(CakeResponse))
+#14 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2014-04-30 09:41:25 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'ProdutosFoto.produtos_id' in 'field list'
+Request URL: /pedidos/admin/produtos
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `Produto...', Array)
+#2 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Datasource\DboSource.php(665): DboSource->execute('SELECT `Produto...', Array, Array)
+#3 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Datasource\DboSource.php(1339): DboSource->fetchAll('SELECT `Produto...', false)
+#4 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Datasource\DboSource.php(1201): DboSource->fetchAssociated(Object(Produto), 'SELECT `Produto...', Array)
+#5 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Datasource\DboSource.php(1112): DboSource->queryAssociation(Object(Produto), Object(AppModel), 'hasMany', 'ProdutosFoto', Array, Array, true, Array, 0, Array)
+#6 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Model.php(2903): DboSource->read(Object(Produto), Array)
+#7 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Model.php(2875): Model->_readDataSource('all', Array)
+#8 C:\SENAI\Fontes\pedidos\lib\Cake\Controller\Component\PaginatorComponent.php(196): Model->find('all', Array)
+#9 C:\SENAI\Fontes\pedidos\app\Plugin\Admin\Controller\ProdutosController.php(34): PaginatorComponent->paginate()
+#10 [internal function]: ProdutosController->index()
+#11 C:\SENAI\Fontes\pedidos\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ProdutosController), Array)
+#12 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#13 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(ProdutosController), Object(CakeRequest), Object(CakeResponse))
+#14 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2014-04-30 09:44:22 Error: Fatal Error (4): syntax error, unexpected 'echo' (T_ECHO), expecting ')' in [C:\SENAI\Fontes\pedidos\app\Plugin\Admin\View\Users\add.ctp, line 7]
+2014-04-30 09:44:22 Error: [FatalErrorException] syntax error, unexpected 'echo' (T_ECHO), expecting ')'
+Request URL: /pedidos/admin/users/add
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\SENAI\Fontes...', 7)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\SENAI\Fontes...', 7, Array)
+#2 C:\SENAI\Fontes\pedidos\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\SENAI\Fontes...', 7, Array)
+#3 C:\SENAI\Fontes\pedidos\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-30 09:44:31 Error: Fatal Error (4): syntax error, unexpected 'echo' (T_ECHO), expecting ')' in [C:\SENAI\Fontes\pedidos\app\Plugin\Admin\View\Users\add.ctp, line 7]
+2014-04-30 09:44:31 Error: [FatalErrorException] syntax error, unexpected 'echo' (T_ECHO), expecting ')'
+Request URL: /pedidos/admin/users/add
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\SENAI\Fontes...', 7)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\SENAI\Fontes...', 7, Array)
+#2 C:\SENAI\Fontes\pedidos\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\SENAI\Fontes...', 7, Array)
+#3 C:\SENAI\Fontes\pedidos\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-30 09:44:41 Error: Fatal Error (4): syntax error, unexpected 'echo' (T_ECHO), expecting ')' in [C:\SENAI\Fontes\pedidos\app\Plugin\Admin\View\Users\add.ctp, line 7]
+2014-04-30 09:44:41 Error: [FatalErrorException] syntax error, unexpected 'echo' (T_ECHO), expecting ')'
+Request URL: /pedidos/admin/users/add
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\SENAI\Fontes...', 7)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\SENAI\Fontes...', 7, Array)
+#2 C:\SENAI\Fontes\pedidos\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\SENAI\Fontes...', 7, Array)
+#3 C:\SENAI\Fontes\pedidos\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-30 09:44:51 Error: Fatal Error (4): syntax error, unexpected 'echo' (T_ECHO), expecting ')' in [C:\SENAI\Fontes\pedidos\app\Plugin\Admin\View\Users\add.ctp, line 7]
+2014-04-30 09:44:51 Error: [FatalErrorException] syntax error, unexpected 'echo' (T_ECHO), expecting ')'
+Request URL: /pedidos/admin/users/add
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\SENAI\Fontes...', 7)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\SENAI\Fontes...', 7, Array)
+#2 C:\SENAI\Fontes\pedidos\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\SENAI\Fontes...', 7, Array)
+#3 C:\SENAI\Fontes\pedidos\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-30 10:05:20 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /pedidos/app/webroot/files/thumbnail/Lighthouse.jpg
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-04-30 10:09:17 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /pedidos/app/webroot/files/thumbnail/Tulips.jpg
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-04-30 10:41:43 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'upload' at line 1
+Request URL: /pedidos/admin/produtosFotos/add
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('upload', Array)
+#2 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Datasource\DboSource.php(665): DboSource->execute('upload', Array, Array)
+#3 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Datasource\DboSource.php(609): DboSource->fetchAll('upload', Array, Array)
+#4 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Model.php(800): DboSource->query('upload', Array, Object(ProdutosFoto))
+#5 C:\SENAI\Fontes\pedidos\app\Plugin\Admin\Controller\ProdutosFotosController.php(51): Model->__call('upload', Array)
+#6 C:\SENAI\Fontes\pedidos\app\Plugin\Admin\Controller\ProdutosFotosController.php(51): ProdutosFoto->upload('Tulips.jpg', '1')
+#7 [internal function]: ProdutosFotosController->add()
+#8 C:\SENAI\Fontes\pedidos\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ProdutosFotosController), Array)
+#9 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#10 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(ProdutosFotosController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-04-30 10:42:18 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'upload' at line 1
+Request URL: /pedidos/admin/produtosFotos/add
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('upload', Array)
+#2 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Datasource\DboSource.php(665): DboSource->execute('upload', Array, Array)
+#3 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Datasource\DboSource.php(609): DboSource->fetchAll('upload', Array, Array)
+#4 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Model.php(800): DboSource->query('upload', Array, Object(ProdutosFoto))
+#5 C:\SENAI\Fontes\pedidos\app\Plugin\Admin\Controller\ProdutosFotosController.php(51): Model->__call('upload', Array)
+#6 C:\SENAI\Fontes\pedidos\app\Plugin\Admin\Controller\ProdutosFotosController.php(51): ProdutosFoto->upload('Tulips.jpg', '1')
+#7 [internal function]: ProdutosFotosController->add()
+#8 C:\SENAI\Fontes\pedidos\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ProdutosFotosController), Array)
+#9 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#10 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(ProdutosFotosController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-04-30 10:42:48 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'upload' at line 1
+Request URL: /pedidos/admin/produtosFotos/add
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('upload', Array)
+#2 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Datasource\DboSource.php(665): DboSource->execute('upload', Array, Array)
+#3 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Datasource\DboSource.php(609): DboSource->fetchAll('upload', Array, Array)
+#4 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Model.php(800): DboSource->query('upload', Array, Object(ProdutosFoto))
+#5 C:\SENAI\Fontes\pedidos\app\Plugin\Admin\Controller\ProdutosFotosController.php(51): Model->__call('upload', Array)
+#6 C:\SENAI\Fontes\pedidos\app\Plugin\Admin\Controller\ProdutosFotosController.php(51): ProdutosFoto->upload('Tulips.jpg', '1')
+#7 [internal function]: ProdutosFotosController->add()
+#8 C:\SENAI\Fontes\pedidos\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ProdutosFotosController), Array)
+#9 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#10 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(ProdutosFotosController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-04-30 10:42:56 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'upload' at line 1
+Request URL: /pedidos/admin/produtosFotos/add
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('upload', Array)
+#2 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Datasource\DboSource.php(665): DboSource->execute('upload', Array, Array)
+#3 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Datasource\DboSource.php(609): DboSource->fetchAll('upload', Array, Array)
+#4 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Model.php(800): DboSource->query('upload', Array, Object(ProdutosFoto))
+#5 C:\SENAI\Fontes\pedidos\app\Plugin\Admin\Controller\ProdutosFotosController.php(51): Model->__call('upload', Array)
+#6 C:\SENAI\Fontes\pedidos\app\Plugin\Admin\Controller\ProdutosFotosController.php(51): ProdutosFoto->upload('Tulips.jpg', '1')
+#7 [internal function]: ProdutosFotosController->add()
+#8 C:\SENAI\Fontes\pedidos\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ProdutosFotosController), Array)
+#9 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#10 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(ProdutosFotosController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-04-30 10:44:24 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'upload' at line 1
+Request URL: /pedidos/admin/produtosFotos/add
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('upload', Array)
+#2 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Datasource\DboSource.php(665): DboSource->execute('upload', Array, Array)
+#3 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Datasource\DboSource.php(609): DboSource->fetchAll('upload', Array, Array)
+#4 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Model.php(800): DboSource->query('upload', Array, Object(ProdutosFoto))
+#5 C:\SENAI\Fontes\pedidos\app\Plugin\Admin\Controller\ProdutosFotosController.php(51): Model->__call('upload', Array)
+#6 C:\SENAI\Fontes\pedidos\app\Plugin\Admin\Controller\ProdutosFotosController.php(51): ProdutosFoto->upload(NULL, '1')
+#7 [internal function]: ProdutosFotosController->add()
+#8 C:\SENAI\Fontes\pedidos\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ProdutosFotosController), Array)
+#9 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#10 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(ProdutosFotosController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-04-30 10:44:33 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'upload' at line 1
+Request URL: /pedidos/admin/produtosFotos/add
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('upload', Array)
+#2 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Datasource\DboSource.php(665): DboSource->execute('upload', Array, Array)
+#3 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Datasource\DboSource.php(609): DboSource->fetchAll('upload', Array, Array)
+#4 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Model.php(800): DboSource->query('upload', Array, Object(ProdutosFoto))
+#5 C:\SENAI\Fontes\pedidos\app\Plugin\Admin\Controller\ProdutosFotosController.php(51): Model->__call('upload', Array)
+#6 C:\SENAI\Fontes\pedidos\app\Plugin\Admin\Controller\ProdutosFotosController.php(51): ProdutosFoto->upload(NULL, '1')
+#7 [internal function]: ProdutosFotosController->add()
+#8 C:\SENAI\Fontes\pedidos\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ProdutosFotosController), Array)
+#9 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#10 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(ProdutosFotosController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-04-30 10:44:38 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'upload' at line 1
+Request URL: /pedidos/admin/produtosFotos/add
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('upload', Array)
+#2 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Datasource\DboSource.php(665): DboSource->execute('upload', Array, Array)
+#3 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Datasource\DboSource.php(609): DboSource->fetchAll('upload', Array, Array)
+#4 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Model.php(800): DboSource->query('upload', Array, Object(ProdutosFoto))
+#5 C:\SENAI\Fontes\pedidos\app\Plugin\Admin\Controller\ProdutosFotosController.php(51): Model->__call('upload', Array)
+#6 C:\SENAI\Fontes\pedidos\app\Plugin\Admin\Controller\ProdutosFotosController.php(51): ProdutosFoto->upload(NULL, '1')
+#7 [internal function]: ProdutosFotosController->add()
+#8 C:\SENAI\Fontes\pedidos\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ProdutosFotosController), Array)
+#9 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#10 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(ProdutosFotosController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-04-30 10:48:10 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'upload' at line 1
+Request URL: /pedidos/admin/produtosFotos/add
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('upload', Array)
+#2 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Datasource\DboSource.php(665): DboSource->execute('upload', Array, Array)
+#3 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Datasource\DboSource.php(609): DboSource->fetchAll('upload', Array, Array)
+#4 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Model.php(800): DboSource->query('upload', Array, Object(ProdutosFoto))
+#5 C:\SENAI\Fontes\pedidos\app\Plugin\Admin\Controller\ProdutosFotosController.php(51): Model->__call('upload', Array)
+#6 C:\SENAI\Fontes\pedidos\app\Plugin\Admin\Controller\ProdutosFotosController.php(51): ProdutosFoto->upload(NULL, '1')
+#7 [internal function]: ProdutosFotosController->add()
+#8 C:\SENAI\Fontes\pedidos\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ProdutosFotosController), Array)
+#9 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#10 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(ProdutosFotosController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-04-30 10:53:58 Error: [NotFoundException] Invalid produtos foto
+Request URL: /pedidos/admin/produtosFotos/delete
+Stack Trace:
+#0 [internal function]: ProdutosFotosController->delete()
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ProdutosFotosController), Array)
+#2 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(ProdutosFotosController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-04-30 10:57:36 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'ProdutosFoto.id' in 'where clause'
+Request URL: /pedidos/admin/produtosFotos/delete/1
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT COUNT(*)...', Array)
+#2 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Datasource\DboSource.php(665): DboSource->execute('SELECT COUNT(*)...', Array, Array)
+#3 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Datasource\DboSource.php(1077): DboSource->fetchAll('SELECT COUNT(*)...', false)
+#4 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Model.php(2903): DboSource->read(Object(ProdutosFoto), Array)
+#5 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Model.php(2875): Model->_readDataSource('count', Array)
+#6 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Model.php(2785): Model->find('count', Array)
+#7 C:\SENAI\Fontes\pedidos\app\Plugin\Admin\Controller\ProdutosFotosController.php(102): Model->exists()
+#8 [internal function]: ProdutosFotosController->delete('1')
+#9 C:\SENAI\Fontes\pedidos\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ProdutosFotosController), Array)
+#10 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#11 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(ProdutosFotosController), Object(CakeRequest), Object(CakeResponse))
+#12 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-04-30 11:02:03 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'ProdutosFoto.id' in 'where clause'
+Request URL: /pedidos/admin/produtosFotos/delete/1
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT COUNT(*)...', Array)
+#2 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Datasource\DboSource.php(665): DboSource->execute('SELECT COUNT(*)...', Array, Array)
+#3 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Datasource\DboSource.php(1077): DboSource->fetchAll('SELECT COUNT(*)...', false)
+#4 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Model.php(2903): DboSource->read(Object(ProdutosFoto), Array)
+#5 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Model.php(2875): Model->_readDataSource('count', Array)
+#6 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Model.php(2785): Model->find('count', Array)
+#7 C:\SENAI\Fontes\pedidos\app\Plugin\Admin\Controller\ProdutosFotosController.php(102): Model->exists()
+#8 [internal function]: ProdutosFotosController->delete('1')
+#9 C:\SENAI\Fontes\pedidos\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ProdutosFotosController), Array)
+#10 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#11 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(ProdutosFotosController), Object(CakeRequest), Object(CakeResponse))
+#12 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-04-30 11:04:36 Error: Fatal Error (1): Maximum function nesting level of '100' reached, aborting! in [C:\SENAI\Fontes\pedidos\lib\Cake\Model\Datasource\CakeSession.php, line 214]
+2014-04-30 11:04:36 Error: [FatalErrorException] Maximum function nesting level of '100' reached, aborting!
+Request URL: /pedidos/admin/produtosFotos/add
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Maximum functio...', 'C:\SENAI\Fontes...', 214)
+#1 [internal function]: ErrorHandler::handleError(1, 'Maximum functio...', 'C:\SENAI\Fontes...', 214, Array)
+#2 C:\SENAI\Fontes\pedidos\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Maximum functio...', 'C:\SENAI\Fontes...', 214, Array)
+#3 C:\SENAI\Fontes\pedidos\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-30 11:22:40 Error: Fatal Error (4): syntax error, unexpected ''placeholder'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in [C:\SENAI\Fontes\pedidos\app\Plugin\JqueryFileUpload\View\Elements\tmpl_form.ctp, line 13]
+2014-04-30 11:22:40 Error: [FatalErrorException] syntax error, unexpected ''placeholder'' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+Request URL: /pedidos/admin/produtosFotos/add
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\SENAI\Fontes...', 13)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\SENAI\Fontes...', 13, Array)
+#2 C:\SENAI\Fontes\pedidos\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\SENAI\Fontes...', 13, Array)
+#3 C:\SENAI\Fontes\pedidos\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-30 11:35:36 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'upload' at line 1
+Request URL: /pedidos/admin/produtosFotos/add
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('upload', Array)
+#2 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Datasource\DboSource.php(665): DboSource->execute('upload', Array, Array)
+#3 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Datasource\DboSource.php(609): DboSource->fetchAll('upload', Array, Array)
+#4 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Model.php(800): DboSource->query('upload', Array, Object(ProdutosFoto))
+#5 C:\SENAI\Fontes\pedidos\app\Plugin\Admin\Controller\ProdutosFotosController.php(51): Model->__call('upload', Array)
+#6 C:\SENAI\Fontes\pedidos\app\Plugin\Admin\Controller\ProdutosFotosController.php(51): ProdutosFoto->upload('fd', '1')
+#7 [internal function]: ProdutosFotosController->add()
+#8 C:\SENAI\Fontes\pedidos\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ProdutosFotosController), Array)
+#9 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#10 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(ProdutosFotosController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-04-30 11:51:13 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'upload' at line 1
+Request URL: /pedidos/admin/produtosFotos/add
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('upload', Array)
+#2 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Datasource\DboSource.php(665): DboSource->execute('upload', Array, Array)
+#3 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Datasource\DboSource.php(609): DboSource->fetchAll('upload', Array, Array)
+#4 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Model.php(800): DboSource->query('upload', Array, Object(ProdutosFoto))
+#5 C:\SENAI\Fontes\pedidos\app\Plugin\Admin\Controller\ProdutosFotosController.php(51): Model->__call('upload', Array)
+#6 C:\SENAI\Fontes\pedidos\app\Plugin\Admin\Controller\ProdutosFotosController.php(51): ProdutosFoto->upload('fd', '1')
+#7 [internal function]: ProdutosFotosController->add()
+#8 C:\SENAI\Fontes\pedidos\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ProdutosFotosController), Array)
+#9 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#10 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(ProdutosFotosController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-04-30 13:32:06 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'upload' at line 1
+Request URL: /pedidos/admin/produtosFotos/add
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('upload', Array)
+#2 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Datasource\DboSource.php(665): DboSource->execute('upload', Array, Array)
+#3 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Datasource\DboSource.php(609): DboSource->fetchAll('upload', Array, Array)
+#4 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Model.php(800): DboSource->query('upload', Array, Object(ProdutosFoto))
+#5 C:\SENAI\Fontes\pedidos\app\Plugin\Admin\Controller\ProdutosFotosController.php(51): Model->__call('upload', Array)
+#6 C:\SENAI\Fontes\pedidos\app\Plugin\Admin\Controller\ProdutosFotosController.php(51): ProdutosFoto->upload(NULL, NULL)
+#7 [internal function]: ProdutosFotosController->add()
+#8 C:\SENAI\Fontes\pedidos\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ProdutosFotosController), Array)
+#9 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#10 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(ProdutosFotosController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-04-30 14:22:39 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'upload' at line 1
+Request URL: /pedidos/admin/produtosFotos/add
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('upload', Array)
+#2 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Datasource\DboSource.php(665): DboSource->execute('upload', Array, Array)
+#3 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Datasource\DboSource.php(609): DboSource->fetchAll('upload', Array, Array)
+#4 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Model.php(800): DboSource->query('upload', Array, Object(ProdutosFoto))
+#5 C:\SENAI\Fontes\pedidos\app\Plugin\Admin\Controller\ProdutosFotosController.php(53): Model->__call('upload', Array)
+#6 C:\SENAI\Fontes\pedidos\app\Plugin\Admin\Controller\ProdutosFotosController.php(53): ProdutosFoto->upload(NULL, NULL)
+#7 [internal function]: ProdutosFotosController->add()
+#8 C:\SENAI\Fontes\pedidos\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ProdutosFotosController), Array)
+#9 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#10 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(ProdutosFotosController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-04-30 14:46:16 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'upload' at line 1
+Request URL: /pedidos/admin/produtosFotos/add
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('upload', Array)
+#2 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Datasource\DboSource.php(665): DboSource->execute('upload', Array, Array)
+#3 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Datasource\DboSource.php(609): DboSource->fetchAll('upload', Array, Array)
+#4 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Model.php(800): DboSource->query('upload', Array, Object(ProdutosFoto))
+#5 C:\SENAI\Fontes\pedidos\app\Plugin\Admin\Controller\ProdutosFotosController.php(53): Model->__call('upload', Array)
+#6 C:\SENAI\Fontes\pedidos\app\Plugin\Admin\Controller\ProdutosFotosController.php(53): ProdutosFoto->upload(NULL, NULL)
+#7 [internal function]: ProdutosFotosController->add()
+#8 C:\SENAI\Fontes\pedidos\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ProdutosFotosController), Array)
+#9 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#10 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(ProdutosFotosController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-04-30 15:13:50 Error: [MissingViewException] View file "C:\SENAI\Fontes\pedidos\app\Plugin\Admin\View\ProdutosFotos\upload.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\SENAI\\Fontes\\pedidos\\app\\Plugin\\Admin\\View\\ProdutosFotos\\upload.ctp',
+)
+Request URL: /pedidos/admin/produtosFotos/upload
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\View\View.php(463): View->_getViewFileName(NULL)
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#2 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(192): Controller->render()
+#3 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(ProdutosFotosController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-04-30 15:53:35 Error: [MissingViewException] View file "C:\SENAI\Fontes\pedidos\app\Plugin\Admin\View\ProdutosFotos\upload.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\SENAI\\Fontes\\pedidos\\app\\Plugin\\Admin\\View\\ProdutosFotos\\upload.ctp',
+)
+Request URL: /pedidos/admin/produtosFotos/upload?varrr=3
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\View\View.php(463): View->_getViewFileName(NULL)
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#2 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(192): Controller->render()
+#3 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(ProdutosFotosController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-04-30 15:53:35 Error: [MissingViewException] View file "C:\SENAI\Fontes\pedidos\app\Plugin\Admin\View\ProdutosFotos\upload.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\SENAI\\Fontes\\pedidos\\app\\Plugin\\Admin\\View\\ProdutosFotos\\upload.ctp',
+)
+Request URL: /pedidos/admin/produtosFotos/upload?varrr=3
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\View\View.php(463): View->_getViewFileName(NULL)
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#2 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(192): Controller->render()
+#3 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(ProdutosFotosController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-04-30 15:53:35 Error: [MissingViewException] View file "C:\SENAI\Fontes\pedidos\app\Plugin\Admin\View\ProdutosFotos\upload.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\SENAI\\Fontes\\pedidos\\app\\Plugin\\Admin\\View\\ProdutosFotos\\upload.ctp',
+)
+Request URL: /pedidos/admin/produtosFotos/upload?varrr=3
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\View\View.php(463): View->_getViewFileName(NULL)
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#2 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(192): Controller->render()
+#3 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(ProdutosFotosController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-04-30 15:53:54 Error: [MissingViewException] View file "C:\SENAI\Fontes\pedidos\app\Plugin\Admin\View\ProdutosFotos\upload.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\SENAI\\Fontes\\pedidos\\app\\Plugin\\Admin\\View\\ProdutosFotos\\upload.ctp',
+)
+Request URL: /pedidos/admin/produtosFotos/upload/
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\View\View.php(463): View->_getViewFileName(NULL)
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#2 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(192): Controller->render()
+#3 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(ProdutosFotosController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-04-30 15:53:54 Error: [MissingViewException] View file "C:\SENAI\Fontes\pedidos\app\Plugin\Admin\View\ProdutosFotos\upload.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\SENAI\\Fontes\\pedidos\\app\\Plugin\\Admin\\View\\ProdutosFotos\\upload.ctp',
+)
+Request URL: /pedidos/admin/produtosFotos/upload/
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\View\View.php(463): View->_getViewFileName(NULL)
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#2 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(192): Controller->render()
+#3 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(ProdutosFotosController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-04-30 15:53:54 Error: [MissingViewException] View file "C:\SENAI\Fontes\pedidos\app\Plugin\Admin\View\ProdutosFotos\upload.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\SENAI\\Fontes\\pedidos\\app\\Plugin\\Admin\\View\\ProdutosFotos\\upload.ctp',
+)
+Request URL: /pedidos/admin/produtosFotos/upload/
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\View\View.php(463): View->_getViewFileName(NULL)
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#2 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(192): Controller->render()
+#3 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(ProdutosFotosController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-04-30 16:13:19 Error: [MissingActionException] Action ProdutosFotosController::add() could not be found.
+Exception Attributes: array (
+  'controller' => 'ProdutosFotosController',
+  'action' => 'add',
+)
+Request URL: /pedidos/admin/produtosFotos/add/
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(ProdutosFotosController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-04-30 16:23:33 Error: [MissingControllerException] Controller class ProdutoFotosController could not be found.
+Exception Attributes: array (
+  'class' => 'ProdutoFotosController',
+  'plugin' => 'Admin',
+)
+Request URL: /pedidos/admin/produtoFotos/add
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-04-30 16:26:27 Error: [MissingViewException] View file "C:\SENAI\Fontes\pedidos\app\Plugin\Admin\View\ProdutosFotos\upload.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\SENAI\\Fontes\\pedidos\\app\\Plugin\\Admin\\View\\ProdutosFotos\\upload.ctp',
+)
+Request URL: /pedidos/admin/produtosFotos/upload
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\View\View.php(463): View->_getViewFileName(NULL)
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#2 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(192): Controller->render()
+#3 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(ProdutosFotosController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-04-30 16:27:07 Error: [MissingViewException] View file "C:\SENAI\Fontes\pedidos\app\Plugin\Admin\View\ProdutosFotos\upload_url.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\SENAI\\Fontes\\pedidos\\app\\Plugin\\Admin\\View\\ProdutosFotos\\upload_url.ctp',
+)
+Request URL: /pedidos/admin/produtosFotos/uploadUrl
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\View\View.php(463): View->_getViewFileName(NULL)
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#2 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(192): Controller->render()
+#3 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(ProdutosFotosController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-04-30 16:37:11 Error: Fatal Error (64): Cannot use [] for reading in [C:\SENAI\Fontes\pedidos\app\Plugin\Admin\Model\ProdutosFoto.php, line 89]
+2014-04-30 16:37:11 Error: [FatalErrorException] Cannot use [] for reading
+Request URL: /pedidos/admin/produtosFotos/add
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot use [] f...', 'C:\SENAI\Fontes...', 89)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot use [] f...', 'C:\SENAI\Fontes...', 89, Array)
+#2 C:\SENAI\Fontes\pedidos\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 64, 'Cannot use [] f...', 'C:\SENAI\Fontes...', 89, Array)
+#3 C:\SENAI\Fontes\pedidos\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-30 16:37:13 Error: Fatal Error (64): Cannot use [] for reading in [C:\SENAI\Fontes\pedidos\app\Plugin\Admin\Model\ProdutosFoto.php, line 89]
+2014-04-30 16:37:13 Error: [FatalErrorException] Cannot use [] for reading
+Request URL: /pedidos/admin/produtosFotos/add
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot use [] f...', 'C:\SENAI\Fontes...', 89)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot use [] f...', 'C:\SENAI\Fontes...', 89, Array)
+#2 C:\SENAI\Fontes\pedidos\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 64, 'Cannot use [] f...', 'C:\SENAI\Fontes...', 89, Array)
+#3 C:\SENAI\Fontes\pedidos\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-30 17:03:26 Error: Fatal Error (4): syntax error, unexpected '(', expecting '&' or variable (T_VARIABLE) in [C:\SENAI\Fontes\pedidos\app\Plugin\Admin\Model\ProdutosFoto.php, line 85]
+2014-04-30 17:03:26 Error: [FatalErrorException] syntax error, unexpected '(', expecting '&' or variable (T_VARIABLE)
+Request URL: /pedidos/admin/produtosFotos/add
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\SENAI\Fontes...', 85)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\SENAI\Fontes...', 85, Array)
+#2 C:\SENAI\Fontes\pedidos\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\SENAI\Fontes...', 85, Array)
+#3 C:\SENAI\Fontes\pedidos\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-30 17:13:53 Error: Fatal Error (1): Cannot use [] for reading in [C:\SENAI\Fontes\pedidos\app\Plugin\Admin\Controller\AdminAppController.php, line 37]
+2014-04-30 17:13:53 Error: [FatalErrorException] Cannot use [] for reading
+Request URL: /pedidos/admin/produtosFotos/upload?idProduto=45
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Cannot use [] f...', 'C:\SENAI\Fontes...', 37)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot use [] f...', 'C:\SENAI\Fontes...', 37, Array)
+#2 C:\SENAI\Fontes\pedidos\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Cannot use [] f...', 'C:\SENAI\Fontes...', 37, Array)
+#3 C:\SENAI\Fontes\pedidos\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-30 17:22:35 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /pedidos/js/jquery.min.map
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
