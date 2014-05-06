@@ -59,7 +59,7 @@ class ProdutosFotosController extends AdminAppController {
 			}
 		}
 		
-		$this->set('idProduto', 45);
+		$this->set('idProduto', $idProduto);
 		$produtos = $this->ProdutosFoto->Produto->find('list', array('fields'=>array('id','nome_produto')));
 		$estabelecimentos = $this->ProdutosFoto->Estabelecimento->find('list');
 		$this->set(compact('produtos', 'estabelecimentos'));
