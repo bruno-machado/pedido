@@ -114,6 +114,16 @@ class ProdutosFotosController extends AdminAppController {
 		}
 		return $this->redirect(array('action' => 'index'));
 	}
+        
+        
+        public function deleteFile($file) {
+		$this->autoRender = false;
+		if ($this->request->is('delete')) {
+			$_GET['file'] = $file;
+			$this->Upload->deleteFile(array('image_versions' => array('' => array(), 'medium' => array(), 'thumbnail' => array())));
+			$this->ProdutosFoto->deleteAll(array('ProdutosFoto.url' => $file), false);
+		}
+	}
 	
 
 }

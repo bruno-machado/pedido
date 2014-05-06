@@ -23,16 +23,7 @@ class AdminAppController extends Controller {
 
 		// $this->Auth->allow('index', 'view');
 	}
-
-	public function deleteFile($file) {
-		$this->autoRender = false;
-		if ($this->request->is('delete')) {
-			$_GET['file'] = $file;
-			$this->Upload->deleteFile(array('image_versions' => array('' => array(), 'medium' => array(), 'thumbnail' => array())));
-			$this->ProdutosFoto->deleteFoto($file);
-		}
-	}
-
+	
 	public function upload($idProduto = null) {
 		$this->autoRender = false;
 		

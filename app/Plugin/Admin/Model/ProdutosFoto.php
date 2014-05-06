@@ -94,19 +94,6 @@ class ProdutosFoto extends AdminAppModel {
 		
 		
 	}
-	public function deleteFoto($file){
-		var_dump($file);
-		
-		//$this->deleteAll(array('ProdutosFoto.url' => $file), false);
-		
-		//$this->ProdutosFoto->url = $file;
-		//$this->ProdutosFoto->delete();
-		
-	}
-	
-	
-	
-	
 	
 	
 }
