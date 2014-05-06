@@ -725,8 +725,8 @@ class UploadHandler
             
             foreach ($upload['tmp_name'] as $index => $value) {
             	$ext = explode('.',$upload['name'][$index] );
-            	end($ext);
-            	$upload['name'][$index] = md5($upload['name'][$index].date('dmYis')).'.'.$ext[1];
+            
+            	$upload['name'][$index] = md5($upload['name'][$index].date('dmYis')).'.'.end($ext);
                 $files[] = $this->handle_file_upload(
                     $upload['tmp_name'][$index],
                     $file_name ? $file_name : $upload['name'][$index],
@@ -741,9 +741,8 @@ class UploadHandler
             // param_name is a single object identifier like "file",
             // $_FILES is a one-dimensional array:
             $ext = explode('.',$upload['name']);
-            	end($ext);
 
-            $upload['name'] = md5($upload['name'].date('dmYis')).'.'.$ext;
+            $upload['name'] = md5($upload['name'].date('dmYis')).'.'.end($ext);;
             $files[] = $this->handle_file_upload(
                 isset($upload['tmp_name']) ? $upload['tmp_name'] : null,
                 $file_name ? $file_name : (isset($upload['name']) ?
