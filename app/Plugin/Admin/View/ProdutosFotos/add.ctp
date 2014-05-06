@@ -37,12 +37,13 @@
 			        $(function () {
 			            $('#fileupload').fileupload({
 			                    xhrFields   : {withCredentials: true},
-			                    url         : 'upload?idProduto=".$idProduto."' //Set your action
+			                    url         : 'upload/".$idProduto."', //Set your action
+			                    		
 			            });
 			        });    
 			    ");
 			?>
-
+ 
 		</div>
 		<!-- end col md 12 -->
 	</div>

@@ -11,7 +11,8 @@ class AdminAppController extends Controller {
    			'loginAction' => array('plugin' => 'admin', 'controller' => 'users', 'action' => 'login'),
             'loginRedirect' => array('controller' => '/admin', 'action' => 'index'),
             'logoutRedirect' => array('controller' => '/pages', 'action' => 'home')
-	)
+	),
+	'RequestHandler'
 	);
 
 	public $helpers = array('JqueryFileUpload.UploadScript', 'JqueryFileUpload.UploadTemplate','Locale.Locale');
@@ -28,14 +29,14 @@ class AdminAppController extends Controller {
 		if ($this->request->is('delete')) {
 			$_GET['file'] = $file;
 			$this->Upload->deleteFile(array('image_versions' => array('' => array(), 'medium' => array(), 'thumbnail' => array())));
+			$this->ProdutosFoto->deleteFoto($file);
 		}
 	}
 
 	public function upload($idProduto = null) {
 		$this->autoRender = false;
 		
-		$this->ProdutosFoto->preparaSave(json_decode(UploadHandler), $idProduto);		
-		
+			
 		$this->Upload->uploadFile(array(
                 'image_versions' => array(
                     '' => array(
@@ -54,6 +55,7 @@ class AdminAppController extends Controller {
 		)
 		)
 		));
+		$this->ProdutosFoto->preparaSave($_FILES, $idProduto);	
 	}
 
 }

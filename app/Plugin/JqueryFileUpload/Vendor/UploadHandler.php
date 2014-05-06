@@ -701,6 +701,7 @@ class UploadHandler
         if (isset($_REQUEST['_method']) && $_REQUEST['_method'] === 'DELETE') {
             return $this->delete($print_response);
         }
+        
         $upload = isset($_FILES[$this->options['param_name']]) ?
             $_FILES[$this->options['param_name']] : null;
         // Parse the Content-Disposition header, if available:
@@ -710,16 +711,22 @@ class UploadHandler
                 '',
                 $_SERVER['HTTP_CONTENT_DISPOSITION']
             )) : null;
+            
         // Parse the Content-Range header, which has the following form:
         // Content-Range: bytes 0-524287/2000000
         $content_range = isset($_SERVER['HTTP_CONTENT_RANGE']) ?
             preg_split('/[^0-9]+/', $_SERVER['HTTP_CONTENT_RANGE']) : null;
         $size =  $content_range ? $content_range[3] : null;
         $files = array();
+        
         if ($upload && is_array($upload['tmp_name'])) {
             // param_name is an array identifier like "files[]",
             // $_FILES is a multi-dimensional array:
+            
             foreach ($upload['tmp_name'] as $index => $value) {
+            	$ext = explode('.',$upload['name'][$index] );
+            	end($ext);
+            	$upload['name'][$index] = md5($upload['name'][$index].date('dmYis')).'.'.$ext[1];
                 $files[] = $this->handle_file_upload(
                     $upload['tmp_name'][$index],
                     $file_name ? $file_name : $upload['name'][$index],
@@ -733,6 +740,10 @@ class UploadHandler
         } else {
             // param_name is a single object identifier like "file",
             // $_FILES is a one-dimensional array:
+            $ext = explode('.',$upload['name']);
+            	end($ext);
+
+            $upload['name'] = md5($upload['name'].date('dmYis')).'.'.$ext;
             $files[] = $this->handle_file_upload(
                 isset($upload['tmp_name']) ? $upload['tmp_name'] : null,
                 $file_name ? $file_name : (isset($upload['name']) ?
@@ -746,6 +757,9 @@ class UploadHandler
                 $content_range
             );
         }
+    
+       $_FILES['files']['name'][0] = $files[0]->name;
+   
         return $this->generate_response(
             array($this->options['param_name'] => $files),
             $print_response

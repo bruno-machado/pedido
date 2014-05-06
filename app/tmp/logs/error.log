@@ -3159,3 +3159,1182 @@ Request URL: /pedidos/js/jquery.min.map
 Stack Trace:
 #0 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2014-04-30 17:50:24 Error: Fatal Error (1): Cannot use [] for reading in [C:\SENAI\Fontes\pedidos\app\Plugin\Admin\Controller\AdminAppController.php, line 38]
+2014-04-30 17:50:24 Error: [FatalErrorException] Cannot use [] for reading
+Request URL: /pedidos/admin/produtosFotos/upload?idProduto=45
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Cannot use [] f...', 'C:\SENAI\Fontes...', 38)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot use [] f...', 'C:\SENAI\Fontes...', 38, Array)
+#2 C:\SENAI\Fontes\pedidos\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Cannot use [] f...', 'C:\SENAI\Fontes...', 38, Array)
+#3 C:\SENAI\Fontes\pedidos\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-30 17:50:47 Error: Fatal Error (1): Cannot use [] for reading in [C:\SENAI\Fontes\pedidos\app\Plugin\Admin\Controller\AdminAppController.php, line 38]
+2014-04-30 17:50:47 Error: [FatalErrorException] Cannot use [] for reading
+Request URL: /pedidos/admin/produtosFotos/upload?idProduto=45
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Cannot use [] f...', 'C:\SENAI\Fontes...', 38)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot use [] f...', 'C:\SENAI\Fontes...', 38, Array)
+#2 C:\SENAI\Fontes\pedidos\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Cannot use [] f...', 'C:\SENAI\Fontes...', 38, Array)
+#3 C:\SENAI\Fontes\pedidos\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-02 10:17:26 Error: Fatal Error (4): syntax error, unexpected 'i' (T_STRING) in [C:\SENAI\Fontes\pedidos\app\Plugin\Admin\View\ProdutosFotos\add.ctp, line 48]
+2014-05-02 10:17:26 Error: [FatalErrorException] syntax error, unexpected 'i' (T_STRING)
+Request URL: /pedidos/admin/produtosFotos/add
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\SENAI\Fontes...', 48)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\SENAI\Fontes...', 48, Array)
+#2 C:\SENAI\Fontes\pedidos\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\SENAI\Fontes...', 48, Array)
+#3 C:\SENAI\Fontes\pedidos\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-02 10:34:19 Error: Fatal Error (1): Unsupported operand types in [C:\SENAI\Fontes\pedidos\app\Plugin\Admin\Controller\AdminAppController.php, line 38]
+2014-05-02 10:34:19 Error: [FatalErrorException] Unsupported operand types
+Request URL: /pedidos/admin/produtosFotos/upload?idProduto=45
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Unsupported ope...', 'C:\SENAI\Fontes...', 38)
+#1 [internal function]: ErrorHandler::handleError(1, 'Unsupported ope...', 'C:\SENAI\Fontes...', 38, Array)
+#2 C:\SENAI\Fontes\pedidos\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Unsupported ope...', 'C:\SENAI\Fontes...', 38, Array)
+#3 C:\SENAI\Fontes\pedidos\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-02 11:36:16 Error: Fatal Error (1): Cannot use [] for reading in [C:\SENAI\Fontes\pedidos\app\Plugin\Admin\Controller\AdminAppController.php, line 38]
+2014-05-02 11:36:16 Error: [FatalErrorException] Cannot use [] for reading
+Request URL: /pedidos/admin/produtosFotos/upload?idProduto=45
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Cannot use [] f...', 'C:\SENAI\Fontes...', 38)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot use [] f...', 'C:\SENAI\Fontes...', 38, Array)
+#2 C:\SENAI\Fontes\pedidos\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Cannot use [] f...', 'C:\SENAI\Fontes...', 38, Array)
+#3 C:\SENAI\Fontes\pedidos\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-02 13:48:31 Error: [MissingActionException] Action ProdutosFotosController::uplaad() could not be found.
+Exception Attributes: array (
+  'controller' => 'ProdutosFotosController',
+  'action' => 'uplaad',
+)
+Request URL: /pedidos/admin/produtosFotos/uplaad
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(ProdutosFotosController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-05-02 14:01:16 Error: [MissingActionException] Action ProdutosFotosController::upload() could not be found.
+Exception Attributes: array (
+  'controller' => 'ProdutosFotosController',
+  'action' => 'upload',
+)
+Request URL: /pedidos/admin/produtosFotos/upload/45
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(ProdutosFotosController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-05-02 14:01:52 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'field list'
+Request URL: /pedidos/admin/produtosFotos/upload/45
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('INSERT INTO `pe...', Array)
+#2 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Datasource\DboSource.php(1004): DboSource->execute('INSERT INTO `pe...')
+#3 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Model.php(1832): DboSource->create(Object(ProdutosFoto), Array, Array)
+#4 C:\SENAI\Fontes\pedidos\app\Plugin\Admin\Model\ProdutosFoto.php(92): Model->save(Array)
+#5 C:\SENAI\Fontes\pedidos\app\Plugin\Admin\Controller\AdminAppController.php(38): ProdutosFoto->preparaSave(Array, '45')
+#6 [internal function]: AdminAppController->upload('45')
+#7 C:\SENAI\Fontes\pedidos\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ProdutosFotosController), Array)
+#8 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#9 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(ProdutosFotosController), Object(CakeRequest), Object(CakeResponse))
+#10 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2014-05-02 14:02:12 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'field list'
+Request URL: /pedidos/admin/produtosFotos/upload/45
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('INSERT INTO `pe...', Array)
+#2 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Datasource\DboSource.php(1004): DboSource->execute('INSERT INTO `pe...')
+#3 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Model.php(1832): DboSource->create(Object(ProdutosFoto), Array, Array)
+#4 C:\SENAI\Fontes\pedidos\app\Plugin\Admin\Model\ProdutosFoto.php(92): Model->save(Array)
+#5 C:\SENAI\Fontes\pedidos\app\Plugin\Admin\Controller\AdminAppController.php(38): ProdutosFoto->preparaSave(Array, '45')
+#6 [internal function]: AdminAppController->upload('45')
+#7 C:\SENAI\Fontes\pedidos\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ProdutosFotosController), Array)
+#8 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#9 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(ProdutosFotosController), Object(CakeRequest), Object(CakeResponse))
+#10 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2014-05-02 14:05:04 Error: Fatal Error (1): Call to undefined function parse() in [C:\SENAI\Fontes\pedidos\app\Plugin\Admin\Controller\AdminAppController.php, line 38]
+2014-05-02 14:05:04 Error: [FatalErrorException] Call to undefined function parse()
+Request URL: /pedidos/admin/produtosFotos/upload/45
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\SENAI\Fontes...', 38)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\SENAI\Fontes...', 38, Array)
+#2 C:\SENAI\Fontes\pedidos\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\SENAI\Fontes...', 38, Array)
+#3 C:\SENAI\Fontes\pedidos\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-02 14:16:35 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'url' cannot be null
+Request URL: /pedidos/admin/produtosFotos/upload/45
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('INSERT INTO `pe...', Array)
+#2 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Datasource\DboSource.php(1004): DboSource->execute('INSERT INTO `pe...')
+#3 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Model.php(1832): DboSource->create(Object(ProdutosFoto), Array, Array)
+#4 C:\SENAI\Fontes\pedidos\app\Plugin\Admin\Model\ProdutosFoto.php(92): Model->save(Array)
+#5 C:\SENAI\Fontes\pedidos\app\Plugin\Admin\Controller\AdminAppController.php(38): ProdutosFoto->preparaSave(Array, '45')
+#6 [internal function]: AdminAppController->upload('45')
+#7 C:\SENAI\Fontes\pedidos\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ProdutosFotosController), Array)
+#8 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#9 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(ProdutosFotosController), Object(CakeRequest), Object(CakeResponse))
+#10 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2014-05-02 14:17:05 Error: [MissingActionException] Action ProdutosFotosController::upload() could not be found.
+Exception Attributes: array (
+  'controller' => 'ProdutosFotosController',
+  'action' => 'upload',
+)
+Request URL: /pedidos/admin/produtosFotos/upload/45
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(ProdutosFotosController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-05-02 14:17:24 Error: [MissingActionException] Action ProdutosFotosController::upload() could not be found.
+Exception Attributes: array (
+  'controller' => 'ProdutosFotosController',
+  'action' => 'upload',
+)
+Request URL: /pedidos/admin/produtosFotos/upload
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(ProdutosFotosController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-05-02 14:23:11 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'url' cannot be null
+Request URL: /pedidos/admin/produtosFotos/upload/45
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('INSERT INTO `pe...', Array)
+#2 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Datasource\DboSource.php(1004): DboSource->execute('INSERT INTO `pe...')
+#3 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Model.php(1832): DboSource->create(Object(ProdutosFoto), Array, Array)
+#4 C:\SENAI\Fontes\pedidos\app\Plugin\Admin\Model\ProdutosFoto.php(90): Model->save(Array)
+#5 C:\SENAI\Fontes\pedidos\app\Plugin\Admin\Controller\AdminAppController.php(38): ProdutosFoto->preparaSave(NULL, '45')
+#6 [internal function]: AdminAppController->upload('45')
+#7 C:\SENAI\Fontes\pedidos\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ProdutosFotosController), Array)
+#8 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#9 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(ProdutosFotosController), Object(CakeRequest), Object(CakeResponse))
+#10 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2014-05-02 14:23:32 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'url' cannot be null
+Request URL: /pedidos/admin/produtosFotos/upload/45
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('INSERT INTO `pe...', Array)
+#2 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Datasource\DboSource.php(1004): DboSource->execute('INSERT INTO `pe...')
+#3 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Model.php(1832): DboSource->create(Object(ProdutosFoto), Array, Array)
+#4 C:\SENAI\Fontes\pedidos\app\Plugin\Admin\Model\ProdutosFoto.php(90): Model->save(Array)
+#5 C:\SENAI\Fontes\pedidos\app\Plugin\Admin\Controller\AdminAppController.php(38): ProdutosFoto->preparaSave(NULL, '45')
+#6 [internal function]: AdminAppController->upload('45')
+#7 C:\SENAI\Fontes\pedidos\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ProdutosFotosController), Array)
+#8 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#9 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(ProdutosFotosController), Object(CakeRequest), Object(CakeResponse))
+#10 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2014-05-02 15:06:15 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /pedidos/app/webroot/files/produtos/thumbnail/Desert.jpg
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-05-02 15:06:58 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /pedidos/app/webroot/files/produtos/thumbnail/Chrysanthemum.jpg
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-05-02 15:14:55 Error: Fatal Error (64): Can't use function return value in write context in [C:\SENAI\Fontes\pedidos\app\Plugin\JqueryFileUpload\Vendor\UploadHandler.php, line 163]
+2014-05-02 15:14:55 Error: [FatalErrorException] Can't use function return value in write context
+Request URL: /pedidos/admin/produtosFotos/upload/45
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Can't use funct...', 'C:\SENAI\Fontes...', 163)
+#1 [internal function]: ErrorHandler::handleError(64, 'Can't use funct...', 'C:\SENAI\Fontes...', 163, Array)
+#2 C:\SENAI\Fontes\pedidos\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 64, 'Can't use funct...', 'C:\SENAI\Fontes...', 163, Array)
+#3 C:\SENAI\Fontes\pedidos\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-02 15:15:38 Error: Fatal Error (64): Can't use function return value in write context in [C:\SENAI\Fontes\pedidos\app\Plugin\JqueryFileUpload\Vendor\UploadHandler.php, line 163]
+2014-05-02 15:15:38 Error: [FatalErrorException] Can't use function return value in write context
+Request URL: /pedidos/admin/produtosFotos/add
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Can't use funct...', 'C:\SENAI\Fontes...', 163)
+#1 [internal function]: ErrorHandler::handleError(64, 'Can't use funct...', 'C:\SENAI\Fontes...', 163, Array)
+#2 C:\SENAI\Fontes\pedidos\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 64, 'Can't use funct...', 'C:\SENAI\Fontes...', 163, Array)
+#3 C:\SENAI\Fontes\pedidos\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-02 15:41:42 Error: Fatal Error (1): Maximum execution time of 30 seconds exceeded in [C:\SENAI\Fontes\pedidos\app\Plugin\JqueryFileUpload\Vendor\UploadHandler.php, line 415]
+2014-05-02 15:41:42 Error: [FatalErrorException] Maximum execution time of 30 seconds exceeded
+Request URL: /pedidos/admin/produtosFotos/upload/45
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Maximum executi...', 'C:\SENAI\Fontes...', 415)
+#1 [internal function]: ErrorHandler::handleError(1, 'Maximum executi...', 'C:\SENAI\Fontes...', 415, Array)
+#2 C:\SENAI\Fontes\pedidos\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Maximum executi...', 'C:\SENAI\Fontes...', 415, Array)
+#3 C:\SENAI\Fontes\pedidos\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-02 15:42:29 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /pedidos/app/webroot/files/produtos/thumbnail/Koala.jpg
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-05-02 15:43:20 Error: Fatal Error (1): Maximum execution time of 30 seconds exceeded in [C:\SENAI\Fontes\pedidos\app\Plugin\JqueryFileUpload\Vendor\UploadHandler.php, line 414]
+2014-05-02 15:43:20 Error: [FatalErrorException] Maximum execution time of 30 seconds exceeded
+Request URL: /pedidos/admin/produtosFotos/upload/45
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Maximum executi...', 'C:\SENAI\Fontes...', 414)
+#1 [internal function]: ErrorHandler::handleError(1, 'Maximum executi...', 'C:\SENAI\Fontes...', 414, Array)
+#2 C:\SENAI\Fontes\pedidos\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Maximum executi...', 'C:\SENAI\Fontes...', 414, Array)
+#3 C:\SENAI\Fontes\pedidos\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-02 15:45:17 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /pedidos/app/webroot/files/produtos/thumbnail/Koala.jpg
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-05-02 15:45:18 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /pedidos/app/webroot/files/produtos/thumbnail/Desert.jpg
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-05-02 15:45:18 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /pedidos/app/webroot/files/produtos/thumbnail/Lighthouse.jpg
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-05-02 15:45:18 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /pedidos/app/webroot/files/produtos/thumbnail/Jellyfish.jpg
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-05-02 15:45:19 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /pedidos/app/webroot/files/produtos/thumbnail/Chrysanthemum.jpg
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-05-02 15:45:19 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /pedidos/app/webroot/files/produtos/thumbnail/Hydrangeas.jpg
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-05-02 15:45:19 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /pedidos/app/webroot/files/produtos/thumbnail/Penguins.jpg
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-05-02 15:45:19 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /pedidos/app/webroot/files/produtos/thumbnail/Tulips.jpg
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-05-05 11:20:33 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /pedidos/app/webroot/files/produtos/thumbnail/Tulips.jpg
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-05-05 11:20:34 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /pedidos/app/webroot/files/produtos/thumbnail/Penguins.jpg
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-05-05 11:20:34 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /pedidos/app/webroot/files/produtos/thumbnail/Hydrangeas.jpg
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-05-05 11:24:10 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /pedidos/app/webroot/files/produtos/thumbnail/Tulips.jpg
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-05-05 11:40:42 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /pedidos/app/webroot/files/produtos/thumbnail/Desert.jpg
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-05-05 11:43:33 Error: Fatal Error (1): Call to undefined function explod() in [C:\SENAI\Fontes\pedidos\app\Plugin\JqueryFileUpload\Vendor\UploadHandler.php, line 519]
+2014-05-05 11:43:33 Error: [FatalErrorException] Call to undefined function explod()
+Request URL: /pedidos/admin/produtosFotos/upload/45
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\SENAI\Fontes...', 519)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\SENAI\Fontes...', 519, Array)
+#2 C:\SENAI\Fontes\pedidos\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\SENAI\Fontes...', 519, Array)
+#3 C:\SENAI\Fontes\pedidos\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-05 11:43:48 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /pedidos/app/webroot/files/produtos/thumbnail/Tulips.jpg
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-05-05 11:44:06 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /pedidos/app/webroot/files/produtos/thumbnail/Jellyfish.jpg
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-05-05 11:46:14 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /pedidos/app/webroot/files/produtos/thumbnail/rodape.jpg
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-05-05 11:50:17 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /pedidos/app/webroot/files/produtos/thumbnail/rodape.jpg
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-05-05 11:50:30 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /pedidos/app/webroot/files/produtos/thumbnail/avatar-home-01.png
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-05-05 11:51:05 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /pedidos/app/webroot/files/produtos/thumbnail/avatar.png
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-05-05 11:51:05 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /pedidos/app/webroot/files/produtos/thumbnail/avatar-01.png
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-05-05 11:51:05 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /pedidos/app/webroot/files/produtos/thumbnail/avatar-02.png
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-05-05 11:51:06 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /pedidos/app/webroot/files/produtos/thumbnail/avatar-03.png
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-05-05 11:51:06 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /pedidos/app/webroot/files/produtos/thumbnail/avatar-home-0.png
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-05-05 11:51:07 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /pedidos/app/webroot/files/produtos/thumbnail/info.png
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-05-05 11:51:07 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /pedidos/app/webroot/files/produtos/thumbnail/avatar-home-02.png
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-05-05 11:51:07 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /pedidos/app/webroot/files/produtos/thumbnail/avatar-home.png
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-05-05 11:51:07 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /pedidos/app/webroot/files/produtos/thumbnail/avatar-home-01.png
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-05-05 11:51:07 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /pedidos/app/webroot/files/produtos/thumbnail/loading.gif
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-05-05 11:51:07 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /pedidos/app/webroot/files/produtos/thumbnail/loader.png
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-05-05 11:51:07 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /pedidos/app/webroot/files/produtos/thumbnail/miniLoader.png
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-05-05 11:51:07 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /pedidos/app/webroot/files/produtos/thumbnail/logo.png
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-05-05 11:51:07 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /pedidos/app/webroot/files/produtos/thumbnail/lock.png
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-05-05 11:51:07 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /pedidos/app/webroot/files/produtos/thumbnail/rodape.jpg
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-05-05 11:51:07 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /pedidos/app/webroot/files/produtos/thumbnail/slider.png
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-05-05 11:51:07 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /pedidos/app/webroot/files/produtos/thumbnail/spritIconBkp.png
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-05-05 11:51:07 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /pedidos/app/webroot/files/produtos/thumbnail/spritIcon.png
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-05-05 11:52:04 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /pedidos/app/webroot/files/produtos/thumbnail/avatar-03.png
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-05-05 11:52:04 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /pedidos/app/webroot/files/produtos/thumbnail/avatar-02.png
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-05-05 11:52:05 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /pedidos/app/webroot/files/produtos/thumbnail/avatar-home-0.png
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-05-05 11:52:05 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /pedidos/app/webroot/files/produtos/thumbnail/avatar.png
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-05-05 11:52:05 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /pedidos/app/webroot/files/produtos/thumbnail/avatar-01.png
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-05-05 11:52:06 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /pedidos/app/webroot/files/produtos/thumbnail/info.png
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-05-05 11:52:06 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /pedidos/app/webroot/files/produtos/thumbnail/avatar-home-01.png
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-05-05 11:52:06 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /pedidos/app/webroot/files/produtos/thumbnail/avatar-home-02.png
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-05-05 11:52:06 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /pedidos/app/webroot/files/produtos/thumbnail/loader.png
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-05-05 11:52:06 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /pedidos/app/webroot/files/produtos/thumbnail/avatar-home.png
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-05-05 11:52:06 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /pedidos/app/webroot/files/produtos/thumbnail/loading.gif
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-05-05 11:52:06 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /pedidos/app/webroot/files/produtos/thumbnail/lock.png
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-05-05 11:52:06 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /pedidos/app/webroot/files/produtos/thumbnail/logo.png
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-05-05 11:52:06 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /pedidos/app/webroot/files/produtos/thumbnail/miniLoader.png
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-05-05 11:52:06 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /pedidos/app/webroot/files/produtos/thumbnail/rodape.jpg
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-05-05 11:52:07 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /pedidos/app/webroot/files/produtos/thumbnail/slider.png
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-05-05 11:52:07 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /pedidos/app/webroot/files/produtos/thumbnail/spritIconBkp.png
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-05-05 11:52:22 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /pedidos/app/webroot/files/produtos/thumbnail/spritIconBkp.png
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-05-05 11:53:00 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /pedidos/app/webroot/files/produtos/thumbnail/Cris%C3%A2.ntemo.jpg
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-05-05 14:55:40 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /pedidos/app/webroot/files/produtos/thumbnail/avatar.png
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-05-05 14:55:41 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /pedidos/app/webroot/files/produtos/thumbnail/avatar-03.png
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-05-05 15:45:42 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /pedidos/app/webroot/files/produtos/thumbnail/56da9457e32e9ee4ebbca96996f867bc.png
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-05-05 15:47:11 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /pedidos/app/webroot/files/produtos/thumbnail/2b0f1f22750510a0b3a560656e216859.png
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-05-05 17:01:15 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /pedidos/app/webroot/files/produtos/thumbnail/fcf68b6e81cee189abd8e46d2a144623.png
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-05-05 17:27:56 Error: [MissingComponentException] Component class UploadComponent could not be found.
+Exception Attributes: array (
+  'class' => 'UploadComponent',
+  'plugin' => 'JqueryFileUpload',
+)
+Request URL: /pedidos/admin/produtosFotos/upload/45
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Controller\ComponentCollection.php(53): ComponentCollection->load('JqueryFileUploa...', Array)
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\Controller\Controller.php(643): ComponentCollection->init(Object(ProdutosFotosController))
+#2 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(181): Controller->constructClasses()
+#3 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(ProdutosFotosController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-05-05 17:28:45 Error: [MissingComponentException] Component class UploadComponent could not be found.
+Exception Attributes: array (
+  'class' => 'UploadComponent',
+  'plugin' => 'JqueryFileUpload',
+)
+Request URL: /pedidos/admin/produtosFotos/upload/45
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Controller\ComponentCollection.php(53): ComponentCollection->load('JqueryFileUploa...', Array)
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\Controller\Controller.php(643): ComponentCollection->init(Object(ProdutosFotosController))
+#2 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(181): Controller->constructClasses()
+#3 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(ProdutosFotosController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-05-05 17:41:28 Error: Fatal Error (64): Cannot use [] for reading in [C:\SENAI\Fontes\pedidos\app\Plugin\JqueryFileUpload\Vendor\UploadHandler.php, line 729]
+2014-05-05 17:41:28 Error: [FatalErrorException] Cannot use [] for reading
+Request URL: /pedidos/admin/produtosFotos/upload/45
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot use [] f...', 'C:\SENAI\Fontes...', 729)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot use [] f...', 'C:\SENAI\Fontes...', 729, Array)
+#2 C:\SENAI\Fontes\pedidos\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 64, 'Cannot use [] f...', 'C:\SENAI\Fontes...', 729, Array)
+#3 C:\SENAI\Fontes\pedidos\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-05 17:41:37 Error: Fatal Error (64): Cannot use [] for reading in [C:\SENAI\Fontes\pedidos\app\Plugin\JqueryFileUpload\Vendor\UploadHandler.php, line 729]
+2014-05-05 17:41:37 Error: [FatalErrorException] Cannot use [] for reading
+Request URL: /pedidos/admin/produtosFotos/upload/45
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot use [] f...', 'C:\SENAI\Fontes...', 729)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot use [] f...', 'C:\SENAI\Fontes...', 729, Array)
+#2 C:\SENAI\Fontes\pedidos\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 64, 'Cannot use [] f...', 'C:\SENAI\Fontes...', 729, Array)
+#3 C:\SENAI\Fontes\pedidos\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-06 08:12:50 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'ProdutosFoto.id' in 'field list'
+Request URL: /pedidos/admin/produtosFotos/deleteFile/bd866b5f9cebc162e6c5b729050ce44e.png
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `Produto...', Array)
+#2 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Datasource\DboSource.php(665): DboSource->execute('SELECT `Produto...', Array, Array)
+#3 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Datasource\DboSource.php(1077): DboSource->fetchAll('SELECT `Produto...', false)
+#4 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Model.php(2903): DboSource->read(Object(ProdutosFoto), Array)
+#5 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Model.php(2875): Model->_readDataSource('all', Array)
+#6 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Model.php(2710): Model->find('all', Array)
+#7 C:\SENAI\Fontes\pedidos\app\Plugin\Admin\Model\ProdutosFoto.php(99): Model->deleteAll(Array)
+#8 C:\SENAI\Fontes\pedidos\app\Plugin\Admin\Controller\AdminAppController.php(32): ProdutosFoto->deleteFoto('bd866b5f9cebc16...')
+#9 [internal function]: AdminAppController->deleteFile('bd866b5f9cebc16...')
+#10 C:\SENAI\Fontes\pedidos\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ProdutosFotosController), Array)
+#11 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#12 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(ProdutosFotosController), Object(CakeRequest), Object(CakeResponse))
+#13 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-05-06 08:14:07 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'ProdutosFoto.id' in 'field list'
+Request URL: /pedidos/admin/produtosFotos/deleteFile/be73e01049d82f0edd18a8b2113b5bc9.png
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `Produto...', Array)
+#2 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Datasource\DboSource.php(665): DboSource->execute('SELECT `Produto...', Array, Array)
+#3 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Datasource\DboSource.php(1077): DboSource->fetchAll('SELECT `Produto...', false)
+#4 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Model.php(2903): DboSource->read(Object(ProdutosFoto), Array)
+#5 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Model.php(2875): Model->_readDataSource('all', Array)
+#6 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Model.php(2710): Model->find('all', Array)
+#7 C:\SENAI\Fontes\pedidos\app\Plugin\Admin\Model\ProdutosFoto.php(99): Model->deleteAll(Array)
+#8 C:\SENAI\Fontes\pedidos\app\Plugin\Admin\Controller\AdminAppController.php(32): ProdutosFoto->deleteFoto('be73e01049d82f0...')
+#9 [internal function]: AdminAppController->deleteFile('be73e01049d82f0...')
+#10 C:\SENAI\Fontes\pedidos\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ProdutosFotosController), Array)
+#11 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#12 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(ProdutosFotosController), Object(CakeRequest), Object(CakeResponse))
+#13 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-05-06 08:14:49 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'ProdutosFoto.id' in 'field list'
+Request URL: /pedidos/admin/produtosFotos/deleteFile/93b3ac2b23d8c2bb87a6aff0f994764a.png
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `Produto...', Array)
+#2 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Datasource\DboSource.php(665): DboSource->execute('SELECT `Produto...', Array, Array)
+#3 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Datasource\DboSource.php(1077): DboSource->fetchAll('SELECT `Produto...', false)
+#4 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Model.php(2903): DboSource->read(Object(ProdutosFoto), Array)
+#5 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Model.php(2875): Model->_readDataSource('all', Array)
+#6 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Model.php(2710): Model->find('all', Array)
+#7 C:\SENAI\Fontes\pedidos\app\Plugin\Admin\Model\ProdutosFoto.php(99): Model->deleteAll(Array)
+#8 C:\SENAI\Fontes\pedidos\app\Plugin\Admin\Controller\AdminAppController.php(32): ProdutosFoto->deleteFoto('93b3ac2b23d8c2b...')
+#9 [internal function]: AdminAppController->deleteFile('93b3ac2b23d8c2b...')
+#10 C:\SENAI\Fontes\pedidos\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ProdutosFotosController), Array)
+#11 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#12 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(ProdutosFotosController), Object(CakeRequest), Object(CakeResponse))
+#13 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-05-06 08:15:49 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'ProdutosFoto.id' in 'field list'
+Request URL: /pedidos/admin/produtosFotos/deleteFile/667cb7bb5ca348262efdf578c675b1ac.png
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `Produto...', Array)
+#2 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Datasource\DboSource.php(665): DboSource->execute('SELECT `Produto...', Array, Array)
+#3 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Datasource\DboSource.php(1077): DboSource->fetchAll('SELECT `Produto...', false)
+#4 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Model.php(2903): DboSource->read(Object(ProdutosFoto), Array)
+#5 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Model.php(2875): Model->_readDataSource('all', Array)
+#6 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Model.php(2710): Model->find('all', Array)
+#7 C:\SENAI\Fontes\pedidos\app\Plugin\Admin\Model\ProdutosFoto.php(100): Model->deleteAll(Array)
+#8 C:\SENAI\Fontes\pedidos\app\Plugin\Admin\Controller\AdminAppController.php(32): ProdutosFoto->deleteFoto('667cb7bb5ca3482...')
+#9 [internal function]: AdminAppController->deleteFile('667cb7bb5ca3482...')
+#10 C:\SENAI\Fontes\pedidos\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ProdutosFotosController), Array)
+#11 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#12 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(ProdutosFotosController), Object(CakeRequest), Object(CakeResponse))
+#13 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-05-06 08:18:37 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'ProdutosFoto.id' in 'where clause'
+Request URL: /pedidos/admin/produtosFotos/deleteFile/c07a1d3814d0ff8b1e9bd5f95d25adbc.png
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT COUNT(*)...', Array)
+#2 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Datasource\DboSource.php(665): DboSource->execute('SELECT COUNT(*)...', Array, Array)
+#3 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Datasource\DboSource.php(1077): DboSource->fetchAll('SELECT COUNT(*)...', false)
+#4 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Model.php(2903): DboSource->read(Object(ProdutosFoto), Array)
+#5 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Model.php(2875): Model->_readDataSource('count', Array)
+#6 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Model.php(2785): Model->find('count', Array)
+#7 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Model.php(2566): Model->exists()
+#8 C:\SENAI\Fontes\pedidos\app\Plugin\Admin\Model\ProdutosFoto.php(100): Model->delete(Array)
+#9 C:\SENAI\Fontes\pedidos\app\Plugin\Admin\Controller\AdminAppController.php(32): ProdutosFoto->deleteFoto('c07a1d3814d0ff8...')
+#10 [internal function]: AdminAppController->deleteFile('c07a1d3814d0ff8...')
+#11 C:\SENAI\Fontes\pedidos\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ProdutosFotosController), Array)
+#12 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#13 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(ProdutosFotosController), Object(CakeRequest), Object(CakeResponse))
+#14 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2014-05-06 09:20:24 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'ProdutosFoto.id' in 'field list'
+Request URL: /pedidos/admin/produtosFotos/deleteFile/a3e747eaae685f46d2f5a9a7d9fa187a.png
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `Produto...', Array)
+#2 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Datasource\DboSource.php(665): DboSource->execute('SELECT `Produto...', Array, Array)
+#3 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Datasource\DboSource.php(1077): DboSource->fetchAll('SELECT `Produto...', false)
+#4 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Model.php(2903): DboSource->read(Object(ProdutosFoto), Array)
+#5 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Model.php(2875): Model->_readDataSource('all', Array)
+#6 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Model.php(2710): Model->find('all', Array)
+#7 C:\SENAI\Fontes\pedidos\app\Plugin\Admin\Model\ProdutosFoto.php(100): Model->deleteAll(Array)
+#8 C:\SENAI\Fontes\pedidos\app\Plugin\Admin\Controller\AdminAppController.php(32): ProdutosFoto->deleteFoto('a3e747eaae685f4...')
+#9 [internal function]: AdminAppController->deleteFile('a3e747eaae685f4...')
+#10 C:\SENAI\Fontes\pedidos\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ProdutosFotosController), Array)
+#11 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#12 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(ProdutosFotosController), Object(CakeRequest), Object(CakeResponse))
+#13 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-05-06 09:22:25 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'ProdutosFoto.id' in 'field list'
+Request URL: /pedidos/admin/produtosFotos/deleteFile/5ba11f12f137128f479ec68bc43d548b.png
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `Produto...', Array)
+#2 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Datasource\DboSource.php(665): DboSource->execute('SELECT `Produto...', Array, Array)
+#3 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Datasource\DboSource.php(1077): DboSource->fetchAll('SELECT `Produto...', false)
+#4 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Model.php(2903): DboSource->read(Object(ProdutosFoto), Array)
+#5 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Model.php(2875): Model->_readDataSource('all', Array)
+#6 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Model.php(2710): Model->find('all', Array)
+#7 C:\SENAI\Fontes\pedidos\app\Plugin\Admin\Model\ProdutosFoto.php(100): Model->deleteAll(Array)
+#8 C:\SENAI\Fontes\pedidos\app\Plugin\Admin\Controller\AdminAppController.php(32): ProdutosFoto->deleteFoto('5ba11f12f137128...')
+#9 [internal function]: AdminAppController->deleteFile('5ba11f12f137128...')
+#10 C:\SENAI\Fontes\pedidos\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ProdutosFotosController), Array)
+#11 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#12 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(ProdutosFotosController), Object(CakeRequest), Object(CakeResponse))
+#13 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-05-06 09:23:48 Error: Fatal Error (1): Call to a member function deleteAll() on a non-object in [C:\SENAI\Fontes\pedidos\app\Plugin\Admin\Model\ProdutosFoto.php, line 100]
+2014-05-06 09:23:48 Error: [FatalErrorException] Call to a member function deleteAll() on a non-object
+Request URL: /pedidos/admin/produtosFotos/deleteFile/9bb78f631a31f24ecd992d8d1d679408.png
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\SENAI\Fontes...', 100)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\SENAI\Fontes...', 100, Array)
+#2 C:\SENAI\Fontes\pedidos\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\SENAI\Fontes...', 100, Array)
+#3 C:\SENAI\Fontes\pedidos\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-06 09:24:33 Error: Fatal Error (1): Call to a member function deleteAll() on a non-object in [C:\SENAI\Fontes\pedidos\app\Plugin\Admin\Model\ProdutosFoto.php, line 100]
+2014-05-06 09:24:33 Error: [FatalErrorException] Call to a member function deleteAll() on a non-object
+Request URL: /pedidos/admin/produtosFotos/deleteFile/0a02ea454e6d2b99cc7f62bd3151edfc.png
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\SENAI\Fontes...', 100)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\SENAI\Fontes...', 100, Array)
+#2 C:\SENAI\Fontes\pedidos\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\SENAI\Fontes...', 100, Array)
+#3 C:\SENAI\Fontes\pedidos\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-06 09:24:59 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'ProdutosFoto.id' in 'field list'
+Request URL: /pedidos/admin/produtosFotos/deleteFile/333607794814d5bf5660c493d1f0362a.png
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `Produto...', Array)
+#2 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Datasource\DboSource.php(665): DboSource->execute('SELECT `Produto...', Array, Array)
+#3 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Datasource\DboSource.php(1077): DboSource->fetchAll('SELECT `Produto...', false)
+#4 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Model.php(2903): DboSource->read(Object(ProdutosFoto), Array)
+#5 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Model.php(2875): Model->_readDataSource('all', Array)
+#6 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Model.php(2710): Model->find('all', Array)
+#7 C:\SENAI\Fontes\pedidos\app\Plugin\Admin\Model\ProdutosFoto.php(100): Model->deleteAll(Array)
+#8 C:\SENAI\Fontes\pedidos\app\Plugin\Admin\Controller\AdminAppController.php(32): ProdutosFoto->deleteFoto('333607794814d5b...')
+#9 [internal function]: AdminAppController->deleteFile('333607794814d5b...')
+#10 C:\SENAI\Fontes\pedidos\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ProdutosFotosController), Array)
+#11 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#12 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(ProdutosFotosController), Object(CakeRequest), Object(CakeResponse))
+#13 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-05-06 09:29:12 Error: Fatal Error (1): Call to a member function deleteAll() on a non-object in [C:\SENAI\Fontes\pedidos\app\Plugin\Admin\Model\ProdutosFoto.php, line 100]
+2014-05-06 09:29:12 Error: [FatalErrorException] Call to a member function deleteAll() on a non-object
+Request URL: /pedidos/admin/produtosFotos/deleteFile/a00419a553f23dc17264b3741cad7c83.png
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\SENAI\Fontes...', 100)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\SENAI\Fontes...', 100, Array)
+#2 C:\SENAI\Fontes\pedidos\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\SENAI\Fontes...', 100, Array)
+#3 C:\SENAI\Fontes\pedidos\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-06 09:32:12 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'deleteFoto' at line 1
+Request URL: /pedidos/admin/produtosFotos/deleteFile/477f5843bbc1de4e185111160182fe2d.png
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('deleteFoto', Array)
+#2 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Datasource\DboSource.php(665): DboSource->execute('deleteFoto', Array, Array)
+#3 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Datasource\DboSource.php(609): DboSource->fetchAll('deleteFoto', Array, Array)
+#4 C:\SENAI\Fontes\pedidos\lib\Cake\Model\Model.php(800): DboSource->query('deleteFoto', Array, Object(ProdutosFoto))
+#5 C:\SENAI\Fontes\pedidos\app\Plugin\Admin\Controller\AdminAppController.php(32): Model->__call('deleteFoto', Array)
+#6 C:\SENAI\Fontes\pedidos\app\Plugin\Admin\Controller\AdminAppController.php(32): ProdutosFoto->deleteFoto('477f5843bbc1de4...')
+#7 [internal function]: AdminAppController->deleteFile('477f5843bbc1de4...')
+#8 C:\SENAI\Fontes\pedidos\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ProdutosFotosController), Array)
+#9 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#10 C:\SENAI\Fontes\pedidos\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(ProdutosFotosController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\SENAI\Fontes\pedidos\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-05-06 09:38:45 Error: Fatal Error (1): Call to a member function delete() on a non-object in [C:\SENAI\Fontes\pedidos\app\Plugin\Admin\Model\ProdutosFoto.php, line 103]
+2014-05-06 09:38:45 Error: [FatalErrorException] Call to a member function delete() on a non-object
+Request URL: /pedidos/admin/produtosFotos/deleteFile/2ec900e4d8077a72ec377e11c5dd204f.png
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\SENAI\Fontes...', 103)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\SENAI\Fontes...', 103, Array)
+#2 C:\SENAI\Fontes\pedidos\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\SENAI\Fontes...', 103, Array)
+#3 C:\SENAI\Fontes\pedidos\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-06 09:40:51 Error: Fatal Error (1): Call to a member function delete() on a non-object in [C:\SENAI\Fontes\pedidos\app\Plugin\Admin\Model\ProdutosFoto.php, line 103]
+2014-05-06 09:40:51 Error: [FatalErrorException] Call to a member function delete() on a non-object
+Request URL: /pedidos/admin/produtosFotos/deleteFile/6fe8b72eda443815f0d8934b0ca75986.png
+Stack Trace:
+#0 C:\SENAI\Fontes\pedidos\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\SENAI\Fontes...', 103)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\SENAI\Fontes...', 103, Array)
+#2 C:\SENAI\Fontes\pedidos\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\SENAI\Fontes...', 103, Array)
+#3 C:\SENAI\Fontes\pedidos\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}

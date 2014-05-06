@@ -83,16 +83,26 @@ class ProdutosFoto extends AdminAppModel {
 	
 	
 	public function preparaSave($dados, $idProduto){
-		var_dump($dados);
 		$produtosFotos = array();
-		$produtosFotos['ProduosFoto']['produto_id'] = $idProduto;
-		$produtosFotos['ProduosFoto']['estabelecimento_id'] = 1;
-		$produtosFotos['ProduosFoto']['url'] = $dados->tmp_name;
+		$produtosFotos['ProdutosFoto']['produto_id'] = $idProduto;
+		$produtosFotos['ProdutosFoto']['estabelecimento_id'] = 1;
+		$nomeFinal = $dados['files']['name'][0];
+		//$nomeFinal = md5($nomeAntigo.$idProduto. date("dmY")).".jpg";
+		//rename($nomeAntigo, $nomeFinal);
+		$produtosFotos['ProdutosFoto']['url'] = $nomeFinal;
 		$this->save($produtosFotos);
 		
 		
 	}
-	
+	public function deleteFoto($file){
+		var_dump($file);
+		
+		//$this->deleteAll(array('ProdutosFoto.url' => $file), false);
+		
+		//$this->ProdutosFoto->url = $file;
+		//$this->ProdutosFoto->delete();
+		
+	}
 	
 	
 	
