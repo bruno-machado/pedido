@@ -25,9 +25,8 @@ class AdminAppController extends Controller {
 		// $this->Auth->allow('index', 'view');
 	}
 	
-	public function upload($idProduto = null) {
+	public function upload() {
 		$this->autoRender = false;
-		
 			
 		$this->Upload->uploadFile(array(
                 'image_versions' => array(
@@ -47,7 +46,7 @@ class AdminAppController extends Controller {
 		)
 		)
 		));
-		$this->ProdutosFoto->preparaSave($_FILES, $idProduto);	
+		$this->ProdutosFoto->preparaSave($_FILES, $this->params->query['idproduto']);	
 	}
 
 }

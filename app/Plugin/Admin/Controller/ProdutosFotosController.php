@@ -46,7 +46,7 @@ class ProdutosFotosController extends AdminAppController {
  *
  * @return void
  */
-	public function add($idProduto = null) {
+	public function add() {
 		$estabelecimento = $this->Auth->user();
 		if ($this->request->is('post')) {
 			$this->ProdutosFoto->create();
@@ -59,7 +59,7 @@ class ProdutosFotosController extends AdminAppController {
 			}
 		}
 		
-		$this->set('idProduto', $idProduto);
+		$this->set('idProduto', $this->params->query['idproduto']);
 		$produtos = $this->ProdutosFoto->Produto->find('list', array('fields'=>array('id','nome_produto')));
 		$estabelecimentos = $this->ProdutosFoto->Estabelecimento->find('list');
 		$this->set(compact('produtos', 'estabelecimentos'));

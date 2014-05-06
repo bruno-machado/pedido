@@ -37,7 +37,7 @@
 			        $(function () {
 			            $('#fileupload').fileupload({
 			                    xhrFields   : {withCredentials: true},
-			                    url         : '/".$baseUrl."/admin/produtosfotos/upload/".$idProduto."', //Set your action
+			                    url         : 'upload?idproduto=".$idProduto."', //Set your action
 			                    		
 			            });
 			        });    
