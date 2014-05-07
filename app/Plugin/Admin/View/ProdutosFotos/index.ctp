@@ -15,69 +15,35 @@
 
 
 	<div class="row">
-
-		<div class="col-md-3">
-			<div class="actions">
-				<div class="panel panel-default">
-					<div class="panel-heading">Actions</div>
-					<div class="panel-body">
-						<ul class="nav nav-pills nav-stacked">
-							<li><?php echo $this->Html->link(__('<span class="glyphicon glyphicon-plus"></span>&nbsp;&nbsp;New Produtos Foto'), array('action' => 'add'), array('escape' => false)); ?>
-							</li>
-							<li><?php echo $this->Html->link(__('<span class="glyphicon glyphicon-list"></span>&nbsp;&nbsp;List Produtos'), array('controller' => 'produtos', 'action' => 'index'), array('escape' => false)); ?>
-							</li>
-							<li><?php echo $this->Html->link(__('<span class="glyphicon glyphicon-plus"></span>&nbsp;&nbsp;New Produto'), array('controller' => 'produtos', 'action' => 'add'), array('escape' => false)); ?>
-							</li>
-							<li><?php echo $this->Html->link(__('<span class="glyphicon glyphicon-list"></span>&nbsp;&nbsp;List Estabelecimentos'), array('controller' => 'estabelecimentos', 'action' => 'index'), array('escape' => false)); ?>
-							</li>
-							<li><?php echo $this->Html->link(__('<span class="glyphicon glyphicon-plus"></span>&nbsp;&nbsp;New Estabelecimento'), array('controller' => 'estabelecimentos', 'action' => 'add'), array('escape' => false)); ?>
-							</li>
-						</ul>
-					</div>
-					<!-- end body -->
-				</div>
-				<!-- end panel -->
-			</div>
-			<!-- end actions -->
-		</div>
-		<!-- end col md 3 -->
-
+			<?php  echo $this->UploadTemplate->renderForm(array('action' => 'upload')); //Set action for form  ?>
+			<?php   echo $this->UploadTemplate->renderListFiles(array('action_delete' => 'deleteFile')); //Set action for remove files	    ?>
+			<?php 
+			    /* Load libs js e css jQuery-File-Upload and dependences */
+			    echo $this->UploadScript->loadLibs();
+			    echo $this->Html->scriptBlock("
+			        $(function () {
+			            $('#fileupload').fileupload({
+			                    xhrFields   : {withCredentials: true},
+			                    url         : 'upload?idproduto=".$idProduto."', //Set your action
+			                    		
+			            });
+			        });    
+			    ");
+			?>
+ 
 		<div class="col-md-9">
 			<table cellpadding="0" cellspacing="0" class="table table-striped">
-				<thead>
-					<tr>
-						<th><?php echo $this->Paginator->sort('produto_id'); ?>
-						</th>
-						<th><?php echo $this->Paginator->sort('estabelecimento_id'); ?>
-						</th>
-						<th><?php echo $this->Paginator->sort('foto'); ?>
-						</th>
-						<th><?php echo $this->Paginator->sort('foto_destaque'); ?>
-						</th>
-						<th><?php echo $this->Paginator->sort('url'); ?>
-						</th>
-						<th><?php echo $this->Paginator->sort('created'); ?>
-						</th>
-						<th><?php echo $this->Paginator->sort('modified'); ?>
-						</th>
-						<th class="actions"></th>
-					</tr>
-				</thead>
 				<tbody>
 				<?php foreach ($produtosFotos as $produtosFoto): ?>
 					<tr>
-						<td><?php echo $this->Html->link($produtosFoto['Produto']['id'], array('controller' => 'produtos', 'action' => 'view', $produtosFoto['Produto']['id'])); ?>
+						<td>
+							<img alt="" src="<?php echo FULL_BASE_URL."/pedidos/app/webroot/files/produtos/thumbnail/".h($produtosFoto['ProdutosFoto']['url']); ?>">
 						</td>
-						<td><?php echo $this->Html->link($produtosFoto['Estabelecimento']['nome_fantasia'], array('controller' => 'estabelecimentos', 'action' => 'view', $produtosFoto['Estabelecimento']['id'])); ?>
+						<td>
+							<?php echo h($produtosFoto['ProdutosFoto']['url']); ?>
 						</td>
-						<td><?php echo h($produtosFoto['ProdutosFoto']['foto']); ?>&nbsp;</td>
-						<td><?php echo h($produtosFoto['ProdutosFoto']['foto_destaque']); ?>&nbsp;</td>
-						<td><?php echo h($produtosFoto['ProdutosFoto']['url']); ?>&nbsp;</td>
-						<td><?php echo h($produtosFoto['ProdutosFoto']['created']); ?>&nbsp;</td>
-						<td><?php echo h($produtosFoto['ProdutosFoto']['modified']); ?>&nbsp;</td>
-						<td class="actions"><?php echo $this->Html->link('<span class="glyphicon glyphicon-search"></span>', array('action' => 'view', $produtosFoto['ProdutosFoto']['produto_id']), array('escape' => false)); ?>
-						<?php echo $this->Html->link('<span class="glyphicon glyphicon-edit"></span>', array('action' => 'edit', $produtosFoto['ProdutosFoto']['produto_id']), array('escape' => false)); ?>
-						<?php echo $this->Form->postLink('<span class="glyphicon glyphicon-remove"></span>', array('action' => 'delete', $produtosFoto['ProdutosFoto']['produto_id']), array('escape' => false), __('Are you sure you want to delete # %s?', $produtosFoto['ProdutosFoto']['produto_id'])); ?>
+						<td class="actions">
+						<?php echo $this->Form->postLink('<span class="btn btn-danger">Remover</span>', array('action' => 'delete', $produtosFoto['ProdutosFoto']['url'], $produtosFoto['ProdutosFoto']['produto_id']), array('escape' => false), __('Are you sure you want to delete # %s?', $produtosFoto['ProdutosFoto']['url'].', '.$produtosFoto['ProdutosFoto']['produto_id'])); ?>
 						</td>
 					</tr>
 					<?php endforeach; ?>

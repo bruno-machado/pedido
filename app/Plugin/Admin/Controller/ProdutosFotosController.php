@@ -23,7 +23,10 @@ class ProdutosFotosController extends AdminAppController {
  */
 	public function index() {
 		$this->ProdutosFoto->recursive = 0;
+		$options = array('conditions' => array('ProdutosFoto.produto_id' => $this->params->query['idproduto']));
+			$this->Paginator->settings = $options;
 		$this->set('produtosFotos', $this->Paginator->paginate());
+		$this->set('idProduto', $this->params->query['idproduto']);
 	}
 
 /**
@@ -101,18 +104,12 @@ class ProdutosFotosController extends AdminAppController {
  * @param string $id
  * @return void
  */
-	public function delete($id = null) {
-		$this->ProdutosFoto->id = $id;
-		if (!$this->ProdutosFoto->exists()) {
-			throw new NotFoundException(__('Invalid produtos foto'));
-		}
-		$this->request->onlyAllow('post', 'delete');
-		if ($this->ProdutosFoto->delete()) {
-			$this->Session->setFlash(__('The produtos foto has been deleted.'), 'default', array('class' => 'alert alert-success'));
-		} else {
-			$this->Session->setFlash(__('The produtos foto could not be deleted. Please, try again.'), 'default', array('class' => 'alert alert-danger'));
-		}
-		return $this->redirect(array('action' => 'index'));
+	public function delete($url = null, $id =  null) {
+		$this->ProdutosFoto->url = $url;
+		$_GET['file'] = $url;
+		$this->Upload->deleteFile(array('image_versions' => array('' => array(), 'medium' => array(), 'thumbnail' => array())));
+		$this->ProdutosFoto->deleteAll(array('ProdutosFoto.url' => $url), false);
+		return $this->redirect(array('action' => 'index?idproduto='.$id));
 	}
         
         
