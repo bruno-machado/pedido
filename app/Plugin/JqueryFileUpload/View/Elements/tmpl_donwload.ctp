@@ -26,3 +26,4 @@
     </tr>
     {% } %}
 </script>
+<div onclick=""></div>

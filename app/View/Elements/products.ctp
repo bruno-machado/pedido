@@ -9,7 +9,7 @@
         }
         ?>
         <div class="col col-sm-3">
-            <?php echo $this->Html->image('/files/produtos/thumbnail/' . $product['ProdutosFoto'][0]['url'], array('url' => array('controller' => 'products', 'action' => 'view', $product['Product']['id']), 'alt' => $product['Product']['nome_produto'], 'width' => 150, 'height' => 150, 'class' => 'image')); ?>
+            <?php echo $this->Html->image('/files/produtos/thumbnail/' . $product['ProdutosFoto'][0]['url'], array('url' => array('controller' => 'products', 'action' => 'view', $product['Product']['id']), 'alt' => $product['Product']['nome_produto'], 'class' => 'image')); ?>
             <br />
     <?php echo $this->Html->link($product['Product']['nome_produto'], array('controller' => 'products', 'action' => 'view', $product['Product']['id'])); ?>
             <br />
