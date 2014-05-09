@@ -44,7 +44,7 @@ Shopping Cart is empty
 		<div class="col col-sm-1" id="price-<?php echo $key; ?>"><?php echo $item['Product']['preco']; ?></div>
 		<div class="col col-sm-1"><?php echo $this->Form->input('quantity-' . $key, array('div' => false, 'class' => 'numeric form-control input-small', 'label' => false, 'size' => 2, 'maxlength' => 2, 'tabindex' => $tabindex++, 'data-id' => $item['Product']['id'], 'data-mods' => $mods, 'value' => $item['quantity'])); ?></div>
 		<div class="col col-sm-1" id="subtotal_<?php echo $key; ?>"><?php echo $item['subtotal']; ?></div>
-		<div class="col col-sm-1"><span class="remove" id="<?php echo $key; ?>"></span></div>
+		<div class="col col-sm-1"><span class="remove" id="<?php echo $key; ?>">eadasd</span></div>
 	</div>
 <?php endforeach; ?>
 
@@ -84,10 +84,8 @@ Shopping Cart is empty
 		<br />
 
 		<?php echo $this->Form->create(NULL, array('url' => array('controller' => 'shop', 'action' => 'step1'))); ?>
-		<input type='image' name='submit' src='https://www.paypal.com/en_US/i/btn/btn_xpressCheckout.gif' border='0' align='top' alt='Check out with PayPal' class="sbumit" />
 		<?php echo $this->Form->end(); ?>
 
-		<?php echo $this->Html->image('https://checkout.google.com/buttons/checkout.gif?w=180&h=46&style=white&variant=text&loc=en_US', array('url' => array('controller' => 'shop', 'action' => 'googlecheckout'))); ?>
 
 	</div>
 </div>

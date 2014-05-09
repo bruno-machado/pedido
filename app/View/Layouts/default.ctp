@@ -103,25 +103,11 @@ $(document).ready(function(){
 			<div id="msg"></div>
 			<br />
 
-			<div class="alert alert-danger">
-				<span class="glyphicon glyphicon-info-sign"></span> THIS IS A DEMO CAKEPHP SHOPPING CART !
-			</div>
-
 		</div>
 	</div>
 
 	<div class="footer">
-		<div class="container">
-			<?php echo $this->Html->link($this->Html->image('cake.power.gif', array('alt' => 'CakePHP', 'border' => 0)), 'http://www.cakephp.org/', array('target' => '_blank', 'escape' => false)); ?>
-			<br />
-			<?php echo $this->Html->link('CakePHP Shopping Cart - github.com/andraskende/cakephp-shopping-cart', 'https://github.com/andraskende/cakephp-shopping-cart'); ?>
-			<br />
-			<?php echo $this->Html->link('www.shoppingcartcore.com', 'http://www.shoppingcartcore.com'); ?> - <?php echo $this->Html->link('www.kende.com', 'http://www.kende.com'); ?>
-			<br />
-			&copy; <?php echo date('Y'); ?> <?php echo env('HTTP_HOST'); ?>
-			<br />
-			<br />
-		</div>
+		
 	</div>
 
 	<div class="sqldump">

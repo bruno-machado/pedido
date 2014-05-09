@@ -116,3 +116,4 @@ Configure::write('Language.default', 'pt-br');
 // esta linha � opcional, somente se seu servidor n�o estiver configurado com a mesma regi�o da aplica��o
 setlocale(LC_ALL, 'pt_BR.utf-8', 'pt_BR', 'pt-br');
 CakePlugin::load('Admin', array('bootstrap' => false, 'routes' => false));
+Configure::load('settings');

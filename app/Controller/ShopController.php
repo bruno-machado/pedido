@@ -195,7 +195,6 @@ class ShopController extends AppController {
 		if(empty($shop)) {
 			return $this->redirect('/');
 		}
-
 		if ($this->request->is('post')) {
 
 			$this->loadModel('Order');
@@ -224,7 +223,8 @@ class ShopController extends AppController {
 						'creditcard_code' => $this->request->data['Order']['creditcard_code'],
 					);
 					try {
-						$authorizeNet = $this->AuthorizeNet->charge($shop['Order'], $payment);
+						//$authorizeNet = $this->AuthorizeNet->charge($shop['Order'], $payment);
+
 					} catch(Exception $e) {
 						$this->Session->setFlash($e->getMessage());
 						return $this->redirect(array('action' => 'review'));
@@ -234,20 +234,21 @@ class ShopController extends AppController {
 				}
 
 				$save = $this->Order->saveAll($order, array('validate' => 'first'));
+        
 				if($save) {
 
 					$this->set(compact('shop'));
 
-					App::uses('CakeEmail', 'Network/Email');
-					$email = new CakeEmail();
-					$email->from(Configure::read('Settings.ADMIN_EMAIL'))
-							->cc(Configure::read('Settings.ADMIN_EMAIL'))
-							->to($shop['Order']['email'])
-							->subject('Shop Order')
-							->template('order')
-							->emailFormat('text')
-							->viewVars(array('shop' => $shop))
-							->send();
+//					App::uses('CakeEmail', 'Network/Email');
+//					$email = new CakeEmail('Smtp');
+//					$email->from(Configure::read('Settings.ADMIN_EMAIL'))
+//							->cc(Configure::read('Settings.ADMIN_EMAIL'))
+//							->to($shop['Order']['email'])
+//							->subject('Shop Order')
+//							->template('order')
+//							->emailFormat('text')
+//							->viewVars(array('shop' => $shop))
+//							->send();
 					return $this->redirect(array('action' => 'success'));
 				} else {
 					$errors = $this->Order->invalidFields();

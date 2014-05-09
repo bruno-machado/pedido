@@ -94,25 +94,23 @@ class ProductsController extends AppController {
 			$search = preg_replace('/[^a-zA-Z0-9 ]/', '', $search);
 			$terms = explode(' ', trim($search));
 			$terms = array_diff($terms, array(''));
-			$conditions = array(
-				'Brand.active' => 1,
-				'Product.active' => 1,
-			);
+//			$conditions = array(
+//				'Brand.active' => 1,
+//				'Product.active' => 1,
+//			);
 			foreach($terms as $term) {
 				$terms1[] = preg_replace('/[^a-zA-Z0-9]/', '', $term);
-				$conditions[] = array('Product.name LIKE' => '%' . $term . '%');
+				$conditions[] = array('Product.nome_produto LIKE' => '%' . $term . '%');
 			}
 			$products = $this->Product->find('all', array(
-				'recursive' => -1,
-				'contain' => array(
-					'Brand'
-				),
+				'recursive' => 2,
+				
 				'conditions' => $conditions,
 				'limit' => 200,
 			));
-			if(count($products) == 1) {
-				return $this->redirect(array('controller' => 'products', 'action' => 'view', 'slug' => $products[0]['Product']['slug']));
-			}
+//			if(count($products) == 1) {
+//				return $this->redirect(array('controller' => 'products', 'action' => 'view', $products[0]['Product']['id']));
+//			}
 			$terms1 = array_diff($terms1, array(''));
 			$this->set(compact('products', 'terms1'));
 		}
