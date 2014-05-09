@@ -30,7 +30,7 @@ $(document).ready(function() {
 		<br />
 		<br />
 
-		R$ <span id="productprice"><?php // echo $product['Product']['price']; ?></span>
+		R$ <span id="productprice"><?php  echo $product['Product']['preco']; ?></span>
 
 		<br />
 		<br />

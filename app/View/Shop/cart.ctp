@@ -41,7 +41,7 @@ Shopping Cart is empty
 			<small><?php echo $item['Product']['productmod_name']; ?></small>
 			<?php endif; ?>
 		</div>
-		<div class="col col-sm-1" id="price-<?php echo $key; ?>"><?php echo $item['Product']['price']; ?></div>
+		<div class="col col-sm-1" id="price-<?php echo $key; ?>"><?php echo $item['Product']['preco']; ?></div>
 		<div class="col col-sm-1"><?php echo $this->Form->input('quantity-' . $key, array('div' => false, 'class' => 'numeric form-control input-small', 'label' => false, 'size' => 2, 'maxlength' => 2, 'tabindex' => $tabindex++, 'data-id' => $item['Product']['id'], 'data-mods' => $mods, 'value' => $item['quantity'])); ?></div>
 		<div class="col col-sm-1" id="subtotal_<?php echo $key; ?>"><?php echo $item['subtotal']; ?></div>
 		<div class="col col-sm-1"><span class="remove" id="<?php echo $key; ?>"></span></div>

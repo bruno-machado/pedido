@@ -20,8 +20,7 @@ class ProductsController extends AppController {
 		$products = $this->Product->find('all', array(
 			'recursive' => 2,
 			
-			'limit' => 20
-			
+			'limit' => 20			
 			
 		));
 		$this->set(compact('products'));

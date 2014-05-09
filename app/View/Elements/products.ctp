@@ -2,7 +2,7 @@
     <?php
     $i = 0;
     foreach ($products as $product):
-      //  var_dump($product);die;
+      // var_dump($product);die;
         $i++;
         if (($i % 4) == 0) {
             echo "\n<div class=\"row\">\n\n";
@@ -13,7 +13,7 @@
             <br />
     <?php echo $this->Html->link($product['Product']['nome_produto'], array('controller' => 'products', 'action' => 'view', $product['Product']['id'])); ?>
             <br />
-            R$<?php //echo $product['Produto']['preco']; ?>
+            R$<?php echo $product['Product']['preco']; ?>
             <br />
             <br />
         </div>

@@ -64,19 +64,18 @@ class CartComponent extends Component {
 		if(empty($product)) {
 			return false;
 		}
-                      //  var_dump($product);die;
 
 		if($this->Session->check('Shop.OrderItem.' . $id . '.Product.productmod_name')) {
 			$productmod['Productmod']['id'] = $this->Session->read('Shop.OrderItem.' . $id . '.Product.productmod_id');
-			$productmod['Productmod']['name'] = $this->Session->read('Shop.OrderItem.' . $id . '.Product.productmod_name');
-			$productmod['Productmod']['price'] = $this->Session->read('Shop.OrderItem.' . $id . '.Product.price');
+			$productmod['Productmod']['nome_produto'] = $this->Session->read('Shop.OrderItem.' . $id . '.Product.productmod_name');
+			$productmod['Productmod']['preco'] = $this->Session->read('Shop.OrderItem.' . $id . '.Product.preco');
 
 		}
 
 		if(isset($productmod)) {
 			$product['Product']['productmod_id'] = $productmod['Productmod']['id'];
 			$product['Product']['productmod_name'] = $productmod['Productmod']['name'];
-			$product['Product']['price'] = $productmod['Productmod']['price'];
+			$product['Product']['preco'] = $productmod['Productmod']['preco'];
 			$productmodId = $productmod['Productmod']['id'];
 			$data['productmod_id'] = $product['Product']['productmod_id'];
 			$data['productmod_name'] = $product['Product']['productmod_name'];
@@ -89,11 +88,11 @@ class CartComponent extends Component {
 		}
 
 		$data['product_id'] = $product['Product']['id'];
-		$data['name'] = $product['Product']['name'];
+		$data['nome_produto'] = $product['Product']['nome_produto'];
 		$data['weight'] = $product['Product']['weight'];
-		$data['price'] = $product['Product']['price'];
+		$data['preco'] = $product['Product']['preco'];
 		$data['quantity'] = $quantity;
-		$data['subtotal'] = sprintf('%01.2f', $product['Product']['price'] * $quantity);
+		$data['subtotal'] = sprintf('%01.2f', $product['Product']['preco'] * $quantity);
 		$data['totalweight'] = sprintf('%01.2f', $product['Product']['weight'] * $quantity);
 		$data['Product'] = $product['Product'];
                 $data['Product']['Foto'] = $product['ProdutosFoto'];
@@ -105,11 +104,11 @@ class CartComponent extends Component {
 		$cartdata['Cart']['sessionid'] = $this->Session->id();
 		$cartdata['Cart']['quantity'] = $quantity;
 		$cartdata['Cart']['product_id'] = $product['Product']['id'];
-		$cartdata['Cart']['name'] = $product['Product']['name'];
+		$cartdata['Cart']['name'] = $product['Product']['nome_produto'];
 		$cartdata['Cart']['weight'] = $product['Product']['weight'];
 		$cartdata['Cart']['weight_total'] = sprintf('%01.2f', $product['Product']['weight'] * $quantity);
-		$cartdata['Cart']['price'] = $product['Product']['price'];
-		$cartdata['Cart']['subtotal'] = sprintf('%01.2f', $product['Product']['price'] * $quantity);
+		$cartdata['Cart']['preco'] = $product['Product']['preco'];
+		$cartdata['Cart']['subtotal'] = sprintf('%01.2f', $product['Product']['preco'] * $quantity);
 
 		$existing = $this->Cart->find('first', array(
 			'recursive' => 2,
