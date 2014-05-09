@@ -23,9 +23,24 @@
  * Here, we are connecting '/' (base path) to controller called 'Pages',
  * its action called 'display', and we pass a param to select the view file
  * to use (in this case, /app/View/Pages/home.ctp)...
+ * 
+ * 
  */
-	Router::connect('/', array('controller' => 'pages', 'action' => 'display', 'home'));
-	Router::connect('/admin', array('plugin' => 'admin', 'controller' => 'pages', 'action' => 'home'));
+
+	Router::connect('/', array('controller' => 'products', 'action' => 'index'));
+	Router::connect('/product/:slug', array('controller' => 'products', 'action' => 'view'), array('pass' => array('slug')));
+
+	Router::connect('/brand/:slug', array('controller' => 'brands', 'action' => 'view'), array('pass' => array('slug')));
+
+	Router::connect('/category/:slug', array('controller' => 'categories', 'action' => 'view'), array('pass' => array('slug')));
+
+	Router::connect('/sitemap.xml', array('controller' => 'products', 'action' => 'sitemap'));
+
+//	Router::connect('/admin', array('controller' => 'users', 'action' => 'dashboard', 'admin' => true));
+	Router::connect('/customer', array('controller' => 'users', 'action' => 'dashboard', 'customer' => true));
+        
+//	Router::connect('/', array('controller' => 'pages', 'action' => 'display', 'home'));
+//	Router::connect('/admin', array('plugin' => 'admin', 'controller' => 'pages', 'action' => 'home'));
 	//Router::connect('/', array('controller' => 'cidades', 'action' =>  'index'));
 	//Router::connect('/clientes', array('controller' => 'clientes', 'action' => 'index'));
 /**

@@ -43,7 +43,7 @@ class AppController extends Controller {
     );
 */
     public function beforeFilter(){
-        $this->layout = 'bootstrap';
+     //   $this->layout = 'bootstrap';
       // $this->set('userLogado', $this->Auth->user());
         
        // $this->Auth->allow('index', 'view');
