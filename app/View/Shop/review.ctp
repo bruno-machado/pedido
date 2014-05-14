@@ -36,21 +36,6 @@
 	<div class="col col-sm-4">
 		<div class="panel panel-default">
 			<div class="panel-heading">
-				<h3 class="panel-title">Billing Address</h3>
-			</div>
-			<div class="panel-body">
-				Billing Address: <?php echo $shop['Order']['billing_address'];?><br />
-				Billing Address 2: <?php echo $shop['Order']['billing_address2'];?><br />
-				Billing City: <?php echo $shop['Order']['billing_city'];?><br />
-				Billing State: <?php echo $shop['Order']['billing_state'];?><br />
-				Billing Zip: <?php echo $shop['Order']['billing_zip'];?><br />
-				Billing Country: <?php echo $shop['Order']['billing_country'];?>
-			</div>
-		</div>
-	</div>
-	<div class="col col-sm-4">
-		<div class="panel panel-default">
-			<div class="panel-heading">
 				<h3 class="panel-title">Shipping Address</h3>
 			</div>
 			<div class="panel-body">
@@ -61,6 +46,7 @@
 				Shipping Zip: <?php echo $shop['Order']['shipping_zip'];?><br />
 				Shipping Country: <?php echo $shop['Order']['shipping_country'];?>
 			</div>
+			<?php echo $this->Html->link('Alterar Dados', array('controller' => 'shop', 'action' => 'address'), array('class' => 'btn btn-default btn-primary', 'escape' => false)); ?>
 		</div>
 	</div>
 </div>
@@ -112,7 +98,7 @@
 <br />
 
 <?php echo $this->Form->create('Order'); ?>
-<?php echo $this->Form->button('Submit Order', array('class' => 'btn btn-primary', 'ecape' => false)); ?>
+<?php echo $this->Form->button('Finalizar Pedido', array('class' => 'btn btn-primary btn-success', 'ecape' => false)); ?>
 
 <?php echo $this->Form->end(); ?>
 

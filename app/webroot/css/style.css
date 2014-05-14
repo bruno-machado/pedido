@@ -1,0 +1,121 @@
+@font-face {
+    font-family: 'cuprumregular';
+    src: url('../fonts/cuprum-regular.eot');
+    src: url('../fonts/cuprum-regular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/cuprum-regular.woff') format('woff'),
+         url('../fonts/cuprum-regular.ttf') format('truetype'),
+         url('../fonts/cuprum-regular.svg#cuprumregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'fjalla_oneregular';
+    src: url('../fonts/fjallaone-regular.eot');
+    src: url('../fonts/fjallaone-regular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/fjallaone-regular.woff') format('woff'),
+         url('../fonts/fjallaone-regular.ttf') format('truetype'),
+         url('../fonts/fjallaone-regular.svg#fjalla_oneregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+/* CLEAR */
+.clear {
+    clear: both;
+}
+
+/* CLEAR FIX - http://www.yuiblog.com/blog/2010/09/27/clearfix-reloaded-overflowhidden-demystified */
+.clearfix:before,.clearfix:after {
+    content: '.';
+    display: block;
+    overflow: hidden;
+    visibility: hidden;
+    font-size: 0;
+    line-height: 0;
+    width: 0;
+    height: 0;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/*
+  The following zoom:1 rule is specifically for IE6 + IE7.
+  Move to separate stylesheet if invalid CSS is a problem.
+*/
+.clearfix {
+    zoom: 1;
+}
+.topo{
+	background: #C32329;
+	border: none;
+	margin-bottom: 0;
+}
+.topo .navbar-toggle{
+	border-color: #FFF;
+}
+.topo .navbar-toggle .icon-bar{
+	color: #FFF;
+}
+.topo .navbar-nav > li > a{
+	color: #FFF;
+	font-family: 'cuprumregular';
+	font-size: 1.2em;
+}
+.nav.navbar-nav{
+	margin-top: 35px;
+}
+.container.cidadesindex{	
+	background: url("../img/fundo_home.jpg") no-repeat center;
+	min-height: 529px;
+	max-height: 529px;
+	max-width: 1999px;
+}
+.conteudo-capa{
+	margin: 0 auto;
+	min-height: 529px;
+	position: relative;
+	max-width: 1000px;
+	min-width: 960px;
+	z-index: 1000;
+}
+.cozinheiro{
+	background: url("../img/cozinheiro.png") no-repeat center;
+	display: block;
+	position: absolute;
+	text-indent: -999em;
+	height: 567px;
+	top: -45px;
+	right:0;
+	width: 291px;
+}
+.conteudo-rodape{
+	margin: 0 auto;
+	max-width: 960px;
+	width: 100%;
+}
+.sqldump{
+	display: none !important;
+}
+.footer{
+	background: #C32329;
+}
+.titulo-principal-capa{
+	color: #FFF;
+	font-family: 'fjalla_oneregular';
+	margin-top: 100px;
+}
+.contato-rodape{
+	color: #FFF;
+	font-size: 1.6em;
+	font-family: 'cuprumregular';
+	font-weight: normal;
+	margin:0 5%; 
+}
+.todos-direitos{
+	color: #FFF;
+	font-size: 1.2em;
+	font-family: 'cuprumregular';
+}

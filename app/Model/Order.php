@@ -25,16 +25,6 @@ class Order extends AppModel {
 				//'on' => 'create', // Limit validation to 'create' or 'update' operations
 			),
 		),
-		'phone' => array(
-			'notempty' => array(
-				'rule' => array('phone'),
-				'message' => 'Phone is invalid',
-				//'allowEmpty' => false,
-				//'required' => true,
-				//'last' => false, // Stop validation after this rule
-				//'on' => 'create', // Limit validation to 'create' or 'update' operations
-			),
-		),
 		'billing_address' => array(
 			'notempty' => array(
 				'rule' => array('notempty'),

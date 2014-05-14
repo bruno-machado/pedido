@@ -27,8 +27,10 @@
  * 
  */
 
-	Router::connect('/', array('controller' => 'products', 'action' => 'index'));
-	Router::connect('/product/:slug', array('controller' => 'products', 'action' => 'view'), array('pass' => array('slug')));
+//	Router::connect('/', array('controller' => 'pages', 'action' => 'display', 'home'));
+	Router::connect('/', array('controller' => 'cidades', 'action' =>  'index'));
+	
+	//Router::connect('/produtos/:slug', array('controller' => 'produtos', 'action' => 'view'), array('pass' => array('slug')));
 
 	Router::connect('/brand/:slug', array('controller' => 'brands', 'action' => 'view'), array('pass' => array('slug')));
 
@@ -36,13 +38,17 @@
 
 	Router::connect('/sitemap.xml', array('controller' => 'products', 'action' => 'sitemap'));
 
-//	Router::connect('/admin', array('controller' => 'users', 'action' => 'dashboard', 'admin' => true));
 	Router::connect('/customer', array('controller' => 'users', 'action' => 'dashboard', 'customer' => true));
+	
+	Router::connect('/estabelecimentos/:id', array('controller' => 'estabelecimentos', 'action' => 'index')
+	,array('pass' => array('id')));
+	
+	Router::connect('/produtos/:id', array('controller' => 'produtos', 'action' => 'index')
+	,array('pass' => array('id')));
         
-//	Router::connect('/', array('controller' => 'pages', 'action' => 'display', 'home'));
-//	Router::connect('/admin', array('plugin' => 'admin', 'controller' => 'pages', 'action' => 'home'));
-	//Router::connect('/', array('controller' => 'cidades', 'action' =>  'index'));
-	//Router::connect('/clientes', array('controller' => 'clientes', 'action' => 'index'));
+	Router::connect('/fale-conosco', array('controller' => 'pages', 'action' => 'display', 'fale-conosco'));
+	
+	Router::connect('/quem-somos', array('controller' => 'pages', 'action' => 'display', 'quem-somos'));
 /**
  * ...and connect the rest of 'Pages' controller's URLs.
  */

@@ -18,11 +18,11 @@ Shopping Cart is empty
 
 <div class="row">
 	<div class="col col-sm-1">#</div>
-	<div class="col col-sm-7">ITEM</div>
-	<div class="col col-sm-1">PRICE</div>
-	<div class="col col-sm-1">QUANTITY</div>
-	<div class="col col-sm-1">SUBTOTAL</div>
-	<div class="col col-sm-1">REMOVE</div>
+	<div class="col col-sm-7">Item</div>
+	<div class="col col-sm-1">Preço</div>
+	<div class="col col-sm-1">Quantidade</div>
+	<div class="col col-sm-1">Subtotal</div>
+	<div class="col col-sm-1">Remover</div>
 </div>
 
 <?php $tabindex = 1; ?>
@@ -53,9 +53,9 @@ Shopping Cart is empty
 <div class="row">
 	<div class="col col-sm-12">
 		<div class="pull-right">
-		<?php echo $this->Html->link('<i class="icon-remove icon"></i> Clear Cart', array('controller' => 'shop', 'action' => 'clear'), array('class' => 'btn btn-danger', 'escape' => false)); ?>
+		<?php echo $this->Html->link('<i class="icon-remove icon"></i> Limpar carrinho', array('controller' => 'shop', 'action' => 'clear'), array('class' => 'btn btn-danger', 'escape' => false)); ?>
 		&nbsp; &nbsp;
-		<?php echo $this->Form->button('<i class="icon-refresh icon"></i> Recalculate', array('class' => 'btn btn-default', 'escape' => false));?>
+		<?php echo $this->Form->button('<i class="icon-refresh icon"></i> Recalcular Valores', array('class' => 'btn btn-default', 'escape' => false));?>
 		<?php echo $this->Form->end(); ?>
 		</div>
 	</div>
@@ -67,18 +67,11 @@ Shopping Cart is empty
 	<div class="col col-sm-12 pull-right tr">
 		Subtotal: <span class="normal" id="subtotal">$<?php echo $shop['Order']['subtotal']; ?></span>
 		<br />
-		<br />
-		Sales Tax: <span class="normal">N/A</span>
-		<br />
-		<br />
-		Shipping: <span class="normal">N/A</span>
-		<br />
-		<br />
-		Order Total: <span class="red" id="total">$<?php echo $shop['Order']['total']; ?></span>
+		Valor Total: <span class="red" id="total">$<?php echo $shop['Order']['total']; ?></span>
 		<br />
 		<br />
 
-		<?php echo $this->Html->link('<i class="glyphicon glyphicon-arrow-right"></i> Checkout', array('controller' => 'shop', 'action' => 'address'), array('class' => 'btn btn-primary', 'escape' => false)); ?>
+		<?php echo $this->Html->link('<i class="glyphicon glyphicon-arrow-right"></i> Finalizar', array('controller' => 'shop', 'action' => 'address'), array('class' => 'btn btn-primary', 'escape' => false)); ?>
 
 		<br />
 		<br />
