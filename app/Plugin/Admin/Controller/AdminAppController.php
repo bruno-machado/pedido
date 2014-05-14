@@ -20,7 +20,7 @@ class AdminAppController extends Controller {
 	public function beforeFilter(){
 		$this->layout = 'bootstrap';
 		$this->set('userLogado', $this->Auth->user());
-                $this->set('baseUrl', 'pedidos');
+          $this->set('baseUrl', '/pedido');
 
 		// $this->Auth->allow('index', 'view');
 	}

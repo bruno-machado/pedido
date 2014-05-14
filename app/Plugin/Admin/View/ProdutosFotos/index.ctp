@@ -37,7 +37,7 @@
 				<?php foreach ($produtosFotos as $produtosFoto): ?>
 					<tr>
 						<td>
-							<img alt="" src="<?php echo FULL_BASE_URL."/pedidos/app/webroot/files/produtos/thumbnail/".h($produtosFoto['ProdutosFoto']['url']); ?>">
+							<img alt="" src="<?php echo FULL_BASE_URL.$baseUrl."/app/webroot/files/produtos/thumbnail/".h($produtosFoto['ProdutosFoto']['url']); ?>">
 						</td>
 						<td>
 							<?php echo h($produtosFoto['ProdutosFoto']['url']); ?>

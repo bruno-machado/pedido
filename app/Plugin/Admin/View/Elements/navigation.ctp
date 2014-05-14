@@ -18,6 +18,8 @@
 				</li>
 				<li><a href="<?php echo $this->Html->url('/admin/produtos');?>">Produtos</a>
 				</li>
+				<li><a href="<?php echo $this->Html->url('/admin/orders');?>">Ordens</a>
+				</li>
 				<li><a href="<?php echo $this->Html->url('/admin/users/logout');?>">Sair</a>
 				</li>
 			</ul>
