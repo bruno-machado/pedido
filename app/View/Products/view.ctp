@@ -50,7 +50,7 @@ $(document).ready(function() {
 
 		<?php endif;?>
 
-		<?php echo $this->Form->button('Add to Cart', array('class' => 'btn btn-primary addtocart', 'id' => 'addtocart', 'id' => $product['Product']['id']));?>
+		<?php echo $this->Form->button('Adicionar ao Carrinho', array('class' => 'btn btn-primary addtocart', 'id' => 'addtocart', 'id' => $product['Product']['id']));?>
 		<?php echo $this->Form->end(); ?>
 
 		<br />

@@ -49,6 +49,7 @@
 	Router::connect('/fale-conosco', array('controller' => 'pages', 'action' => 'display', 'fale-conosco'));
 	
 	Router::connect('/quem-somos', array('controller' => 'pages', 'action' => 'display', 'quem-somos'));
+	
 /**
  * ...and connect the rest of 'Pages' controller's URLs.
  */

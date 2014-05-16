@@ -13,13 +13,13 @@ $(document).ready(function(){
 			dataType: "json",
 			success: function(data) {
 
-				$('#msg').html('<div class="alert alert-success flash-msg">Product Added to Shopping Cart</div>');
+				$('#msg').html('<div class="alert alert-success flash-msg">Produto adicionado ao Carrinho</div>');
 				$('#cartbutton').show();
-				$('.flash-msg').delay(2000).fadeOut('slow');
+				$('.flash-msg').delay(3000).fadeOut('slow');
 
 			},
 			error: function() {
-				alert('big problems !!!');
+				alert('Erro ao adicionar Produto !!!');
 			}
 		});
 

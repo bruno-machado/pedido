@@ -26,7 +26,7 @@ class ShopController extends AppController {
 
 	public function clear() {
 		$this->Cart->clear();
-		$this->Session->setFlash('All item(s) removed from your shopping cart', 'flash_error');
+		$this->Session->setFlash('Todos os item(s) removidos do carrinho', 'flash_error');
 		return $this->redirect('/');
 	}
 
@@ -44,7 +44,7 @@ class ShopController extends AppController {
 			$product = $this->Cart->add($id, $quantity, $productmodId);
 		}
 		if(!empty($product)) {
-			$this->Session->setFlash($product['Product']['name'] . ' was added to your shopping cart.', 'flash_success');
+			$this->Session->setFlash($product['Product']['name'] . ' foi adicionado ao carrinho.', 'flash_success');
 		} else {
 			$this->Session->setFlash('Unable to add this product to your shopping cart.', 'flash_error');
 		}
@@ -88,7 +88,7 @@ class ShopController extends AppController {
 	public function remove($id = null) {
 		$product = $this->Cart->remove($id);
 		if(!empty($product)) {
-			$this->Session->setFlash($product['Product']['name'] . ' was removed from your shopping cart', 'flash_error');
+			$this->Session->setFlash($product['Product']['name'] . ' removido do carrinho', 'flash_error');
 		}
 		return $this->redirect(array('action' => 'cart'));
 	}
@@ -102,7 +102,7 @@ class ShopController extends AppController {
 				$p = explode('_', $p[1]);
 				$this->Cart->add($p[0], $value, $p[1]);
 			}
-			$this->Session->setFlash('Shopping Cart is updated.', 'flash_success');
+			$this->Session->setFlash('Carrinho atualizado.', 'flash_success');
 		}
 		return $this->redirect(array('action' => 'cart'));
 	}

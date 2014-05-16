@@ -36,12 +36,6 @@
 						<th><?php echo $this->Paginator->sort('last_name'); ?></th>
 						<th><?php echo $this->Paginator->sort('email'); ?></th>
 						<th><?php echo $this->Paginator->sort('phone'); ?></th>
-						<th><?php echo $this->Paginator->sort('billing_address'); ?></th>
-						<th><?php echo $this->Paginator->sort('billing_address2'); ?></th>
-						<th><?php echo $this->Paginator->sort('billing_city'); ?></th>
-						<th><?php echo $this->Paginator->sort('billing_zip'); ?></th>
-						<th><?php echo $this->Paginator->sort('billing_state'); ?></th>
-						<th><?php echo $this->Paginator->sort('billing_country'); ?></th>
 						<th><?php echo $this->Paginator->sort('shipping_address'); ?></th>
 						<th><?php echo $this->Paginator->sort('shipping_address2'); ?></th>
 						<th><?php echo $this->Paginator->sort('shipping_city'); ?></th>
@@ -51,14 +45,8 @@
 						<th><?php echo $this->Paginator->sort('weight'); ?></th>
 						<th><?php echo $this->Paginator->sort('order_item_count'); ?></th>
 						<th><?php echo $this->Paginator->sort('subtotal'); ?></th>
-						<th><?php echo $this->Paginator->sort('tax'); ?></th>
-						<th><?php echo $this->Paginator->sort('shipping'); ?></th>
 						<th><?php echo $this->Paginator->sort('total'); ?></th>
-						<th><?php echo $this->Paginator->sort('order_type'); ?></th>
-						<th><?php echo $this->Paginator->sort('authorization'); ?></th>
-						<th><?php echo $this->Paginator->sort('transaction'); ?></th>
 						<th><?php echo $this->Paginator->sort('status'); ?></th>
-						<th><?php echo $this->Paginator->sort('ip_address'); ?></th>
 						<th><?php echo $this->Paginator->sort('created'); ?></th>
 						<th><?php echo $this->Paginator->sort('modified'); ?></th>
 						<th class="actions"></th>
@@ -72,29 +60,16 @@
 						<td><?php echo h($order['Order']['last_name']); ?>&nbsp;</td>
 						<td><?php echo h($order['Order']['email']); ?>&nbsp;</td>
 						<td><?php echo h($order['Order']['phone']); ?>&nbsp;</td>
-						<td><?php echo h($order['Order']['billing_address']); ?>&nbsp;</td>
-						<td><?php echo h($order['Order']['billing_address2']); ?>&nbsp;</td>
-						<td><?php echo h($order['Order']['billing_city']); ?>&nbsp;</td>
-						<td><?php echo h($order['Order']['billing_zip']); ?>&nbsp;</td>
-						<td><?php echo h($order['Order']['billing_state']); ?>&nbsp;</td>
-						<td><?php echo h($order['Order']['billing_country']); ?>&nbsp;</td>
 						<td><?php echo h($order['Order']['shipping_address']); ?>&nbsp;</td>
 						<td><?php echo h($order['Order']['shipping_address2']); ?>&nbsp;</td>
 						<td><?php echo h($order['Order']['shipping_city']); ?>&nbsp;</td>
 						<td><?php echo h($order['Order']['shipping_zip']); ?>&nbsp;</td>
 						<td><?php echo h($order['Order']['shipping_state']); ?>&nbsp;</td>
 						<td><?php echo h($order['Order']['shipping_country']); ?>&nbsp;</td>
-						<td><?php echo h($order['Order']['weight']); ?>&nbsp;</td>
 						<td><?php echo h($order['Order']['order_item_count']); ?>&nbsp;</td>
 						<td><?php echo h($order['Order']['subtotal']); ?>&nbsp;</td>
-						<td><?php echo h($order['Order']['tax']); ?>&nbsp;</td>
-						<td><?php echo h($order['Order']['shipping']); ?>&nbsp;</td>
 						<td><?php echo h($order['Order']['total']); ?>&nbsp;</td>
-						<td><?php echo h($order['Order']['order_type']); ?>&nbsp;</td>
-						<td><?php echo h($order['Order']['authorization']); ?>&nbsp;</td>
-						<td><?php echo h($order['Order']['transaction']); ?>&nbsp;</td>
 						<td><?php echo h($order['Order']['status']); ?>&nbsp;</td>
-						<td><?php echo h($order['Order']['ip_address']); ?>&nbsp;</td>
 						<td><?php echo h($order['Order']['created']); ?>&nbsp;</td>
 						<td><?php echo h($order['Order']['modified']); ?>&nbsp;</td>
 						<td class="actions">
