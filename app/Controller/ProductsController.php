@@ -6,6 +6,7 @@ class ProductsController extends AppController {
 
 	public $components = array(
 		'RequestHandler',
+		'Paginator',
 	);
 
 ////////////////////////////////////////////////////////////
@@ -15,7 +16,7 @@ class ProductsController extends AppController {
 	}
 
 ////////////////////////////////////////////////////////////
-
+/*
 	public function index() {
 		$products = $this->Product->find('all', array(
 			'recursive' => 2,
@@ -27,7 +28,13 @@ class ProductsController extends AppController {
 
 		$this->set('title_for_layout', Configure::read('Settings.SHOP_TITLE'));
 	}
-
+*/
+	public function index($id = null) {
+		$this->Product->recursive = 2;
+		$options = array('conditions' => array('Product.estabelecimento_id' => $id));
+		$this->Paginator->settings = $options;
+		$this->set('products', $this->Paginator->paginate());
+	}
 ////////////////////////////////////////////////////////////
 
 	public function products() {

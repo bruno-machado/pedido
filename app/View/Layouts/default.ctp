@@ -73,7 +73,7 @@ $(document).ready(function(){
 					<?php echo $this->Form->create('Product', array('type' => 'GET', 'url' => array('controller' => 'products', 'action' => 'search'))); ?>
 
 					<span id="cartbutton" style="display:none;">
-					<?php echo $this->Html->link('Seus Produtos', array('controller' => 'shop', 'action' => 'cart'), array('class' => 'btn btn-sm btn-success')); ?>
+					<?php echo $this->Html->link('Minha Comida', array('controller' => 'shop', 'action' => 'cart'), array('class' => 'btn btn-sm btn-success btn-carrinho')); ?>
 					</span>
 					<?php echo $this->Form->end(); ?>
 				</ul>
@@ -84,12 +84,6 @@ $(document).ready(function(){
 		<div class="container <?php echo $this->params['controller'].$this->params['action']; ?>">
 
 			<?php echo $this->Session->flash(); ?>
-			<?php 
-			 if("cidadesindex"!=$this->params['controller'].$this->params['action']){ ?>
-				<ul class="breadcrumb">
-					<?php echo $this->Html->link('Home', array('controller' => 'products', 'action' => 'index')); ?> / <?php echo $this->Html->getCrumbs(' / '); ?>
-				</ul>
-			<?php  } ?>
 
 			<?php echo $this->fetch('content'); ?>
 			<br />

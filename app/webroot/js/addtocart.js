@@ -1,7 +1,6 @@
 $(document).ready(function(){
 
 	$('.addtocart').on('click', function(event) {
-
 		$.ajax({
 			type: "POST",
 			url: Shop.basePath + "shop/itemupdate",

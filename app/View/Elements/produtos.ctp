@@ -17,6 +17,10 @@
             R$<?php echo $product['Produto']['preco']; ?>
             <br />
             <br />
+             <?php echo $this->Form->create(NULL, array('url' => array('controller' => 'shop', 'action' => 'add'))); ?>
+		<?php echo $this->Form->input('id', array('type' => 'hidden', 'value' => $product['Produto']['id'])); ?>
+        <?php echo $this->Form->button('Adicionar ao Carrinho', array('class' => 'btn btn-primary addtocart', 'id' => 'addtocart', 'id' => $product['Produto']['id']));?>
+		<?php echo $this->Form->end(); ?>
         </div>
         <?php
         if (($i % 4) == 0) {

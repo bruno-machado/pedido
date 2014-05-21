@@ -24,6 +24,9 @@ class EstabelecimentosController extends AppController {
  * @return void
  */
 	public function index($id = null) {
+		
+		$id = $this->request->data['country_id'];
+		
 		$this->Estabelecimento->recursive = 0;
 			$options = array('conditions' => array('Estabelecimento.cidade_id' => $id));
 			$this->Paginator->settings = $options;

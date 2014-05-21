@@ -45,6 +45,9 @@
 	
 	Router::connect('/produtos/:id', array('controller' => 'produtos', 'action' => 'index')
 	,array('pass' => array('id')));
+	
+	Router::connect('/products/:id', array('controller' => 'products', 'action' => 'index')
+	,array('pass' => array('id')));
         
 	Router::connect('/fale-conosco', array('controller' => 'pages', 'action' => 'display', 'fale-conosco'));
 	

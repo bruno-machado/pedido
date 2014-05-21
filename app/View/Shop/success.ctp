@@ -1,13 +1,5 @@
 <?php $this->Html->addCrumb('Order Success'); ?>
 
-<h1>Thank You for Your Order !</h1>
+<img alt="Bom Apetite" title="Bom Apetite" class="passos-compra" src="../img/passo4.gif" />
 
-<br />
-<br />
-
-<pre>
-	<?php //print_r($shop); ?>
-</pre>
-
-<br />
-<br />
+<h1>Bom Apetite</h1>

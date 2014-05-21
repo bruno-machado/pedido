@@ -1,3 +1,5 @@
+<?php echo $this->Html->script(array('addtocart.js'), array('inline' => false)); ?>
+<img alt="Monte seu Pedido" title="Monte seu Pedido" class="passos-compra" src="../img/passo2.gif" />
 <div class="row">
     <?php
     $i = 0;
@@ -30,5 +32,6 @@
 
     <br />
     <br />
-
+    <div class="clear"></div>
+	<span class="ajuda">*Após adicionar sua comida clieque no canto superior direito eim "Minha Comida"</span>
 </div>

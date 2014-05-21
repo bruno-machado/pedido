@@ -11,44 +11,22 @@
 
 
 	<div class="row">
-
-		<div class="col-md-3">
-			<div class="actions">
-				<div class="panel panel-default">
-					<div class="panel-heading">Actions</div>
-						<div class="panel-body">
-							<ul class="nav nav-pills nav-stacked">
-								<li><?php echo $this->Html->link(__('<span class="glyphicon glyphicon-plus"></span>&nbsp;&nbsp;New Order'), array('action' => 'add'), array('escape' => false)); ?></li>
-								<li><?php echo $this->Html->link(__('<span class="glyphicon glyphicon-list"></span>&nbsp;&nbsp;List Order Items'), array('controller' => 'order_items', 'action' => 'index'), array('escape' => false)); ?> </li>
-		<li><?php echo $this->Html->link(__('<span class="glyphicon glyphicon-plus"></span>&nbsp;&nbsp;New Order Item'), array('controller' => 'order_items', 'action' => 'add'), array('escape' => false)); ?> </li>
-							</ul>
-						</div><!-- end body -->
-				</div><!-- end panel -->
-			</div><!-- end actions -->
-		</div><!-- end col md 3 -->
-
 		<div class="col-md-9">
 			<table cellpadding="0" cellspacing="0" class="table table-striped">
 				<thead>
 					<tr>
 						<th><?php echo $this->Paginator->sort('id'); ?></th>
-						<th><?php echo $this->Paginator->sort('first_name'); ?></th>
-						<th><?php echo $this->Paginator->sort('last_name'); ?></th>
+						<th><?php echo $this->Paginator->sort('Nome'); ?></th>
+						<th><?php echo $this->Paginator->sort('Sobrenome'); ?></th>
 						<th><?php echo $this->Paginator->sort('email'); ?></th>
-						<th><?php echo $this->Paginator->sort('phone'); ?></th>
-						<th><?php echo $this->Paginator->sort('shipping_address'); ?></th>
-						<th><?php echo $this->Paginator->sort('shipping_address2'); ?></th>
-						<th><?php echo $this->Paginator->sort('shipping_city'); ?></th>
-						<th><?php echo $this->Paginator->sort('shipping_zip'); ?></th>
-						<th><?php echo $this->Paginator->sort('shipping_state'); ?></th>
-						<th><?php echo $this->Paginator->sort('shipping_country'); ?></th>
-						<th><?php echo $this->Paginator->sort('weight'); ?></th>
-						<th><?php echo $this->Paginator->sort('order_item_count'); ?></th>
-						<th><?php echo $this->Paginator->sort('subtotal'); ?></th>
+						<th><?php echo $this->Paginator->sort('Fone'); ?></th>
+						<th><?php echo $this->Paginator->sort('Endereco'); ?></th>
+						<th><?php echo $this->Paginator->sort('Cida.'); ?></th>
+						<th><?php echo $this->Paginator->sort('CEP'); ?></th>
+						<th><?php echo $this->Paginator->sort('Complemento'); ?></th>
+						<th><?php echo $this->Paginator->sort('qtd'); ?></th>
 						<th><?php echo $this->Paginator->sort('total'); ?></th>
-						<th><?php echo $this->Paginator->sort('status'); ?></th>
 						<th><?php echo $this->Paginator->sort('created'); ?></th>
-						<th><?php echo $this->Paginator->sort('modified'); ?></th>
 						<th class="actions"></th>
 					</tr>
 				</thead>
@@ -61,17 +39,12 @@
 						<td><?php echo h($order['Order']['email']); ?>&nbsp;</td>
 						<td><?php echo h($order['Order']['phone']); ?>&nbsp;</td>
 						<td><?php echo h($order['Order']['shipping_address']); ?>&nbsp;</td>
-						<td><?php echo h($order['Order']['shipping_address2']); ?>&nbsp;</td>
 						<td><?php echo h($order['Order']['shipping_city']); ?>&nbsp;</td>
 						<td><?php echo h($order['Order']['shipping_zip']); ?>&nbsp;</td>
-						<td><?php echo h($order['Order']['shipping_state']); ?>&nbsp;</td>
 						<td><?php echo h($order['Order']['shipping_country']); ?>&nbsp;</td>
 						<td><?php echo h($order['Order']['order_item_count']); ?>&nbsp;</td>
-						<td><?php echo h($order['Order']['subtotal']); ?>&nbsp;</td>
 						<td><?php echo h($order['Order']['total']); ?>&nbsp;</td>
-						<td><?php echo h($order['Order']['status']); ?>&nbsp;</td>
 						<td><?php echo h($order['Order']['created']); ?>&nbsp;</td>
-						<td><?php echo h($order['Order']['modified']); ?>&nbsp;</td>
 						<td class="actions">
 							<?php echo $this->Html->link('<span class="glyphicon glyphicon-search"></span>', array('action' => 'view', $order['Order']['id']), array('escape' => false)); ?>
 							<?php echo $this->Html->link('<span class="glyphicon glyphicon-edit"></span>', array('action' => 'edit', $order['Order']['id']), array('escape' => false)); ?>

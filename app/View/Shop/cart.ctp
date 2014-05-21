@@ -1,10 +1,8 @@
-<?php echo $this->set('title_for_layout', 'Shopping Cart'); ?>
-
-<?php $this->Html->addCrumb('Shopping Cart'); ?>
+<?php echo $this->set('title_for_layout', 'Minha Comida'); ?>
 
 <?php echo $this->Html->script(array('cart.js'), array('inline' => false)); ?>
 
-<h1>Shopping Cart</h1>
+<h1>Minha Comida</h1>
 
 <?php if(empty($shop['OrderItem'])) : ?>
 
@@ -17,7 +15,7 @@ Shopping Cart is empty
 <hr>
 
 <div class="row">
-	<div class="col col-sm-1">#</div>
+	<div class="col col-sm-1">Img</div>
 	<div class="col col-sm-7">Item</div>
 	<div class="col col-sm-1">Preço</div>
 	<div class="col col-sm-1">Quantidade</div>
@@ -27,11 +25,10 @@ Shopping Cart is empty
 
 <?php $tabindex = 1; ?>
 <?php foreach ($shop['OrderItem'] as $key => $item): ?>
-<?php //var_dump($item);?>
-	<div class="row" id="row-<?php echo $key; ?>">
+	<div class="row item-carrinho" id="row-<?php echo $key; ?>">
 		<div class="col col-sm-1"><?php echo $this->Html->image('/files/produtos/thumbnail/' . $item['Product']['Foto'][0]['url'], array('class' => 'px60')); ?></div>
 		<div class="col col-sm-7">
-			<strong><?php echo $this->Html->link($item['Product']['nome_produto'], array('controller' => 'products', 'action' => 'view', $item['Product']['id'])); ?></strong>
+			<strong><?php echo $item['Product']['nome_produto']; ?></strong>
 			<?php
 			$mods = 0;
 			if(isset($item['Product']['productmod_name'])) :

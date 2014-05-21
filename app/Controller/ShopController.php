@@ -1,5 +1,6 @@
 <?php
 App::uses('AppController', 'Controller');
+App::uses('Product', 'Model');
 class ShopController extends AppController {
 
 //////////////////////////////////////////////////
@@ -49,6 +50,31 @@ class ShopController extends AppController {
 			$this->Session->setFlash('Unable to add this product to your shopping cart.', 'flash_error');
 		}
 		$this->redirect($this->referer());
+	}
+
+	public function validaestabelecimento(){
+		if ($this->request->is('post')) {
+			$id 			= $this->request->data['Product']['id'];
+			
+			$product = $this->Product->find('first', array(
+				'recursive' => 2,
+				'conditions' => array(
+					'Product.id' => $id
+				)
+			));
+			
+			$estabelecimentoId = $product['Product']['estabelecimento_id'];
+			
+			$cart = $this->Session->read('Shop');
+			foreach ($cart['OrderItem'] as $key => $item) {
+				if ($item['Product']['estabelecimento_id'] != $estabelecimentoId) {
+					$this->Session->setFlash('Unable to add this product to your shopping cart.', 'flash_error');
+					break;
+				}
+			}
+			
+		}
+			$this->redirect($this->referer());
 	}
 
 //////////////////////////////////////////////////
