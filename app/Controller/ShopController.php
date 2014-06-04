@@ -54,7 +54,7 @@ class ShopController extends AppController {
 
 	public function validaestabelecimento(){
 		if ($this->request->is('post')) {
-			$id 			= $this->request->data['Product']['id'];
+			$id 			= $this->request->data['id'];
 			
 			$product = $this->Product->find('first', array(
 				'recursive' => 2,
@@ -65,16 +65,18 @@ class ShopController extends AppController {
 			
 			$estabelecimentoId = $product['Product']['estabelecimento_id'];
 			
-			$cart = $this->Session->read('Shop');
+			$valido = true;
+			$cart 	= $this->Session->read('Shop');
 			foreach ($cart['OrderItem'] as $key => $item) {
 				if ($item['Product']['estabelecimento_id'] != $estabelecimentoId) {
-					$this->Session->setFlash('Unable to add this product to your shopping cart.', 'flash_error');
+					$valido = false;
 					break;
 				}
 			}
 			
+			echo json_encode(array('valido' => $valido));
+			$this->autoRender = false;
 		}
-			$this->redirect($this->referer());
 	}
 
 //////////////////////////////////////////////////
